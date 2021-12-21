@@ -3,7 +3,7 @@
 module CivicaScraper
   AUTHORITIES = {
     vincent: {
-      url: "https://maps.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=581",
+      url: "https://maps.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053",
       period: :last30days
     },
     wanneroo: {
@@ -22,7 +22,7 @@ module CivicaScraper
     },
     whittlesea: {
       url:
-        "https://eservice.whittlesea.vic.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=25322",
+        "https://eservice.whittlesea.vic.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=21161",
       period: :last30days
     },
     dorset: {
@@ -62,7 +62,8 @@ module CivicaScraper
     lane_cove: {
       url: "https://ecouncil.lanecove.nsw.gov.au/eservice/dialog/daEnquiryInit.do?doc_type=8&nodeNum=6636",
       period: :last30days,
-      notice_period: true
+      notice_period: true,
+      australian_proxy: true
     }
   }.freeze
 end
