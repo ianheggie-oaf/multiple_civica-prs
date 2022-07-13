@@ -41,10 +41,6 @@ module CivicaScraper
       url: "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
       period: :last30days
     },
-    south_perth: {
-      url: "https://awpe.southperth.wa.gov.au/eservice/daEnquiry/currentlyAdvertised.do?taskNote=Y&nodeNum=7325",
-      period: nil
-    },
     vincent: {
       url: "https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053",
       period: :last30days
