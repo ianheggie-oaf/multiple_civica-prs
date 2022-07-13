@@ -46,7 +46,7 @@ module CivicaScraper
       period: nil
     },
     vincent: {
-      url: "https://maps.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053",
+      url: "https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053",
       period: :last30days
     },
     wanneroo: {
