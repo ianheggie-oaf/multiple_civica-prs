@@ -40,7 +40,8 @@ module CivicaScraper
     },
     orange: {
       url: "https://ecouncil.orange.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=24",
-      period: :last30days
+      period: :last30days,
+      australian_proxy: true
     },
     vincent: {
       url: "https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053",
