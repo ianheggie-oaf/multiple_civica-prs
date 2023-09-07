@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=581
+    uri: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
     body:
       encoding: US-ASCII
       string: ''
@@ -18,7 +18,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Host:
-      - maps.vincent.wa.gov.au
+      - eservices.vincent.wa.gov.au
       Connection:
       - keep-alive
       Keep-Alive:
@@ -34,36 +34,332 @@ http_interactions:
       - No-cache
       Content-Type:
       - text/html
-      Content-Encoding:
-      - gzip
       Content-Language:
       - en-AU
       Expires:
       - '0'
-      Vary:
-      - Accept-Encoding
       Server:
-      - Microsoft-IIS/7.5
-      Set-Cookie:
-      - JSESSIONID_live=0000cdbe4t5EQ-ReuVi9LtBMoA4:-1; Path=/
+      - Microsoft-IIS/10.0
       X-Powered-By:
-      - ASP.NET
+      - Servlet/3.1
+      Content-Security-Policy:
+      - 'default-src ''self'' https://www.bpoint.com.au https://bpoint-uat.linkly.com.au;frame-src
+        ''self'' https://www.google.com http://www.google.com; script-src ''self''
+        https://www.google.com http://www.google.com https://www.gstatic.com http://www.gstatic.com
+        https://maps.googleapis.com http://maps.googleapis.com ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self''; img-src ''self'' data: ''unsafe-eval'' https://www.paypalobjects.com
+        http://www.paypalobjects.com https://www.paypal.com http://www.paypal.com
+        https://maps.gstatic.com http://maps.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com https://www.vincent.wa.gov.au;style-src ''self''
+        https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.googleapis.com
+        http://fonts.googleapis.com ''unsafe-inline''; base-uri ''self''; form-action
+        ''self'' https://eservices.vincent.wa.gov.au https://www.bpoint.com.au https://bpoint-uat.linkly.com.au
+        https://www.paypal.com https://www.sandbox.paypal.com https://sec.paymentexpress.com
+        https://transact.nab.com.au/directpost/authorise https://demo.transact.nab.com.au/directpost/authorise;font-src
+        ''self'' https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.gstatic.com
+        http://fonts.gstatic.com; object-src data: ''unsafe-eval'';'
+      Set-Cookie:
+      - JSESSIONID_live=0000W14kwRnW5NhmbQDDp_lpQsa:-1; Path=/; HttpOnly
       Strict-Transport-Security:
-      - max-age=31536000
+      - max-age=7776000; includeSubDomains; preload
       Date:
-      - Thu, 20 May 2021 02:30:07 GMT
+      - Thu, 07 Sep 2023 01:27:18 GMT
       Connection:
       - close
-      Content-Length:
-      - '6362'
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        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
-  recorded_at: Sun, 28 Feb 2021 13:00:00 GMT
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n\n\n\n    \n        \n\t        \n        \n          \n
+        \ \n\n\n\n      \n      \n\n\n\n      \n\t  \n      \n      \n\n\n\n    \n
+        \   \n        \n        \n    \n\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML
+        4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"
+        />\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\tAuthority e-Services live\r\n\t\t</title>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/eservice/library/bootstrap-3.4.1.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/jquery-ui.structure.min.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/daEnquiry_daEnquiry.css\" id=\"pagecss\" type=\"text/css\"
+        media=\"screen, projection\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/custom.css\" type=\"text/css\" media=\"screen, projection,
+        print\" >\r\n\r\n\t\t<script>var AUTHJS = {};AUTHJS.productName = \"i-Services\";</script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/jscalendar-1.0/calendar.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-3.6.0.min.js\"></script>\r\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-3.4.1.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.common.init.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.functions.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/util.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/json2.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/effects.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/controls.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/dragdrop.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/lightbox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menu.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menuScroll.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/sitemap.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.imageTickBox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.metadata.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery.form-3.46.0.js\"></script>\r\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/da.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/mkTree.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";
+        \   \r\n\t\t\t} else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";
+        \      \r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage + \" a.tab-clicker\").not(\".tabs-content
+        *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function() {\r\n\t\tvar
+        isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',
+        \r\n\t\t\t\t'hide.bs.collapse', \r\n\t\t\t\t'hide.bs.modal', \r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n\t\r\n\t\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span></span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tCity
+        of Vincent\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tYou
+        are a Guest\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\t\t<!-- End Masthead navbar -->\r\n\r\n\r\n\t\t<div
+        id=\"content\">\r\n\r\n\t\t\t<div class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div
+        class=\"row\" id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>  \r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-1\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/loading.gif\" alt=\"loading\" class=\"loading\" id=\"menu-search-loading\"
+        />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!-- div id=\"search-autocomplete\"
+        class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/icons/parent.gif\" alt=\"Return to \" />Online
+        Applications</a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/das/online/Init.do?nodeNum=6471\"
+        class=\"linkitem\" id=\"node-6471\">Lodge Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053\"
+        class=\"linkitem\" id=\"node-8053\">Application Enquiry</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class=''>\r\n    \t\r\n\t       <a href=\"/eservice/start.do?nodeNum=8778&nodeNum=8778\"
+        class=\"linkitem\" id=\"node-8778\">Currently Advertised DA`s</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiry/recentlyDetermined.do?num_days=30&nodeNum=8052\"
+        class=\"linkitem\" id=\"node-8052\">Recently Determined DA`s</a>\r\n        </li>\r\n
+        \ \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-2\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li
+        id=\"recently-used-0\">\r\n                                <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053\"
+        class=\"linkitem\">Application Enquiry</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiry\">\r\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryDocumentType5\">\r\n\r\n\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\t\n\t\n\t\t\n\t\t<h1>\n\t\t\t\n
+        \         \n          \n              Development Application Enquiry\n          \n\t
+        \ \n\t\t\t\n\t\t</h1>\n\t\n\t\n\n\t\n\t\n<div id=\"leftcontent\">\n\n\t\t\t\n\n\n\n\n\n<div
+        class=\"infopanel\">    \n\t<!-- CIVICA-INFO-START -->   \n\t\n        <div
+        id=\"infopanel-header\">\n\t        <h4 class=\"entryHeader\" >\n\t            \n\t\tInstructions\n\t\t\n\t
+        \       </h4>\n        </div>\n\t\n    <div id=\"instructions-content\" class=\"instructions\">\r\n\n
+        \       \n\n\n\n\n\nTo make an enquiry enter some information that identifies
+        the applications or properties of interest.\n\n    </div>\r\n\n\t<!-- CIVICA-INFO-END
+        -->\n</div>\n\n</div>\n<div id=\"rightcontent\">\n\t\t\n\t\t\t\n\t\t\n\n\n\n\n<div
+        class=\"bodypanel\" id=\"bodypanel1\">   \t\t\n\t<!-- CIVICA-CONTENT-START:bodypanel1
+        -->\n\t\n   <h2 >\n\t\t\n\t\t\n\t      \t\tApplication Details\n\t        \n
+        \   </h2>\n\n\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div>\r\n  <form
+        action=\"daEnquiry.do\" id=\"daEnquiryForm\" name=\"daEnquiryForm\" class=\"form-horizontal\">\r\n
+        \   <div class=\"form-group\">\r\n      <label class=\"col-sm-2 control-label\">DA
+        Number</label>\r\n      <div class=\"col-sm-10\">\r\n        <input type=\"text\"
+        class=\"text-medium\" name=\"number\" id=\"DANumber\" size=\"10\" maxlength=\"10\"
+        errors=\"DANumber\" value=\"\" />\r\n        <span class=\"subText\">If the
+        application number provided is '5.2022.999.1', please input 999/2022 to search
+        your application.</span>\r\n      </div>\r\n    </div>\r\n    <p />\r\n    <p
+        class=\"rowDataOnly\">\r\n      <span class=\"rowInfo\">\r\n        <strong>OR</strong>\r\n
+        \       use any of the following search fields:\r\n      </span>\r\n    </p>\r\n
+        \   <p>\r\n      \r\n      &nbsp;\r\n      \r\n    </p>\r\n    <h2>Lodgement
+        Date</h2>\r\n    <div class=\"form-group\" style=\"margin-bottom:2em; border:none;
+        padding:0\">\r\n      <div class=\"form-group\" style=\"margin-bottom:2em\">\r\n
+        \       <label class=\"radio-inline control-label control-radio\" style=\"margin-left:10px\">\r\n
+        \         <input type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\"
+        onclick=\"javascript:setDateRange('', '', 'DADateFrom', 'DADateTo')\" />\r\n
+        \         Specified Range\r\n        </label>\r\n        <label class=\"radio-inline
+        control-label control-radio\">\r\n          <input type=\"radio\" name=\"lodgeRangeType\"
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('03/09/2023','07/09/2023',
+        'DADateFrom', 'DADateTo')\" />\r\n          This Week\r\n        </label>\r\n
+        \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('27/08/2023','02/09/2023',
+        'DADateFrom', 'DADateTo')\" />\r\n          Last Week\r\n        </label>\r\n
+        \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/09/2023','30/09/2023',
+        'DADateFrom', 'DADateTo')\" />\r\n          This Month\r\n        </label>\r\n
+        \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/08/2023','31/08/2023',
+        'DADateFrom', 'DADateTo')\" />\r\n          Last Month\r\n        </label>\r\n
+        \     </div>\r\n    </div>\r\n    <div class=\"form-group\">\r\n      <div
+        id=\"DADate\">\r\n        <label class=\"col-sm-2 control-label\" for=\"DADateFrom\"
+        id=\"daFromDateLabel\">From</label>\r\n        <div class=\"form-inline col-sm-10\">\r\n
+        \         <input type=\"text\" class=\"datepick text-small form-control hasDatepicker\"
+        name=\"dateFrom\" id=\"DADateFrom\" style=\"padding-right: 0px\" size=\"10\"
+        maxlength=\"10\" errors=\"DADateFrom\" value=\"\" />\r\n          <label for=\"DADateTo\"
+        id=\"daToDateLabel\">To</label>\r\n          <input type=\"text\" class=\"datepick
+        text-small form-control hasDatepicker\" name=\"dateTo\" id=\"DADateTo\" style=\"padding-right:
+        0px\" size=\"10\" maxlength=\"10\" errors=\"DADateTo\" value=\"\" />\r\n        </div>\r\n
+        \     </div>\r\n    </div>\r\n    <h2>Determination Date</h2>\r\n    <div
+        class=\"form-group\" style=\"margin-bottom:2em; border:none; padding:0\">\r\n
+        \     <div class=\"form-group\" style=\"margin-bottom:2em\">\r\n        <label
+        class=\"radio-inline control-label control-radio\" style=\"margin-left:10px\">\r\n
+        \         <input type=\"radio\" name=\"detRangeType\" id=\"detRangeType\"
+        onclick=\"javascript:setDateRange('','', 'detDateFromString', 'detDateToString')\"
+        />\r\n          Specified Range\r\n        </label>\r\n        <label class=\"radio-inline
+        control-label control-radio\">\r\n          <input type=\"radio\" name=\"detRangeType\"
+        id=\"detRangeType\" onclick=\"javascript:setDateRange('03/09/2023','07/09/2023',
+        'detDateFromString', 'detDateToString')\" />\r\n          This Week\r\n        </label>\r\n
+        \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('27/08/2023','02/09/2023',
+        'detDateFromString', 'detDateToString')\" />\r\n          Last Week\r\n        </label>\r\n
+        \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/09/2023','30/09/2023',
+        'detDateFromString', 'detDateToString')\" />\r\n          This Month\r\n        </label>\r\n
+        \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/08/2023','31/08/2023',
+        'detDateFromString', 'detDateToString')\" />\r\n          Last Month\r\n        </label>\r\n
+        \     </div>\r\n    </div>\r\n    <div class=\"form-group\">\r\n      <div
+        id=\"DetDate\">\r\n        <label class=\"col-sm-2 control-label\" for=\"detDateFrom\"
+        id=\"detFromDateLabel\">From</label>\r\n        <div class=\"form-inline col-sm-10\">\r\n
+        \         <input type=\"text\" class=\"datepick text-small form-control hasDatepicker\"
+        name=\"detDateFromString\" id=\"detDateFrom\" size=\"10\" maxlength=\"10\"
+        errors=\"DADateFrom\" value=\"\" />\r\n          <label for=\"detDateTo\"
+        id=\"detToDateLabel\">To</label>\r\n          <input type=\"text\" class=\"datepick
+        text-small form-control hasDatepicker\" name=\"detDateToString\" id=\"detDateTo\"
+        size=\"10\" maxlength=\"10\" errors=\"DADateTo\" value=\"\" />\r\n        </div>\r\n
+        \     </div>\r\n    </div>\r\n    <h2>Property Details</h2>\r\n    <div class=\"form-group\"
+        id=\"streetNameRow\">\r\n      <label class=\"control-label col-sm-2\" for=\"streetName\">Street
+        Name</label>\r\n      <div class=\"col-sm-10\">\r\n        <input type=\"text\"
+        class=\"text-large\" name=\"streetName\" id=\"streetName\" size=\"20\" onblur=\"javascript:getHouseNum();
+        javascript:getSuburb()\" value=\"\" />\r\n        <div id=\"streetHints\"
+        class=\"autocompleter\">\r\n          \r\n          &nbsp;\r\n          \r\n
+        \       </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"form-group\"
+        id=\"suburbDropdownRow\">\r\n      <label class=\"control-label col-sm-2\"
+        for=\"suburb\">Suburb</label>\r\n      <div class=\"col-sm-10\">\r\n        <div
+        id=\"suburbSelect\">\r\n          <select class=\"select-medium\" name=\"suburb\"
+        id=\"suburb\">\r\n            <option value=\"0\" selected=\"selected\">-
+        -None Selected- -</option>\r\n            <option value=\"5\">COOLBINIA</option>\r\n
+        \           <option value=\"7\">EAST PERTH</option>\r\n            <option
+        value=\"10\">GLENDALOUGH</option>\r\n            <option value=\"8\">HIGHGATE</option>\r\n
+        \           <option value=\"2\">LEEDERVILLE</option>\r\n            <option
+        value=\"1\">MOUNT HAWTHORN</option>\r\n            <option value=\"6\">MOUNT
+        LAWLEY</option>\r\n            <option value=\"4\">NORTH PERTH</option>\r\n
+        \           <option value=\"9\">PERTH</option>\r\n            <option value=\"3\">WEST
+        PERTH</option>\r\n          </select>\r\n        </div>\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"unitNumberRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"unitNum\">Unit</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-mini\" name=\"unitNum\"
+        id=\"unitNum\" size=\"10\" value=\"\" />\r\n      </div>\r\n    </div>\r\n
+        \   <div class=\"form-group\" id=\"houseNumRow\">\r\n      <label class=\"control-label
+        col-sm-2\" for=\"houseNum\">House No.</label>\r\n      <div class=\"col-sm-10\">\r\n
+        \       <div id=\"houseNumSelect\">\r\n          <select class=\"select-medium\"
+        name=\"houseNum\" id=\"houseNum\">\r\n            <option value=\"0&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;\">-
+        -None Selected- -</option>\r\n          </select>\r\n        </div>\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"planNumberRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"planNumber\">Plan</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"planNumber\" id=\"planNumber\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"strataPlanRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"strataPlan\">Strata Plan</label>\r\n
+        \     <div class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"strataPlan\" id=\"strataPlan\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"lotRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"lotNumber\">Lot</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"lotNumber\" id=\"lotNumber\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"propertyNameRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"propertyName\">Place</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-large\"
+        name=\"propertyName\" id=\"propertyName\" size=\"20\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <p class=\"rowDataOnly\">\r\n      <span class=\"rowInfo\">\r\n
+        \       <strong>AND</strong>\r\n        the following search field:\r\n      </span>\r\n
+        \   </p>\r\n    <p>\r\n      \r\n      &nbsp;\r\n      \r\n    </p>\r\n    <h2>Options</h2>\r\n
+        \   <label class=\"radio-inline control-label control-radio\">\r\n      <input
+        type=\"radio\" name=\"searchMode\" value=\"A\" id=\"searchModeA\" checked=\"checked\"
+        />\r\n      <span class=\"indicator\" />\r\n      All DAs\r\n    </label>\r\n
+        \   <label class=\"radio-inline control-label control-radio\">\r\n      <input
+        type=\"radio\" name=\"searchMode\" value=\"D\" id=\"searchModeD\" />\r\n      <span
+        class=\"indicator\" />\r\n      Determined DAs\r\n    </label>\r\n    <label
+        class=\"radio-inline control-label control-radio\">\r\n      <input type=\"radio\"
+        name=\"searchMode\" value=\"P\" id=\"searchModeP\" />\r\n      <span class=\"indicator\"
+        />\r\n      DAs Awaiting Decision\r\n    </label>\r\n    <label class=\"radio-inline
+        control-label control-radio\">\r\n      <input type=\"radio\" name=\"searchMode\"
+        value=\"C\" id=\"searchModeC\" />\r\n      <span class=\"indicator\" />\r\n
+        \     Currently Advertised DAs\r\n    </label>\r\n    <div class=\"button-panel\">\r\n
+        \     <input type=\"submit\" name=\"submitButton\" class=\"button\" value=\"Search\"
+        onclick=\"javascript:checkDetDatesMakeSense()\" />\r\n      <input type=\"button\"
+        name=\"clearButton\" class=\"button\" value=\"Clear\" onclick=\"javascript:clearDaEnquiryFields()\"
+        />\r\n    </div>\r\n  </form>\r\n</div>\r\n\r\n\n\t<!-- CIVICA-CONTENT-END:bodypanel1
+        -->\n</div>\n\n\n\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n</div>\n\n\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n
+        \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>&#169;
+        Civica Pty. Ltd. 2017\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\n"
+  recorded_at: Sun, 30 Apr 2023 14:00:00 GMT
 - request:
     method: get
-    uri: https://maps.vincent.wa.gov.au/eservice/daEnquiry.do?dateFrom=30/01/2021&dateTo=01/03/2021&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
+    uri: https://eservices.vincent.wa.gov.au/eservice/daEnquiry.do?dateFrom=01/04/2023&dateTo=01/05/2023&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
     body:
       encoding: US-ASCII
       string: ''
@@ -79,11 +375,11 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - JSESSIONID_live=0000cdbe4t5EQ-ReuVi9LtBMoA4:-1
+      - JSESSIONID_live=0000W14kwRnW5NhmbQDDp_lpQsa:-1
       Host:
-      - maps.vincent.wa.gov.au
+      - eservices.vincent.wa.gov.au
       Referer:
-      - https://maps.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=581
+      - https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
       Connection:
       - keep-alive
       Keep-Alive:
@@ -99,29 +395,459 @@ http_interactions:
       - No-cache
       Content-Type:
       - text/html
-      Content-Encoding:
-      - gzip
       Content-Language:
       - en-AU
       Expires:
       - '0'
-      Vary:
-      - Accept-Encoding
       Server:
-      - Microsoft-IIS/7.5
+      - Microsoft-IIS/10.0
       X-Powered-By:
-      - ASP.NET
+      - Servlet/3.1
+      Content-Security-Policy:
+      - 'default-src ''self'' https://www.bpoint.com.au https://bpoint-uat.linkly.com.au;frame-src
+        ''self'' https://www.google.com http://www.google.com; script-src ''self''
+        https://www.google.com http://www.google.com https://www.gstatic.com http://www.gstatic.com
+        https://maps.googleapis.com http://maps.googleapis.com ''unsafe-inline'' ''unsafe-eval'';
+        connect-src ''self''; img-src ''self'' data: ''unsafe-eval'' https://www.paypalobjects.com
+        http://www.paypalobjects.com https://www.paypal.com http://www.paypal.com
+        https://maps.gstatic.com http://maps.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com https://www.vincent.wa.gov.au;style-src ''self''
+        https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.googleapis.com
+        http://fonts.googleapis.com ''unsafe-inline''; base-uri ''self''; form-action
+        ''self'' https://eservices.vincent.wa.gov.au https://www.bpoint.com.au https://bpoint-uat.linkly.com.au
+        https://www.paypal.com https://www.sandbox.paypal.com https://sec.paymentexpress.com
+        https://transact.nab.com.au/directpost/authorise https://demo.transact.nab.com.au/directpost/authorise;font-src
+        ''self'' https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.gstatic.com
+        http://fonts.gstatic.com; object-src data: ''unsafe-eval'';'
       Strict-Transport-Security:
-      - max-age=31536000
+      - max-age=7776000; includeSubDomains; preload
       Date:
-      - Thu, 20 May 2021 02:30:10 GMT
+      - Thu, 07 Sep 2023 01:27:25 GMT
       Connection:
       - close
-      Content-Length:
-      - '8288'
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        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
-  recorded_at: Sun, 28 Feb 2021 13:00:00 GMT
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n\n\n      \n\t\n    \n\n\n\n\t\t\n\n\n      \n\t\n    \n
+        \   \n  \n\n\n  \n\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"
+        \ \"http://www.w3.org/TR/html4/loose.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"
+        />\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\tAuthority e-Services live\r\n\t\t</title>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/eservice/library/bootstrap-3.4.1.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/jquery-ui.structure.min.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/daEnquiry_daEnquiryResults.css\" id=\"pagecss\" type=\"text/css\"
+        media=\"screen, projection\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/custom.css\" type=\"text/css\" media=\"screen, projection,
+        print\" >\r\n\r\n\t\t<script>var AUTHJS = {};AUTHJS.productName = \"i-Services\";</script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/jscalendar-1.0/calendar.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-3.6.0.min.js\"></script>\r\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-3.4.1.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.common.init.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.functions.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/util.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/json2.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/effects.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/controls.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/dragdrop.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/lightbox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menu.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menuScroll.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/sitemap.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.imageTickBox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.metadata.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery.form-3.46.0.js\"></script>\r\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";
+        \   \r\n\t\t\t} else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";
+        \      \r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage + \" a.tab-clicker\").not(\".tabs-content
+        *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function() {\r\n\t\tvar
+        isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',
+        \r\n\t\t\t\t'hide.bs.collapse', \r\n\t\t\t\t'hide.bs.modal', \r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n\t\r\n\t\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span></span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tCity
+        of Vincent\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\tYou
+        are a Guest\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\t\t<!-- End Masthead navbar -->\r\n\r\n\r\n\t\t<div
+        id=\"content\">\r\n\r\n\t\t\t<div class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div
+        class=\"row\" id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>  \r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-1\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/loading.gif\" alt=\"loading\" class=\"loading\" id=\"menu-search-loading\"
+        />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!-- div id=\"search-autocomplete\"
+        class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/icons/parent.gif\" alt=\"Return to \" />Online
+        Applications</a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/das/online/Init.do?nodeNum=6471\"
+        class=\"linkitem\" id=\"node-6471\">Lodge Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053\"
+        class=\"linkitem\" id=\"node-8053\">Application Enquiry</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class=''>\r\n    \t\r\n\t       <a href=\"/eservice/start.do?nodeNum=8778&nodeNum=8778\"
+        class=\"linkitem\" id=\"node-8778\">Currently Advertised DA`s</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiry/recentlyDetermined.do?num_days=30&nodeNum=8052\"
+        class=\"linkitem\" id=\"node-8052\">Recently Determined DA`s</a>\r\n        </li>\r\n
+        \ \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-2\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li
+        id=\"recently-used-0\">\r\n                                <a href=\"/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053\"
+        class=\"linkitem\">Application Enquiry</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiryResults\">\r\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryResultsDocumentType5\">\r\n\r\n\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t<h1>\n\t\t\n
+        \         \n          \n              Development Application Enquiry\n          \n\t\n\t\t\n\t</h1>\n\n\n<div
+        id=\"fullcontent\" class=\"no_form\">\n\n\t\n\n\t\n\t\t\n\n\n\n\n\n<div class=\"infopanel\">
+        \   \n\t<!-- CIVICA-INFO-START -->   \n\t\n        <div id=\"infopanel-header\">\n\t
+        \       <h4 class=\"entryHeader\" >\n\t            Instructions\n\t        </h4>\n
+        \       </div>\n\t\n    <div id=\"instructions-content\" class=\"instructions\">\r\n\n
+        \       \n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\t\tClick on the Development Application
+        to see further detail. To display these results in a different order, select
+        from the options below and click the 'Sort' button.\t\n\t\t\t  \n\t\t\t<p>\n\t\t\t\t<label>\n\t\t\t\t\tDocuments
+        Found\n\t\t\t\t\t22\n\t\t\t\t</label>\n\t\t\t</p>      \n\t\t\n\t\t\n\t\t\t<div
+        id=\"sortForm\">\n\t\t\t\t\n\t\t\t\t\t<form name=\"registerEnquirySortForm\"
+        method=\"post\" action=\"/eservice/daEnquirySort.do\" class=\"form-horizontal\">\n\t\t\t\t\t\tSort\n\t\t\t\t\t\t<div
+        class=\"form-group\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByDatereceivedOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByDatereceived\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"1\" id=\"sortByDatereceived\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tReceived Date\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByLocationOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByLocation\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"2\" id=\"sortByLocation\" checked/>\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tLocation\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByApplicationNumberOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByApplicationNumber\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"3\" id=\"sortByApplicationNumber\"
+        />\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tApplication
+        No.\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortBySuburbOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortBySuburb\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"4\" id=\"sortBySuburb\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tSuburb\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByUnitHouseNumberOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByUnitHouseNumber\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"5\" id=\"sortByUnitHouseNumber\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tUnit/House Number\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByStreetNameOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByStreetName\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"6\" id=\"sortByStreetName\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tStreet\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortBySummaryOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortBySummary\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"7\" id=\"sortBySummary\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tType Of Work\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByDeterminationOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByDetermination\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"8\" id=\"sortByDetermination\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tDecision\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"row\">\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"submit\" value=\"Sort\"
+        class=\"btn btn-primary\" />\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</form>\n\t\t\t\t\n\t\t\t</div>\n\t\t\n\t\n\t\n\n
+        \   </div>\r\n\n\t<!-- CIVICA-INFO-END -->\n</div>\n\n\t\n\n\t\n\t\t\n\t\n<div
+        \ class=\"bodypanel\" id=\"bodypanel1\">\n\t<!-- CIVICA-CONTENT-START:bodypanel1
+        -->\n\t\t</div>\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div><h2><a
+        class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=0\">39 Albert
+        Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Alterations and Additions to Single
+        House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">T L Corley</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">120/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">28/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">22/08/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=1\">566-570
+        Beaufort Street MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Written Planning
+        Advice</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">I Jeffery</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">108/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">13/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=2\">Unit
+        3 1 Braid Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        to Short Term Accommodation</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">T J Fairhurst</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">100/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=3\">Unit
+        6 79 Brisbane Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Office to Multiple Dwelling</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">M Zhai</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">109/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$36,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">06/06/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=4\">193-195
+        Brisbane Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Restaurant/Cafe/Showroom to Small Bar</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">The Odway</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">121/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$60,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=5\">41
+        Britannia Road LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Telecommunications
+        Facility</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Planning Solutions (Aust) Pty Ltd</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">118/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Recommended Approval to External Agency</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Date</span><span class=\"inputField\">23/06/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=6\">35
+        Carr Street WEST PERTH  WA  6005</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwellings
+        (3)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Developed Property Pty Ltd</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">124/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/05/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$300,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=7\">Unit
+        16 1 Chelmsford Road MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Multiple Dwelling</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">P O'Reilly</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">103/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">06/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,200.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=8\">72
+        Cowle Street WEST PERTH  WA  6005</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling
+        (2) (Amendment to Approved) (Extension of Time)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">D Developed Property</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">119/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">28/08/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=9\">95
+        Dunedin Street MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Z ADAM BARRY</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">123/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">30/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$100,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">04/07/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=10\">459
+        Fitzgerald Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Hotel (Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Taylor Robinson Chaney
+        Broderick</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">112/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">18/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">23/08/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=11\">5
+        Franklin Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling
+        &amp; Alterations and Additions to Existing Grouped Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Seamus
+        Ryan Architects</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">110/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$500,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">16/08/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=12\">46B
+        Joel Terrace EAST PERTH  WA  6004</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Imperial
+        Drafting</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">114/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$475,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=13\">28-32
+        Lindsay Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">S.40</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">G
+        Matera</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">113/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Withdrawn by Applicant - Before Decision</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Date</span><span class=\"inputField\">19/06/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=14\">29
+        Lindsay Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Small Business
+        - Alterations and Additions to Restaurant Cafe</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Archi Dynamic Design</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">111/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$35,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=15\">191
+        Oxford Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House (Unauthorised Existing Development)</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">A.T.
+        Brine &amp; Sons Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">105/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">12/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$11,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=16\">Unit
+        3 317 Oxford Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Grouped Dwelling (Patio)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">J NORTH COAST DRAFTING
+        SERVICES</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">116/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">20/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$8,045.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">10/05/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=17\">3
+        Shakespeare Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">M
+        MDC Architects</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">104/2023</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">06/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$800,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">31/08/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=18\">87
+        Smith Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Aura Design Studio</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">107/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">13/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$350,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Withdrawn by Applicant - Before Decision</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Date</span><span class=\"inputField\">04/07/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=19\">56
+        Venn Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Small Business
+        - Change of Use from Residential to Office</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Sabrestar Pty Ltd</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">101/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">05/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">07/07/2023</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=20\">188
+        Vincent Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Place of Worship (Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Slavin Architects</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">117/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">21/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=21\">514
+        William Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwellings
+        (4) Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Urbanista Town Planning</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">102/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">06/04/2023</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,000,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><div class=\"button-panel\"><a class=\"btn btn-primary\"
+        href=\"/eservice/daEnquiryInit.do?nodeNum=8053&amp;goingBack=true\">New Search</a></div></div>\r\n<div>\r\n\n\t<!--
+        CIVICA-CONTENT-END:bodypanel1 -->\n</div>\n\n\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n</div>\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n
+        \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>&#169;
+        Civica Pty. Ltd. 2017\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\n\n"
+  recorded_at: Sun, 30 Apr 2023 14:00:00 GMT
 recorded_with: VCR 6.0.0
