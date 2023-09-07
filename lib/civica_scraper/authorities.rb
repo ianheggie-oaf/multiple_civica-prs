@@ -8,7 +8,8 @@ module CivicaScraper
     },
     bunbury: {
       url: "https://ecouncil.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264",
-      period: :last30days
+      period: :last30days,
+      australian_proxy: true
     },
     burwood: {
       url: "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
