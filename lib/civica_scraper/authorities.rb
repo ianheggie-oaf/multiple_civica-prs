@@ -57,7 +57,7 @@ module CivicaScraper
       period: :last30days
     },
     woollahra: {
-      url: "https://eservices.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270",
+      url: "https://auth.woollahra.nsw.gov.au/eservice/daEnquiryInit.do?nodeNum=5270",
       period: :advertised,
       notice_period: true
     }
