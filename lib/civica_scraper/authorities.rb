@@ -3,7 +3,7 @@
 module CivicaScraper
   AUTHORITIES = {
     bayside: {
-      url: "https://ecouncil.bayside.vic.gov.au/eservice/daEnquiryInit.do?nodeNum=480390",
+      url: "https://ecouncil.bayside.vic.gov.au/eservice/daEnquiryInit.do?docType=5&nodeNum=480394",
       period: :last30days
     },
     bunbury: {
