@@ -3,3 +3,23 @@ data.sqlite
 
 # rspec failure tracking
 .rspec_status
+screenshots/*.png
+
+# Don't save limited runs
+/spec/cassettes/limited_to_*
+/spec/expected/limited_to_*
+
+# aiderAI assistant
+/.aider*
+/.env*
+
+# IDE's
+/.idea
+
+# temp files
+,*
+/tmp/
+
+# Ignore Byebug command history file.
+.byebug_history
+
