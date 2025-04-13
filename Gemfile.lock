@@ -82,6 +82,10 @@ GEM
     ruby-progressbar (1.10.1)
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
+    scraper_utils (0.6.0)
+      mechanize
+      nokogiri
+      sqlite3
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
@@ -113,6 +117,7 @@ DEPENDENCIES
   rake (~> 12.3)
   rspec (~> 3.0)
   rubocop
+  scraper_utils (~> 0.6.0)
   scraperwiki!
   timecop
   vcr

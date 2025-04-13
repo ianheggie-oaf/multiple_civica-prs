@@ -34,7 +34,7 @@ module CivicaScraper
 
       def self.normalise_key(key, value)
         case key
-        when "Type of Work", "Description of Work", "Development Description"
+        when "Type of Work", "Description of Work", "Development Description", "Development"
           :description
         when "Application No.", "Reference No."
           :council_reference
@@ -42,7 +42,7 @@ module CivicaScraper
           :date_received
         when "Applicant"
           :applicant
-        when "Cost of Work"
+        when "Cost of Work", "Estimated Cost"
           :cost_of_work
         when "Determination Details"
           :determination_details
@@ -55,7 +55,7 @@ module CivicaScraper
         when "Type"
           :type
         else
-          raise "Unknown key: #{key} with value: #{value}"
+          raise ScraperUtils::UnprocessableRecord, "Unknown key: #{key} with value: #{value}"
         end
       end
     end

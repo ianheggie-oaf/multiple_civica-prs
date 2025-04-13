@@ -7,6 +7,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-05-13'
   on_notice_to: '2019-05-26'
+  authority_label: lane_cove
 - council_reference: 164/2017
   address: 85 Austin Street LANE COVE NSW 2066
   description: s4.55 Modification of consent - Various amendments
@@ -15,6 +16,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-04-26'
   on_notice_to: '2019-05-09'
+  authority_label: lane_cove
 - council_reference: 178/2014
   address: 2 Gatacre Avenue LANE COVE NSW 2066
   description: Revised Plans - Further changes to approved Carport
@@ -23,14 +25,16 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-04-30'
   on_notice_to: '2019-05-13'
+  authority_label: lane_cove
 - council_reference: 194/2018
   address: 22 Bent Street GREENWICH NSW 2065
   description: s4.55 Modification of consent - Remove Clause 33 of approval
   info_url: https://ecouncil.lanecove.nsw.gov.au/eservice/dialog/daEnquiryInit.do?doc_type=8&nodeNum=6636
   date_received: '2019-04-23'
   date_scraped: '2019-05-15'
-  on_notice_from: 
-  on_notice_to: 
+  on_notice_from:
+  on_notice_to:
+  authority_label: lane_cove
 - council_reference: 222/2018
   address: 18 Elizabeth Parade LANE COVE NORTH NSW 2066
   description: s4.55 Modification of consent - Modification to window finishes
@@ -39,14 +43,16 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-05-03'
   on_notice_to: '2019-05-16'
+  authority_label: lane_cove
 - council_reference: 24/2017
   address: 5 Edwin Street GREENWICH NSW 2065
   description: s4.55 Modification of consent - Various amendments
   info_url: https://ecouncil.lanecove.nsw.gov.au/eservice/dialog/daEnquiryInit.do?doc_type=8&nodeNum=6636
   date_received: '2019-05-08'
   date_scraped: '2019-05-15'
-  on_notice_from: 
-  on_notice_to: 
+  on_notice_from:
+  on_notice_to:
+  authority_label: lane_cove
 - council_reference: 26/2016
   address: 11 Wisdom Road GREENWICH NSW 2065
   description: s4.55 Modification of consent - various minor amendments
@@ -55,6 +61,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-04-26'
   on_notice_to: '2019-05-09'
+  authority_label: lane_cove
 - council_reference: 45/2019
   address: 13 Point Road NORTHWOOD NSW 2066
   description: New inground Swimming Pool and integral Spa
@@ -63,6 +70,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-04-16'
   on_notice_to: '2019-04-29'
+  authority_label: lane_cove
 - council_reference: 46/2019
   address: Unit 2 7-9 Bridge Street LANE COVE NSW 2066
   description: Extension to living room in a townhouse (No.2)
@@ -71,6 +79,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-04-18'
   on_notice_to: '2019-05-01'
+  authority_label: lane_cove
 - council_reference: 47/2019
   address: 36A Second Avenue LANE COVE NSW 2066
   description: Demolition of garage and alterations to existing ground floor
@@ -79,6 +88,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-04-26'
   on_notice_to: '2019-05-09'
+  authority_label: lane_cove
 - council_reference: 48/2018
   address: 16 Tambourine Bay Road LANE COVE NSW 2066
   description: s4.55 Modification of consent - Various amendments
@@ -87,6 +97,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-05-08'
   on_notice_to: '2019-05-21'
+  authority_label: lane_cove
 - council_reference: 48/2019
   address: 608 Mowbray Road LANE COVE NORTH NSW 2066
   description: Demolition, Construction of Residential Flat Building
@@ -95,6 +106,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-04-29'
   on_notice_to: '2019-05-12'
+  authority_label: lane_cove
 - council_reference: 49/2019
   address: 450 Mowbray Road LANE COVE NORTH NSW 2066
   description: New deck, pergola and external steps, retaining walls
@@ -103,6 +115,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-05-15'
   on_notice_to: '2019-05-28'
+  authority_label: lane_cove
 - council_reference: 50/2019
   address: 20 Mindarie Street LANE COVE NORTH NSW 2066
   description: Concept DA for Residential Flat Building - Amended Plans Received
@@ -111,6 +124,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2020-04-16'
   on_notice_to: '2020-04-29'
+  authority_label: lane_cove
 - council_reference: 51/2019
   address: 91A Tambourine Bay Road RIVERVIEW NSW 2066
   description: Change of use from Place of Public Worship to Residential Dwelling
@@ -119,6 +133,7 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-05-17'
   on_notice_to: '2019-05-30'
+  authority_label: lane_cove
 - council_reference: 92/2018
   address: 5 Carisbrook Street LINLEY POINT NSW 2066
   description: s4.55 Modification of consent - Timber deck extension
@@ -127,3 +142,4 @@
   date_scraped: '2019-05-15'
   on_notice_from: '2019-05-24'
   on_notice_to: '2019-06-06'
+  authority_label: lane_cove

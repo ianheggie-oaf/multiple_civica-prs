@@ -5,66 +5,77 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-15'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9341/2019
   address: 32-34 Florence Street PARRAMATTA PARK QLD 4870
   description: Material Change of Use Educational Establishment
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-15'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9342/2019
   address: 113 Callaghan Street MOOROOBOOL QLD 4870
   description: Material Change of Use Multiple Dwelling
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-15'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9343/2019
   address: 1 Flow Close TRINITY BEACH QLD 4879
   description: Exemption Request Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-16'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9345/2019
   address: 13 Ragamuffin Quay TRINITY PARK QLD 4879
   description: Material Change of Use Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-16'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9346/2019
   address: 79 Sims Esplanade YORKEYS KNOB QLD 4878
   description: Material Change of Use Food and Drink Outlet
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-16'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9347/2019
   address: 196 McLeod Street CAIRNS NORTH QLD 4870
   description: Change Application (Other Change) Short-Term Accommodation
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-16'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9348/2019
   address: 71 Williams Esplanade PALM COVE QLD 4879
   description: Request to Change Approval Change Application (Minor Change)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-16'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9349/2019
   address: 94-98 Abbott Street CAIRNS CITY QLD 4870
   description: Operational Works Access Crossover and Driveway
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-16'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9350/2019
   address: 17-25 Bruce Highway EDMONTON QLD 4869
   description: Request to Extend Currency Period Multiple Dwellng
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-17'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9351/2019
   address: 80 Kewarra Street KEWARRA BEACH QLD 4879
   description: Exemption Request Sand Profiling
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-18'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9352/2019
   address: 7 Hoad Street EARLVILLE QLD 4870
   description: Building Works Assessable Against the Scheme Extension to Dwelling
@@ -72,18 +83,21 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-18'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9353/2019
   address: Redlynch Intake Road REDLYNCH QLD 4870
   description: Exemption Request Copperlode Dam Early Warning System
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-18'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9354/2019
   address: 190 McCormack Street MANUNDA QLD 4870
   description: Material Change of Use Dual Occupancy (Extension)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-18'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9355/2019
   address: 64 Anderson Street MANUNDA QLD 4870
   description: Material Change of Use Showroom, Office, Veterinary Services, Low-Impact
@@ -91,12 +105,14 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-18'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9356/2019
   address: 5 Jacamunda Circuit EARLVILLE QLD 4870
   description: Material Change of Use Sales Office
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-18'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9357/2019
   address: 420 Kamerunga Road REDLYNCH QLD 4870
   description: Combined Application Material Change of Use (4 x Dwelling Houses) &
@@ -104,54 +120,63 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-18'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9358/2019
   address: 18 Margaret Street REDLYNCH QLD 4870
   description: Exemption Request Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-23'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9359/2019
   address: 131-143 Links Drive WOREE QLD 4868
   description: Operational Works External Sewer Works
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-23'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9360/2019
   address: 7 Planchonella Close EDGE HILL QLD 4870
   description: Request to Change Approval Change Application (Minor Change)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-24'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9361/2019
   address: 51-57 Willow Street HOLLOWAYS BEACH QLD 4878
   description: Prescribed Tidal Works Pedestrian Bridge
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-24'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9362/2019
   address: 15 Flow Close TRINITY BEACH QLD 4879
   description: Material Change of Use Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-24'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9363/2019
   address: 20 Bronzewing Close WOREE QLD 4868
   description: Material Change of Use Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-26'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9364/2019
   address: Laycock Road EAST TRINITY QLD 4871
   description: Prescribed tidal works 4 Pile Moorings
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-26'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9365/2019
   address: 43-53 Timberlea Drive BENTLEY PARK QLD 4869
   description: Reconfiguring a Lot Boundary Realignment (2 Lots into 2 Lots)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-26'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9366/2019
   address: 44 Jones Street WESTCOURT QLD 4870
   description: Building works assessable against the Planning Scheme Extension to
@@ -159,30 +184,35 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-29'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9367/2019
   address: 20 Mooreland Place KEWARRA BEACH QLD 4879
   description: Exemption Request Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-29'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9368/2019
   address: 123 Sheridan Street CAIRNS CITY QLD 4870
   description: Material Change of Use Office and Building Extension
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-29'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9369/2019
   address: Hoare Road GORDONVALE QLD 4865
   description: Reconfiguring a Lot Boundary Realignment (2 Lots into 2 Lots)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-29'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9370/2019
   address: 36-46 Johanna Road TRINITY BEACH QLD 4879
   description: Request to Change Approval Change Application (Minor Change)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-26'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9371/2019
   address: 3 Sharon Street SMITHFIELD QLD 4878
   description: Combined Application Material Change of Use (Office & Shop), Reconfiguring
@@ -190,24 +220,28 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-30'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9372/2019
   address: 15 Luderick Street KANIMBLA QLD 4870
   description: Material Change of Use Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-30'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9373/2019
   address: 48 Comport Street PORTSMITH QLD 4870
   description: Material Change of Use Low Impact Industry
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-01'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9374/2019
   address: Unit 2 87-91 Lake Street CAIRNS CITY QLD 4870
   description: Exemption Request Food and Drink Outlet
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-29'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9375/2019
   address: 2 Tarana Close CARAVONICA QLD 4878
   description: Building Works Assessable Against the Planning Scheme Dwelling House
@@ -215,36 +249,42 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-04-26'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9376/2019
   address: 68 Leonard Street KEWARRA BEACH QLD 4879
   description: Material Change of Use Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-03'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9377/2019
   address: 2 Seashell Crescent TRINITY BEACH QLD 4879
   description: Operational Work Vegetation Clearing (1-5 Trees)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-03'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9378/2019
   address: 43-53 Timberlea Drive BENTLEY PARK QLD 4869
   description: Request to Change Approval Change Application (Minor Change)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-03'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9379/2019
   address: 10 Bramp Close PORTSMITH QLD 4870
   description: Exemption Request Industry - Low impact (shed Extension)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-07'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9380/2019
   address: 3 Mooreland Place KEWARRA BEACH QLD 4879
   description: Exemption Request Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-07'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9381/2019
   address: 144 Greenslopes Street EDGE HILL QLD 4870
   description: Combined Application Reconfiguring a Lot (1 Lot into 2 Lots) & Building
@@ -252,18 +292,21 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-08'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9383/2019
   address: 9-11 Plantation Road EDMONTON QLD 4869
   description: Reconfiguring a Lot 1 Lot into 2 Lots
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-09'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9384/2019
   address: 65-85 Munro Street BABINDA QLD 4861
   description: Reconfiguring a Lot Boundary Realignment (2 Lots into 2 Lots)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-08'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9385/2019
   address: 21 Oceanview Place MOOROOBOOL QLD 4870
   description: Building Works Assessable Against the Scheme Extension to Dwelling
@@ -271,6 +314,7 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-09'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9386/2019
   address: 4 Oberonia Close EDMONTON QLD 4869
   description: Building Works Assessable Against the Scheme Extension to Dwelling
@@ -278,12 +322,14 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-07'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9387/2019
   address: 29 Seaside Parade PALM COVE QLD 4879
   description: Material Change of Use Dwelling House
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-13'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9388/2019
   address: 20 Amphora Street PALM COVE QLD 4879
   description: Combined Application Reconfiguring a Lot (3 Lots into 5 Lots) and Material
@@ -291,6 +337,7 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-13'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9389/2019
   address: 1L Goldsborough Road GOLDSBOROUGH QLD 4865
   description: Request to Extend Currency Period Reconfiguring a Lot (1 Lot into 8
@@ -298,60 +345,70 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-10'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9390/2019
   address: 163 Abbott Street CAIRNS CITY QLD 4870
   description: Reconfiguring a Lot 1 Lot into 2 Lots
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-10'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9392/2019
   address: 22 Bamboo Street HOLLOWAYS BEACH QLD 4878
   description: Exemption Request Extension to Dwelling House (Swimming Pool)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-13'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9393/2019
   address: 76 Boden Street EDGE HILL QLD 4870
   description: Operational Works Two (2) Access Crossovers
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-14'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9394/2019
   address: Unit 806 58-62 McLeod Street CAIRNS CITY QLD 4870
   description: Material Change of Use Multiple dwelling and Short-term accommodation
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-14'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9395/2019
   address: 28 Friend Street EDGE HILL QLD 4870
   description: Building Works Assessable Against the Scheme Dwelling House Extension
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-14'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9397/2019
   address: 36-46 Johanna Road TRINITY BEACH QLD 4879
   description: Operational Works Earthworks (<6500m3) & Electrical/Lighting Works
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-14'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9398/2019
   address: 53-59 Barclay Road BRINSMEAD QLD 4870
   description: Operational Works Operational Works Associated with 4-Lot Subdivision
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-14'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9399/2019
   address: 2-4 Redlynch Intake Road REDLYNCH QLD 4870
   description: Material Change of Use Health Care Services
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-14'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9400/2019
   address: 795L Reservoir Road KANIMBLA QLD 4870
   description: Operational Works Operational Works Associated with an 18-Lot Subdivision
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-15'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9401/2019
   address: 20-30 Hartley Street CAIRNS CITY QLD 4870
   description: Combined Application Material Change of Use for Parking Station & Operational
@@ -359,15 +416,18 @@
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-15'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9403/2019
   address: 11 Riverside Parade TRINITY PARK QLD 4879
   description: Operational Works Prescribed Tidal Works - Pontoon System
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-15'
   date_scraped: '2019-05-15'
+  authority_label: cairns
 - council_reference: 9411/2019
   address: 5L Eagleview Place SMITHFIELD QLD 4878
   description: Operational Works Minor Minor Works - Lighting Works
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2019-05-10'
   date_scraped: '2019-05-15'
+  authority_label: cairns

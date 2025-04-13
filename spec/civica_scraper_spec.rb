@@ -15,7 +15,7 @@ RSpec.describe CivicaScraper do
         # Vincent doesn't have older data in their system
         date = authority == :vincent ? Date.new(2023, 5, 1) : Date.new(2019, 5, 15)
         Timecop.freeze(date) do
-          CivicaScraper.scrape_and_save(authority)
+          Scraper.scrape([authority], 1)
         end
       end
 
@@ -39,7 +39,7 @@ RSpec.describe CivicaScraper do
       expect(results).to eq expected
     end
 
-    CivicaScraper::AUTHORITIES.each_key do |authority|
+    Scraper.selected_authorities.each do |authority|
       it authority do
         test_scrape_and_save(authority)
       end
