@@ -28,7 +28,7 @@ end
 AUSTRALIAN_STATES = %w[ACT NSW NT QLD SA TAS VIC WA].freeze
 AUSTRALIAN_POSTCODES = /\b\d{4}\b/.freeze
 
-module AddressHelper
+module SpecHelper
   # Check if an address is likely to be geocodable by analyzing its format
   # @param address [String] The address to check
   # @return [Boolean] True if the address appears to be geocodable.
@@ -60,5 +60,21 @@ module AddressHelper
     # or if it has unit/lot information, a state, and a postcode
     (has_street_type || has_unit_or_lot) && has_state && has_postcode && has_uppercase_suburb
   end
-end
 
+  PLACEHOLDERS = [
+    /no description/i,
+    /not available/i,
+    /to be confirmed/i,
+    /\btbc\b/i,
+    %r{\bn/a\b}i
+  ].freeze
+
+  def self.placeholder?(text)
+    PLACEHOLDERS.any? { |placeholder| text.to_s.match?(placeholder) }
+  end
+
+  def self.reasonable_description?(text)
+    !placeholder?(text) && text.to_s.split.size > 3
+  end
+
+end
