@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://ecouncil.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264
+    uri: https://eservices.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264
     body:
       encoding: US-ASCII
       string: ''
@@ -12,13 +12,13 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.7 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
       Host:
-      - ecouncil.bunbury.wa.gov.au
+      - eservices.bunbury.wa.gov.au
       Connection:
       - keep-alive
       Keep-Alive:
@@ -34,34 +34,332 @@ http_interactions:
       - No-cache
       Content-Type:
       - text/html
-      Content-Encoding:
-      - gzip
       Content-Language:
       - en-AU
       Expires:
       - '0'
-      Vary:
-      - Accept-Encoding
       Server:
-      - Microsoft-IIS/8.5
+      - Microsoft-IIS/10.0
       X-Powered-By:
-      - ASP.NET
       - Servlet/3.1
+      Content-Security-Policy:
+      - 'default-src ''self'' https://transact.nab.com.au https://demo.transact.nab.com.au
+        https://sec.paymentexpress.com https://uat.paymentexpress.com https://payment.securepay.com.au
+        https://test.payment.securepay.com.au https://bpoint.com.au https://bpoint-uat.premier.com.au
+        https://secure.flo2cash.co.nz https://demo.flo2cash.co.nz; frame-src ''self''
+        https://www.google.com http://www.google.com; script-src ''self'' https://www.google.com
+        http://www.google.com https://www.gstatic.com http://www.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com ''unsafe-inline'' ''unsafe-eval''; connect-src
+        ''self''; img-src ''self'' data: ''unsafe-eval'' https://www.paypalobjects.com
+        http://www.paypalobjects.com https://www.paypal.com http://www.paypal.com
+        https://maps.gstatic.com http://maps.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com https://cdn.bunbury.wa.gov.austyle-src ''self''
+        https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.googleapis.com
+        http://fonts.googleapis.com ''unsafe-inline''; base-uri ''self''; form-action
+        ''self'' https://www.paypal.com http://www.paypal.com https://www.sandbox.paypal.com
+        http://www.sandbox.paypal.com https://sec.paymentexpress.com https://transact.nab.com.au/directpost/authorise
+        https://demo.transact.nab.com.au/directpost/authorise; font-src ''self'' https://fonts.googleapis.com
+        http://fonts.googleapis.com https://fonts.gstatic.com http://fonts.gstatic.com;
+        object-src data: ''unsafe-eval'';'
       Set-Cookie:
-      - JSESSIONID_live=00009mxKgAV6RlFCF12nNsgWfqb:-1; Path=/; HttpOnly
+      - JSESSIONID_live=0000B0kvhIqCIz-Q4Cm3LQu_Y9P:-1; Path=/; HttpOnly
       Date:
-      - Mon, 22 Jul 2019 07:09:48 GMT
+      - Mon, 14 Apr 2025 17:42:33 GMT
       Connection:
       - close
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        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
-    http_version: 
-  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n\n\n\n    \n        \n\t        \n        \n          \n
+        \ \n\n\n\n      \n      \n\n\n\n      \n\t  \n      \n      \n\n\n\n    \n
+        \   \n        \n        \n    \n\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML
+        4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"
+        />\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\tAuthority e-Services\r\n\t\t</title>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/eservice/library/bootstrap-3.4.1.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/jquery-ui.structure.min.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/daEnquiry_daEnquiry.css\" id=\"pagecss\" type=\"text/css\"
+        media=\"screen, projection\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/custom.css\" type=\"text/css\" media=\"screen, projection,
+        print\" >\r\n\r\n\t\t<script>var AUTHJS = {};AUTHJS.productName = \"i-Services\";</script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/jscalendar-1.0/calendar.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-3.6.0.min.js\"></script>\r\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-3.4.1.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.common.init.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.functions.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/util.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/json2.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/effects.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/controls.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/dragdrop.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/lightbox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menu.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menuScroll.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/sitemap.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.imageTickBox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.metadata.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery.form-3.46.0.js\"></script>\r\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/da.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/mkTree.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";\r\n\t\t\t}
+        else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";\r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage
+        + \" a.tab-clicker\").not(\".tabs-content *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function()
+        {\r\n\t\tvar isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar
+        all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',\r\n\t\t\t\t'hide.bs.collapse',\r\n\t\t\t\t'hide.bs.modal',\r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n\r\n\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span></span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tCity
+        of Bunbury\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t&nbsp;\r\n\r\n\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t\t\t\t\tYou
+        are a Guest\r\n\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\t\t<!-- End Masthead navbar -->\r\n\r\n\r\n\t\t<div
+        id=\"content\">\r\n\r\n\t\t\t<div class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div
+        class=\"row\" id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-1\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/loading.gif\" alt=\"loading\" class=\"loading\" id=\"menu-search-loading\"
+        />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!-- div id=\"search-autocomplete\"
+        class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/icons/parent.gif\" alt=\"Return to \" />Applications</a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiry/currentlyAdvertised.do?nodeNum=11260\"
+        class=\"linkitem\" id=\"node-11260\">Currently Advertised</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiry/recentlyDetermined.do?num_days=30&nodeNum=11261\"
+        class=\"linkitem\" id=\"node-11261\">Recently Determined</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/das/online/Init.do?nodeNum=11263\"
+        class=\"linkitem\" id=\"node-11263\">Lodge Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?nodeNum=11264\"
+        class=\"linkitem\" id=\"node-11264\">Search Application</a>\r\n        </li>\r\n
+        \ \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-2\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li
+        id=\"recently-used-0\">\r\n                                <a href=\"/eservice/daEnquiryInit.do?nodeNum=11264\"
+        class=\"linkitem\">Search Application</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiry\">\r\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryDocumentTypeDefaultTypes\">\r\n\r\n\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\t\n\t\n\t\t\n\t\t<h1>\n\t\t\t\n
+        \         \n          \n              Development Application & Building Application
+        Enquiry\n          \n\t  \n\t\t\t\n\t\t</h1>\n\t\n\t\n\n\t\n\t\n<div id=\"leftcontent\">\n\n\t\t\t\n\n\n\n\n\n<div
+        class=\"infopanel\">    \n\t<!-- CIVICA-INFO-START -->   \n\t\n        <div
+        id=\"infopanel-header\">\n\t        <h4 class=\"entryHeader\" >\n\t            \n\t\tInstructions\n\t\t\n\t
+        \       </h4>\n        </div>\n\t\n    <div id=\"instructions-content\" class=\"instructions\">\r\n\n
+        \       \n\n\n\n\n\nTo make an enquiry enter some information that identifies
+        the applications or properties of interest.\n\n    </div>\r\n\n\t<!-- CIVICA-INFO-END
+        -->\n</div>\n\n</div>\n<div id=\"rightcontent\">\n\t\t\n\t\t\t\n\t\t\n\n\n\n\n<div
+        class=\"bodypanel\" id=\"bodypanel1\">   \t\t\n\t<!-- CIVICA-CONTENT-START:bodypanel1
+        -->\n\t\n   <h2 >\n\t\t\n\t\t\n\t      \t\tApplication Details\n\t        \n
+        \   </h2>\n\n\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div>\r\n  <form
+        action=\"daEnquiry.do\" id=\"daEnquiryForm\" name=\"daEnquiryForm\" class=\"form-horizontal\">\r\n
+        \   <div class=\"form-group\">\r\n      <label class=\"col-sm-2 control-label\">DA
+        or BA Number</label>\r\n      <div class=\"col-sm-10\">\r\n        <input
+        type=\"text\" class=\"text-medium\" name=\"number\" id=\"DANumber\" size=\"10\"
+        maxlength=\"10\" errors=\"DANumber\" value=\"\" />\r\n        <span class=\"subText\">eg
+        350/2008 or 27019/2008</span>\r\n      </div>\r\n    </div>\r\n    <p />\r\n
+        \   <p class=\"rowDataOnly\">\r\n      <span class=\"rowInfo\">\r\n        <strong>OR</strong>\r\n
+        \       use any of the following search fields:\r\n      </span>\r\n    </p>\r\n
+        \   <p>\r\n      \r\n      &nbsp;\r\n      \r\n    </p>\r\n    <h2>Lodgement
+        Date</h2>\r\n    <div>\r\n      <label class=\"radio-inline control-label
+        control-radio\">\r\n        <input type=\"radio\" name=\"lodgeRangeType\"
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('', '', 'DADateFrom',
+        'DADateTo')\" />\r\n        Specified Range\r\n      </label>\r\n      <label
+        class=\"radio-inline control-label control-radio\">\r\n        <input type=\"radio\"
+        name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('13/04/2025','15/04/2025',
+        'DADateFrom', 'DADateTo')\" />\r\n        This Week\r\n      </label>\r\n
+        \     <label class=\"radio-inline control-label control-radio\">\r\n        <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('06/04/2025','12/04/2025',
+        'DADateFrom', 'DADateTo')\" />\r\n        Last Week\r\n      </label>\r\n
+        \     <label class=\"radio-inline control-label control-radio\">\r\n        <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/04/2025','30/04/2025',
+        'DADateFrom', 'DADateTo')\" />\r\n        This Month\r\n      </label>\r\n
+        \     <label class=\"radio-inline control-label control-radio\">\r\n        <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/03/2025','31/03/2025',
+        'DADateFrom', 'DADateTo')\" />\r\n        Last Month\r\n      </label>\r\n
+        \   </div>\r\n    <div class=\"form-group\" style=\"margin: 15px 0 25px;\">\r\n
+        \     <div id=\"DADate\" style=\"margin: 15px 0 25px;\">\r\n        <label
+        class=\"control-label\" for=\"DADateFrom\" id=\"daFromDateLabel\" style=\"float:
+        left;\">From</label>\r\n        <div class=\"form-inline col-sm-10\" style=\"padding-left:
+        5px;\">\r\n          <input type=\"text\" class=\"datepick text-small form-control\"
+        name=\"dateFrom\" id=\"DADateFrom\" style=\"padding-right: 0px\" size=\"10\"
+        maxlength=\"10\" errors=\"DADateFrom\" value=\"\" />\r\n          <label for=\"DADateTo\"
+        id=\"daToDateLabel\">To</label>\r\n          <input type=\"text\" class=\"datepick
+        text-small form-control\" name=\"dateTo\" id=\"DADateTo\" style=\"padding-right:
+        0px\" size=\"10\" maxlength=\"10\" errors=\"DADateTo\" value=\"\" />\r\n        </div>\r\n
+        \     </div>\r\n    </div>\r\n    <h2>Determination Date</h2>\r\n    <div>\r\n
+        \     <label class=\"radio-inline control-label control-radio\">\r\n        <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('','',
+        'detDateFromString', 'detDateToString')\" />\r\n        Specified Range\r\n
+        \     </label>\r\n      <label class=\"radio-inline control-label control-radio\">\r\n
+        \       <input type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('13/04/2025','15/04/2025',
+        'detDateFromString', 'detDateToString')\" />\r\n        This Week\r\n      </label>\r\n
+        \     <label class=\"radio-inline control-label control-radio\">\r\n        <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('06/04/2025','12/04/2025',
+        'detDateFromString', 'detDateToString')\" />\r\n        Last Week\r\n      </label>\r\n
+        \     <label class=\"radio-inline control-label control-radio\">\r\n        <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/04/2025','30/04/2025',
+        'detDateFromString', 'detDateToString')\" />\r\n        This Month\r\n      </label>\r\n
+        \     <label class=\"radio-inline control-label control-radio\">\r\n        <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/03/2025','31/03/2025',
+        'detDateFromString', 'detDateToString')\" />\r\n        Last Month\r\n      </label>\r\n
+        \   </div>\r\n    <div class=\"form-group\" style=\"margin: 15px 0 20px;\">\r\n
+        \     <div id=\"DetDate\" style=\"margin: 15px 0 20px;\">\r\n        <label
+        class=\"control-label\" for=\"detDateFrom\" id=\"detFromDateLabel\" style=\"float:
+        left;\">From</label>\r\n        <div class=\"form-inline col-sm-10\" id=\"detDateFromInput\"
+        style=\"padding-left: 5px;\">\r\n          <input type=\"text\" class=\"datepick
+        text-small form-control\" name=\"detDateFrom\" id=\"detDateFromString\" style=\"padding-right:
+        0px\" size=\"10\" maxlength=\"10\" errors=\"detDateFrom\" value=\"\" />\r\n
+        \         <label for=\"detDateTo\" id=\"detToDateLabel\">To</label>\r\n          <input
+        type=\"text\" class=\"datepick text-small form-control\" name=\"detDateTo\"
+        id=\"detDateToString\" style=\"padding-right: 0px\" size=\"10\" maxlength=\"10\"
+        errors=\"detDateTo\" value=\"\" />\r\n        </div>\r\n      </div>\r\n    </div>\r\n
+        \   <h2>Property Details</h2>\r\n    <div class=\"form-group\" id=\"streetNameRow\">\r\n
+        \     <label class=\"control-label col-sm-2\" for=\"streetName\">Street Name</label>\r\n
+        \     <div class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-large\"
+        name=\"streetName\" id=\"streetName\" size=\"20\" onblur=\"javascript:getHouseNum();
+        javascript:getSuburb()\" value=\"\" />\r\n        <div id=\"streetHints\"
+        class=\"autocompleter\">\r\n          \r\n          &nbsp;\r\n          \r\n
+        \       </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"form-group\"
+        id=\"suburbDropdownRow\">\r\n      <label class=\"control-label col-sm-2\"
+        for=\"suburb\">Suburb</label>\r\n      <div class=\"col-sm-10\">\r\n        <div
+        id=\"suburbSelect\">\r\n          <select class=\"select-medium\" name=\"suburb\"
+        id=\"suburb\">\r\n            <option value=\"0\" selected=\"selected\">-
+        -None Selected- -</option>\r\n            <option value=\"1\">BUNBURY</option>\r\n
+        \           <option value=\"7\">CAREY PARK</option>\r\n            <option
+        value=\"8\">COLLEGE GROVE</option>\r\n            <option value=\"11\">DAVENPORT</option>\r\n
+        \           <option value=\"6\">EAST BUNBURY</option>\r\n            <option
+        value=\"10\">GLEN IRIS</option>\r\n            <option value=\"9\">PELICAN
+        POINT</option>\r\n            <option value=\"12\">PICTON</option>\r\n            <option
+        value=\"13\">SHIRE OF CAPEL</option>\r\n            <option value=\"14\">SHIRE
+        OF DARDANUP</option>\r\n            <option value=\"15\">SHIRE OF HARVEY</option>\r\n
+        \           <option value=\"16\">SHIRE OF OTHER (OUTSIDE GBR)</option>\r\n
+        \           <option value=\"2\">SOUTH BUNBURY</option>\r\n            <option
+        value=\"17\">STRATA COMMON PROPERTY</option>\r\n            <option value=\"4\">USHER</option>\r\n
+        \           <option value=\"5\">VITTORIA</option>\r\n            <option value=\"3\">WITHERS</option>\r\n
+        \         </select>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div
+        class=\"form-group\" id=\"unitNumberRow\">\r\n      <label class=\"control-label
+        col-sm-2\" for=\"unitNum\">Unit</label>\r\n      <div class=\"col-sm-10\">\r\n
+        \       <input type=\"text\" class=\"text-mini\" name=\"unitNum\" id=\"unitNum\"
+        size=\"10\" value=\"\" />\r\n      </div>\r\n    </div>\r\n    <div class=\"form-group\"
+        id=\"houseNumRow\">\r\n      <label class=\"control-label col-sm-2\" for=\"houseNum\">House
+        No.</label>\r\n      <div class=\"col-sm-10\">\r\n        <div id=\"houseNumSelect\">\r\n
+        \         <select class=\"select-medium\" name=\"houseNum\" id=\"houseNum\">\r\n
+        \           <option value=\"0&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;\">- -None
+        Selected- -</option>\r\n          </select>\r\n        </div>\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"planNumberRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"planNumber\">Plan</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"planNumber\" id=\"planNumber\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"strataPlanRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"strataPlan\">Strata Plan</label>\r\n
+        \     <div class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"strataPlan\" id=\"strataPlan\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"lotRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"lotNumber\">Lot</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-small\"
+        name=\"lotNumber\" id=\"lotNumber\" size=\"10\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <div class=\"form-group\" id=\"propertyNameRow\">\r\n      <label
+        class=\"control-label col-sm-2\" for=\"propertyName\">Place</label>\r\n      <div
+        class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-large\"
+        name=\"propertyName\" id=\"propertyName\" size=\"20\" value=\"\" />\r\n      </div>\r\n
+        \   </div>\r\n    <p class=\"rowDataOnly\">\r\n      <span class=\"rowInfo\">\r\n
+        \       <strong>AND</strong>\r\n        the following search field:\r\n      </span>\r\n
+        \   </p>\r\n    <p>\r\n      \r\n      &nbsp;\r\n      \r\n    </p>\r\n    <h2>Options</h2>\r\n
+        \   <label class=\"radio-inline control-label control-radio\">\r\n      <input
+        type=\"radio\" name=\"searchMode\" value=\"A\" id=\"searchModeA\" checked=\"checked\"
+        />\r\n      <span class=\"indicator\" />\r\n      All DAs &amp; BAs\r\n    </label>\r\n
+        \   <label class=\"radio-inline control-label control-radio\">\r\n      <input
+        type=\"radio\" name=\"searchMode\" value=\"D\" id=\"searchModeD\" />\r\n      <span
+        class=\"indicator\" />\r\n      Determined DAs &amp; BAs\r\n    </label>\r\n
+        \   <label class=\"radio-inline control-label control-radio\">\r\n      <input
+        type=\"radio\" name=\"searchMode\" value=\"P\" id=\"searchModeP\" />\r\n      <span
+        class=\"indicator\" />\r\n      DAs &amp; BAs Awaiting Decision\r\n    </label>\r\n
+        \   <label class=\"radio-inline control-label control-radio\">\r\n      <input
+        type=\"radio\" name=\"searchMode\" value=\"C\" id=\"searchModeC\" />\r\n      <span
+        class=\"indicator\" />\r\n      Currently Advertised DAs\r\n    </label>\r\n
+        \   <div class=\"button-panel\">\r\n      <input type=\"submit\" name=\"submitButton\"
+        class=\"button\" value=\"Search\" onclick=\"javascript:checkDetDatesMakeSense()\"
+        />\r\n      <input type=\"button\" name=\"clearButton\" class=\"button\" value=\"Clear\"
+        onclick=\"javascript:clearDaEnquiryFields()\" />\r\n    </div>\r\n  </form>\r\n</div>\r\n\r\n\n\t<!--
+        CIVICA-CONTENT-END:bodypanel1 -->\n</div>\n\n\n\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n</div>\n\n\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>&#169;
+        Civica Pty. Ltd. 2017\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\n"
+  recorded_at: Mon, 14 Apr 2025 14:00:00 GMT
 - request:
     method: get
-    uri: https://ecouncil.bunbury.wa.gov.au/eservice/daEnquiry.do?dateFrom=15/04/2019&dateTo=15/05/2019&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
+    uri: https://eservices.bunbury.wa.gov.au/eservice/daEnquiry.do?dateFrom=16/03/2025&dateTo=15/04/2025&detDateFrom=&detDateTo=&houseNum=0%0A%09%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
     body:
       encoding: US-ASCII
       string: ''
@@ -71,17 +369,17 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.7 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - JSESSIONID_live=00009mxKgAV6RlFCF12nNsgWfqb:-1
+      - JSESSIONID_live=0000B0kvhIqCIz-Q4Cm3LQu_Y9P:-1
       Host:
-      - ecouncil.bunbury.wa.gov.au
+      - eservices.bunbury.wa.gov.au
       Referer:
-      - https://ecouncil.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264
+      - https://eservices.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264
       Connection:
       - keep-alive
       Keep-Alive:
@@ -97,27 +395,1311 @@ http_interactions:
       - No-cache
       Content-Type:
       - text/html
-      Content-Encoding:
-      - gzip
       Content-Language:
       - en-AU
       Expires:
       - '0'
-      Vary:
-      - Accept-Encoding
       Server:
-      - Microsoft-IIS/8.5
+      - Microsoft-IIS/10.0
       X-Powered-By:
-      - ASP.NET
       - Servlet/3.1
+      Content-Security-Policy:
+      - 'default-src ''self'' https://transact.nab.com.au https://demo.transact.nab.com.au
+        https://sec.paymentexpress.com https://uat.paymentexpress.com https://payment.securepay.com.au
+        https://test.payment.securepay.com.au https://bpoint.com.au https://bpoint-uat.premier.com.au
+        https://secure.flo2cash.co.nz https://demo.flo2cash.co.nz; frame-src ''self''
+        https://www.google.com http://www.google.com; script-src ''self'' https://www.google.com
+        http://www.google.com https://www.gstatic.com http://www.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com ''unsafe-inline'' ''unsafe-eval''; connect-src
+        ''self''; img-src ''self'' data: ''unsafe-eval'' https://www.paypalobjects.com
+        http://www.paypalobjects.com https://www.paypal.com http://www.paypal.com
+        https://maps.gstatic.com http://maps.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com https://cdn.bunbury.wa.gov.austyle-src ''self''
+        https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.googleapis.com
+        http://fonts.googleapis.com ''unsafe-inline''; base-uri ''self''; form-action
+        ''self'' https://www.paypal.com http://www.paypal.com https://www.sandbox.paypal.com
+        http://www.sandbox.paypal.com https://sec.paymentexpress.com https://transact.nab.com.au/directpost/authorise
+        https://demo.transact.nab.com.au/directpost/authorise; font-src ''self'' https://fonts.googleapis.com
+        http://fonts.googleapis.com https://fonts.gstatic.com http://fonts.gstatic.com;
+        object-src data: ''unsafe-eval'';'
       Date:
-      - Mon, 22 Jul 2019 07:09:55 GMT
+      - Mon, 14 Apr 2025 17:42:44 GMT
       Connection:
       - close
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        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
-    http_version: 
-  recorded_at: Tue, 14 May 2019 14:00:00 GMT
-recorded_with: VCR 5.0.0
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n\n\n      \n\t\n    \n\n\n\n\t\t\n\n\n      \n\t\n    \n
+        \   \n  \n\n\n  \n\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"
+        \ \"http://www.w3.org/TR/html4/loose.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"
+        />\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\tAuthority e-Services\r\n\t\t</title>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/eservice/library/bootstrap-3.4.1.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/jquery-ui.structure.min.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/daEnquiry_daEnquiryResults.css\" id=\"pagecss\" type=\"text/css\"
+        media=\"screen, projection\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/custom.css\" type=\"text/css\" media=\"screen, projection,
+        print\" >\r\n\r\n\t\t<script>var AUTHJS = {};AUTHJS.productName = \"i-Services\";</script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/jscalendar-1.0/calendar.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-3.6.0.min.js\"></script>\r\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-3.4.1.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.common.init.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.functions.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/util.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/json2.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/effects.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/controls.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/dragdrop.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/lightbox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menu.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menuScroll.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/sitemap.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.imageTickBox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.metadata.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery.form-3.46.0.js\"></script>\r\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";\r\n\t\t\t}
+        else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";\r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage
+        + \" a.tab-clicker\").not(\".tabs-content *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function()
+        {\r\n\t\tvar isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar
+        all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',\r\n\t\t\t\t'hide.bs.collapse',\r\n\t\t\t\t'hide.bs.modal',\r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n\r\n\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span></span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tCity
+        of Bunbury\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t&nbsp;\r\n\r\n\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t\t\t\t\tYou
+        are a Guest\r\n\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\t\t<!-- End Masthead navbar -->\r\n\r\n\r\n\t\t<div
+        id=\"content\">\r\n\r\n\t\t\t<div class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div
+        class=\"row\" id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-1\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/loading.gif\" alt=\"loading\" class=\"loading\" id=\"menu-search-loading\"
+        />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!-- div id=\"search-autocomplete\"
+        class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/icons/parent.gif\" alt=\"Return to \" />Applications</a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiry/currentlyAdvertised.do?nodeNum=11260\"
+        class=\"linkitem\" id=\"node-11260\">Currently Advertised</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiry/recentlyDetermined.do?num_days=30&nodeNum=11261\"
+        class=\"linkitem\" id=\"node-11261\">Recently Determined</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/das/online/Init.do?nodeNum=11263\"
+        class=\"linkitem\" id=\"node-11263\">Lodge Application</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/daEnquiryInit.do?nodeNum=11264\"
+        class=\"linkitem\" id=\"node-11264\">Search Application</a>\r\n        </li>\r\n
+        \ \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\" class=\"panel-min-max\"
+        id=\"panel-min-max-2\" >\r\n<img src=\"/eservice/icons/minimise.gif\" alt=\"Minimise\"
+        />\r\n</a>\r\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li
+        id=\"recently-used-0\">\r\n                                <a href=\"/eservice/daEnquiryInit.do?nodeNum=11264\"
+        class=\"linkitem\">Search Application</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiryResults\">\r\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryResultsDocumentTypeDefaultTypes\">\r\n\r\n\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\t\n\t<h1>\n\t\t\n
+        \         \n          \n              Development Application & Building Application
+        Enquiry\n          \n\t\n\t\t\n\t</h1>\n\n\n<div id=\"fullcontent\" class=\"no_form\">\n\n\t\n\n\t\n\t\t\n\n\n\n\n\n<div
+        class=\"infopanel\">    \n\t<!-- CIVICA-INFO-START -->   \n\t\n        <div
+        id=\"infopanel-header\">\n\t        <h4 class=\"entryHeader\" >\n\t            Instructions\n\t
+        \       </h4>\n        </div>\n\t\n    <div id=\"instructions-content\" class=\"instructions\">\r\n\n
+        \       \n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\t\tClick on the Development Application
+        to see further detail. To display these results in a different order, select
+        from the options below and click the 'Sort' button.\t\n\t\t\t  \n\t\t\t<p>\n\t\t\t\t<label>\n\t\t\t\t\tDocuments
+        Found\n\t\t\t\t\t120\n\t\t\t\t</label>\n\t\t\t</p>      \n\t\t\n\t\t\n\t\t\t<div
+        id=\"sortForm\">\n\t\t\t\t\n\t\t\t\t\t<form name=\"registerEnquirySortForm\"
+        method=\"post\" action=\"/eservice/daEnquirySort.do\" class=\"form-horizontal\">\n\t\t\t\t\t\tSort\n\t\t\t\t\t\t<div
+        class=\"form-group\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByDatereceivedOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByDatereceived\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"1\" id=\"sortByDatereceived\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tReceived Date\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByLocationOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByLocation\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"2\" id=\"sortByLocation\" checked/>\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tLocation\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByApplicationNumberOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByApplicationNumber\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"3\" id=\"sortByApplicationNumber\"
+        />\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tApplication
+        No.\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortBySuburbOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortBySuburb\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"4\" id=\"sortBySuburb\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tSuburb\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByUnitHouseNumberOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByUnitHouseNumber\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"5\" id=\"sortByUnitHouseNumber\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tUnit/House Number\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByStreetNameOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByStreetName\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"6\" id=\"sortByStreetName\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tStreet\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortBySummaryOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortBySummary\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"7\" id=\"sortBySummary\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tType Of Work\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByDeterminationOption\" style=\"padding-right:2em\">\n\t\t\t\t\t\t\t\t\t<div
+        class=\"radio-inline\">\n\t\t\t\t\t\t\t\t\t\t<label class=\"control-label
+        control-radio\" for=\"sortByDetermination\">\n\t\t\t\t\t\t\t\t\t\t\t<input
+        type=\"radio\" name=\"sortBy\" value=\"8\" id=\"sortByDetermination\" />\n\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"indicator\"></div>\n\t\t\t\t\t\t\t\t\t\t\tDecision\n\t\t\t\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        class=\"row\">\n\t\t\t\t\t\t\t<input type=\"submit\" name=\"submit\" value=\"Sort\"
+        class=\"btn btn-primary\" />\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</form>\n\t\t\t\t\n\t\t\t</div>\n\t\t\n\t\n\t\n\n
+        \   </div>\r\n\n\t<!-- CIVICA-INFO-END -->\n</div>\n\n\t\n\n\t\n\t\t\n\t\n<div
+        \ class=\"bodypanel\" id=\"bodypanel1\">\n\t<!-- CIVICA-CONTENT-START:bodypanel1
+        -->\n\t\t</div>\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div><h4
+        class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=0\">13
+        Allen Street EAST BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10B - Retaining Wall</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39593/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">11/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$15,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=1\">27 Ashford Place SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39559/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$16,522.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=2\">45A Austral Parade EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39585/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$370,089.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=3\">70 Austral Parade EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed
+        (Storm Damaged)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39547/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$29,698.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">07/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=4\">34A
+        Balgore Way CAREY PARK  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Development Application</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Grouped
+        Dwelling Grouped Dwelling x1</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">78/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$220,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=5\">3 Banksia Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39538/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=6\">3 Banksia Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">82/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=7\">69 Beach Road SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39533/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=8\">101 Beach Road SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">80/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$8,155.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=9\">13 Beagle Place CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Gable
+        Shed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">66/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">08/04/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$19,650.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=10\">17 Birch Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A &amp;
+        10A Dwelling Alts &amp; Adds &amp; Convert Carport to Garage</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39561/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$30,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=11\">17 Birch Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Alterations
+        Additions to Dwelling &amp; Carport Enclosure</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39564/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$30,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=12\">92 Blair Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 6 - Service
+        Station</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">38820/2024</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=13\">15 Burt Street EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10B - Spa</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39541/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,500.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=14\">12 Bushell Street CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Outbuilding</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">57/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,855.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=15\">15 Cambridge Crescent EAST
+        BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39582/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$9,096.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=16\">7 Charles Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10B - Pool
+        &amp; Pool Fencing New Pool Fence</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39528/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$30,219.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=17\">7 Charles Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Swimming
+        Pool &amp; Fence</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">83/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$68,200.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=18\">Unit 3 43 Charles Street BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39530/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$6,047.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=19\">5 Churchill Drive SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39584/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$400,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=20\">15 Cingalese Close CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio
+        &amp; Carport New Verandah or Patio</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39540/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$18,087.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=21\">53B Clarke Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39539/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$11,227.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=22\">66 Clarke Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling
+        Grouped Dwelling x1</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">76/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$550,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=23\">22 Constitution Street SOUTH
+        BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39529/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=24\">22 Constitution Street SOUTH
+        BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed
+        &amp; Carport (Demolition) New Carport</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39531/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$15,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">11/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=25\">28A
+        Constitution Street SOUTH BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Development Application</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Grouped
+        Dwelling Garage &amp; Front Fence</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">70/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,500.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=26\">5 Coote Place USHER  WA  6230</a></h4><div><p
+        class=\"rowDataOnly\"><span class=\"key\">Type</span><span class=\"inputField\">Development
+        Application</span></p><p class=\"rowDataOnly\"><span class=\"key\">Type of
+        Work</span><span class=\"inputField\">Single House Carport</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">68/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">03/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$8,900.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=27\">35B Cranbrook Way USHER  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39536/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,800.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=28\">35B Cranbrook Way USHER  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">81/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,800.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=29\">23A Cross Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling
+        (BA19)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39271/2024</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">28/03/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=30\">16
+        Delaporte Way CAREY PARK  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10A - Carport</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39558/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$16,391.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=31\">3 Drosera Cross GLEN IRIS
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39575/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,624.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=32\">18 Dunstan Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Decking</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39526/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$18,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=33\">91 Dunstan Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39521/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">21/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$16,383.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">14/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=34\">9
+        Elvey Place USHER  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39572/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$16,618.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=35\">23 Erica Entrance GLEN IRIS
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10B - Solar
+        Panels (Djidi Djidi School)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39522/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">01/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=36\">13
+        Fairway Court EAST BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10A - Patio x3</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39590/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,999.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=37\">15 Fielder Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Grouped
+        Dwellings x 3</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39566/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">03/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,242,368.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=38\">15 Forrest Street EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Place of Worship
+        Alterations &amp; Additions</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">88/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=39\">9805 Forrest Highway GLEN
+        IRIS  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10B - Solar
+        Panels (Unauthorised)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39574/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$14,513.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=40\">56 Forrest Avenue SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 5 &amp;
+        10B - Change of Use Office, Masonry &amp; Modular Walls New Fence or Wall</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39560/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$880,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">11/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=41\">56
+        Forrest Avenue SOUTH BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        1A - Dwelling (Partial Demolition)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39591/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$12,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=42\">72 Forrest Avenue SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Recreation - Private
+        Bunbury Bowling Club - Patio</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">72/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,928.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=43\">49 Goldsmith Street SOUTH
+        BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39581/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$5,781.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=44\">Unit 1 21 Greensell Street
+        BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling
+        Units Staircase (Partial Demolition)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39519/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">21/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$17,500.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">28/03/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=45\">2
+        Griffin Lane USHER  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39577/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$6,050.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=46\">Harris Road PICTON  WA  6229</a></h4><div><p
+        class=\"rowDataOnly\"><span class=\"key\">Type</span><span class=\"inputField\">Development
+        Application</span></p><p class=\"rowDataOnly\"><span class=\"key\">Type of
+        Work</span><span class=\"inputField\">Industry Hardstand &amp; Lean-To</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">85/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,001,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=47\">48 Hayes Street EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling
+        (Strata Title)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39586/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=48\">Unit 1 1 Herbert Road EAST
+        BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Roof
+        Re-Cladding</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39567/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">03/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$17,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=49\">16 Herbert Road EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Club Premises
+        Bunbury Football Club Change Room</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">79/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$550,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=50\">Apartment 13 Level 5 21 Holman
+        Street BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 2 - Lift
+        Installation</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39571/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=51\">11 Holywell Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Addition
+        to Dwelling</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39563/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=52\">43 Hoylake Avenue SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39520/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">21/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$25,650.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=53\">43 Hoylake Avenue SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">74/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$25,650.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=54\">38 Hudson Road WITHERS  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Ancillary
+        Accomodation (Unauthorised)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39576/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">03/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$55,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">11/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=55\">65
+        Hudson Road WITHERS  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        1A - Ancillary Dwelling</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39565/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$211,150.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">11/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=56\">3
+        Ingram Court SOUTH BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10A - Porch</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39518/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,886.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=57\">1 Irwin Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Roof
+        Re-Cladding</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39573/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$18,750.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=58\">1 Island Queen Street WITHERS
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10B - Communications
+        Tower</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">39569/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">04/04/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$350,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=59\">3 Lambert Loop COLLEGE GROVE
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling
+        (New)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">39516/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">19/03/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$249,700.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">02/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=60\">5
+        Lambert Loop COLLEGE GROVE  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        1A - Dwelling (New)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39515/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$249,700.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">02/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=61\">28
+        Lambert Loop COLLEGE GROVE  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        1A - Dwelling</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39568/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">03/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$322,750.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=62\">24B Latreille Road SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39552/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$382,846.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=63\">40 Lingard Loop USHER  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39546/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$351,493.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=64\">13B Little Street CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio
+        (Unauthorised)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39587/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=65\">45 Mangles Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed
+        (Demolition)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39545/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$8,505.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">03/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=66\">45
+        Mangles Street SOUTH BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10A - Shed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39580/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$49,300.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=67\">39 Mary Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A &amp;
+        1B - Pool &amp; Deck</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39553/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$18,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">11/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=68\">59
+        Mary Street SOUTH BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10A - Carport</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39555/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$11,980.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=69\">8 Mason Street DAVENPORT  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Warehouse/Storage
+        Workshop / Office</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">89/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,320,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=70\">70 McCombe Road DAVENPORT
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 8 - Commercial
+        (Workshop &amp; Office)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39527/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$3,097,200.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">03/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=71\">16
+        Meredith Way USHER  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39579/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$17,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=72\">83 Minninup Road SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Ancillary
+        Dwelling</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39583/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$70,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=73\">1 Monoghan Place SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">New Retaining
+        Wall</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">39543/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">28/03/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$45,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=74\">1 Monoghan Place SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">New Retaining
+        Wall</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">39549/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">31/03/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$45,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=75\">Moonlight Drive GLEN IRIS
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">GBRS - Land Use
+        Not Applicable Signage on Reserve 52259</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">64/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,100.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=76\">53 Moonlight Drive GLEN IRIS
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39594/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,200.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=77\">60 Moonlight Drive GLEN IRIS
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwellings
+        x 2</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">39542/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">27/03/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$1,642,380.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=78\">29 Moore Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Air
+        Conditioner Units</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">270/2024</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$5,500.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=79\">6 Mossop Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 9B - Child
+        Care Centre</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">38707/2024</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">18/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$502,941.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=80\">7B Mossop Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling
+        Grouped Dwelling x1</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">50/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$180,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=81\">7C Mossop Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling
+        Grouped Dwelling x1</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">51/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$180,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=82\">1 Nash Street GLEN IRIS  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39548/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$16,850.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=83\">3 Nash Street GLEN IRIS  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Roof
+        Re-Cladding</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39524/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,750.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=84\">19 North Street EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling
+        (New)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">39523/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">21/03/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$569,974.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">04/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=85\">21
+        Nyabing Way WITHERS  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10A - Carport &amp; Patio New Carport and Patio</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39512/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">18/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$17,064.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=86\">233 Ocean Drive WITHERS  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39525/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$9,053.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=87\">10 Palmerston Street CAREY
+        PARK  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39532/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$5,500.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">09/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=88\">25
+        Parkfield Street BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        10A - Patio</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39534/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$17,500.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=89\">21 Patrick Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling
+        Alts &amp; Adds Living Room</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39588/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$76,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=90\">25 Payton Way USHER  WA  6230</a></h4><div><p
+        class=\"rowDataOnly\"><span class=\"key\">Type</span><span class=\"inputField\">Development
+        Application</span></p><p class=\"rowDataOnly\"><span class=\"key\">Type of
+        Work</span><span class=\"inputField\">Single House Patio</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">90/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">11/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$18,850.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=91\">25 Payton Way USHER  WA  6230</a></h4><div><p
+        class=\"rowDataOnly\"><span class=\"key\">Type</span><span class=\"inputField\">Building
+        Permit</span></p><p class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span
+        class=\"inputField\">Class 10A - Patio</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39592/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">11/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,900.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=92\">22 Picton Crescent BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A - Dwelling
+        &amp; Retaining Wall New Retaining Wall</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">39513/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=93\">20 Picton Road EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39557/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$14,800.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=94\">10 Prosser Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Ancillary
+        Dwelling x1</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">67/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$209,594.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=95\">10 Rodgers Place CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39535/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$15,900.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=96\">7 Shenton Street EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">91/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$311,166.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=97\">130 South Western Highway
+        GLEN IRIS  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Outbuilding</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">71/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$15,412.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=98\">226 South Western Highway
+        PICTON  WA  6229</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Industry - Light
+        Shed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">73/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">20/03/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$68,305.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=99\">27 Spencer Street BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 9B - Gym
+        Stage 1 (Revo)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39537/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,100,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">10/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=100\">98
+        Spencer Street SOUTH BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Development Application</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Restaurant/Cafe
+        Change of Use to Restaurant/Cafe</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">69/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$400,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=101\">59 Stirling Street BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        Liquor Store Small &amp; Shop</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">92/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,200.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=102\">133 Stirling Street BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Amendment
+        to Original Approval 2022/237/1</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">237/2022</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">09/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=103\">42
+        Strickland Street BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Development Application</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Medical
+        Centre Change of Use to Medical Centre (Health By Nurture Extension)</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">86/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$60,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=104\">63 Sweeny Street CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39589/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$11,307.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=105\">7 The Strand BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Amendment
+        to Original Approval 2024/75</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">75/2024</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,000,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=106\">10 Tilley Crescent EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39578/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,850.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=107\">16 Tilley Crescent EAST BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">77/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$12,626.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=108\">47 Tuart Street BUNBURY  WA
+        \ 6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">62/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$11,620.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=109\">16 Victoria Street BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 5 - Office
+        Fitout (Rabobank)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39517/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$278,188.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">28/03/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=110\">38
+        Vittoria Road GLEN IRIS  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type</span><span class=\"inputField\">Building Permit</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Type of Work</span><span class=\"inputField\">Class
+        9B &amp; 5 - Assembly Building &amp; Office (Stage 2 Works)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">38954/2024</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=111\">31 Wallrodt Crescent GLEN
+        IRIS  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10B - Shade
+        Sail</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span
+        class=\"inputField\">39550/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">31/03/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Cost of Work</span><span class=\"inputField\">$18,678.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=112\">26 Ward Street SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Child Care Premises
+        Child Care Premises</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">87/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,750,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=113\">33 Webber Street CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39562/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$5,605.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=114\">27 Wellington Street BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 6 - Alfresco
+        (Rose Hotel)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">39514/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$37,300.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=115\">13 West Road SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Shed</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39544/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=116\">12 Willoughby Street SOUTH
+        BUNBURY  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 1A &amp;
+        10A - Dwelling &amp; Garage (Demolition) New Garage/Garden Shed/Workshop</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39556/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$16,950.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=117\">1 Willow Drive SOUTH BUNBURY
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39554/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$14,295.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=118\">19 Windich Way CAREY PARK
+        \ WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Patio</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39570/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$8,100.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=119\">Unit 2 2 Woodrow Street CAREY
+        PARK  WA  6230</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type</span><span
+        class=\"inputField\">Building Permit</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Class 10A - Carport</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">39551/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$5,900.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><div class=\"button-panel\"><a href=\"/eservice/daEnquiryInit.do?nodeNum=11264&amp;goingBack=true\">New
+        Search</a></div></div>\r\n<div>\r\n\n\t<!-- CIVICA-CONTENT-END:bodypanel1
+        -->\n</div>\n\n\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n</div>\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>&#169;
+        Civica Pty. Ltd. 2017\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\n\n"
+  recorded_at: Mon, 14 Apr 2025 14:00:00 GMT
+recorded_with: VCR 6.0.0
