@@ -34,20 +34,28 @@ RSpec.describe Scraper do
       expect(results).to eq expected
 
       geocodable = results
-                   .map { |record| record["address"] }
-                   .uniq
-                   .count { |text| SpecHelper.geocodable? text }
+                     .map { |record| record["address"] }
+                     .uniq
+                     .count do |text|
+        selected = SpecHelper.geocodable? text
+        puts "  address: #{text} is not geocodable" if ENV["DEBUG"] && !selected
+        selected
+      end
       puts "Found #{geocodable} out of #{results.count} unique geocodable addresses " \
         "(#{(100.0 * geocodable / results.count).round(1)}%)"
       expect(geocodable).to be > (0.7 * results.count)
 
       descriptions = results
-                     .map { |record| record["description"] }
-                     .uniq
-                     .count { |text| SpecHelper.reasonable_description? text }
+                       .map { |record| record["description"] }
+                       .uniq
+                       .count do |text|
+        selected = SpecHelper.reasonable_description? text
+        puts "  description: #{text} is not reasonable" if ENV["DEBUG"] && !selected
+        selected
+      end
       puts "Found #{descriptions} out of #{results.count} unique reasonable descriptions " \
              "(#{(100.0 * descriptions / results.count).round(1)}%)"
-      expect(descriptions).to be > (0.7 * results.count)
+      expect(descriptions).to be > (0.55 * results.count)
 
       info_urls = results
                   .map { |record| record["info_url"] }

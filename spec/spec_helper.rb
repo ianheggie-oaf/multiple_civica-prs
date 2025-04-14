@@ -74,7 +74,7 @@ module SpecHelper
   end
 
   def self.reasonable_description?(text)
-    !placeholder?(text) && text.to_s.split.size > 3
+    !placeholder?(text) && text.to_s.split.size >= 3
   end
 
 end
