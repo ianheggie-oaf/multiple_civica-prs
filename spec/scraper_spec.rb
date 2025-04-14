@@ -8,8 +8,7 @@ RSpec.describe Scraper do
       File.delete("./data.sqlite") if File.exist?("./data.sqlite")
 
       VCR.use_cassette(authority) do
-        # Vincent doesn't have older data in their system
-        date = authority == :vincent ? Date.new(2023, 5, 1) : Date.new(2019, 5, 15)
+        date = Date.new(2025, 4, 15)
         Timecop.freeze(date) do
           Scraper.scrape([authority], 1)
         end
