@@ -17,6 +17,10 @@ module CivicaScraper
       # Looks like they're geoblocking non australian web requests. Sigh.
       australian_proxy: true
     },
+    camden: {
+      url: "https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010",
+      period: :last30days
+    },
     cairns: {
       url: "https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227",
       period: :last30days
