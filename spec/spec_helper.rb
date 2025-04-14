@@ -9,9 +9,7 @@ RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"
 
-  # Make it stop on the first failure. Makes in this case
-  # for quicker debugging
-  config.fail_fast = true
+  config.fail_fast = !ENV["FAIL_FAST"].to_s.empty?
 
   # Disable RSpec exposing methods globally on `Module` and `main`
   config.disable_monkey_patching!
