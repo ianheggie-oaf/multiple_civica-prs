@@ -26,6 +26,11 @@ VCR.configure do |c|
 end
 
 AUSTRALIAN_STATES = %w[ACT NSW NT QLD SA TAS VIC WA].freeze
+COMMON_STREET_TYPES =
+  %w[
+    Avenue Ave Boulevard Court Crt Circle Chase Circuit Close Crescent
+    Drive Drv Lane Loop Parkway Place Parade Road Rd Street St Square Terrace Way
+  ].freeze
 AUSTRALIAN_POSTCODES = /\b\d{4}\b/.freeze
 
 module SpecHelper
@@ -46,18 +51,24 @@ module SpecHelper
     has_state = AUSTRALIAN_STATES.any? { |state| address.end_with?(" #{state}") || address.include?(" #{state} ") }
     has_postcode = address.match?(AUSTRALIAN_POSTCODES)
 
-    # Check for street identifiers (common street types)
-    street_types = %w[Street St Road Rd Avenue Ave Drive Drv Lane Court Crt Place Parade Way Loop Terrace Circuit Close Crescent]
-    has_street_type = street_types.any? { |type| address.include?(" #{type}") || address.include?(" #{type.upcase}") }
+    has_street_type = COMMON_STREET_TYPES.any? { |type| address.include?(" #{type}") || address.include?(" #{type.upcase}") }
 
-    # Check for unit/lot information
     has_unit_or_lot = address.match?(/\b(Unit|Lot:?)\s+\d+/i)
 
-    # Check for suburb in uppercase (common format in these examples)
+    # Check for suburb in uppercase
     has_uppercase_suburb = address.match?(/\b[A-Z]{2,}(\s+[A-Z]+)*,?\s+(#{AUSTRALIAN_STATES.join('|')})\b/)
 
-    # An address is geocodable if it has a street identifier, a state, and a postcode
-    # or if it has unit/lot information, a state, and a postcode
+    if ENV["DEBUG"]
+      missing = []
+      unless has_street_type || has_unit_or_lot
+        missing << "street type / unit / lot"
+      end
+      missing << "state" unless has_state
+      missing << "postcode" unless has_postcode
+      missing << "uppercase_suburb" unless has_uppercase_suburb
+      puts "  address: #{address} is not geocodable, missing #{missing.join(', ')}" if missing.any?
+    end
+
     (has_street_type || has_unit_or_lot) && has_state && has_postcode && has_uppercase_suburb
   end
 
@@ -76,5 +87,4 @@ module SpecHelper
   def self.reasonable_description?(text)
     !placeholder?(text) && text.to_s.split.size >= 3
   end
-
 end
