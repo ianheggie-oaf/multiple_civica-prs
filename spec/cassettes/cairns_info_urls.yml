@@ -1,0 +1,327 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - eservices.cairns.qld.gov.au
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache,no-store,max-age=0,must-revalidate,proxy-revalidate
+      Pragma:
+      - No-cache
+      Content-Type:
+      - text/html
+      Content-Language:
+      - en-AU
+      Expires:
+      - '0'
+      Server:
+      - Microsoft-IIS/10.0
+      X-Powered-By:
+      - Servlet/3.1
+      Content-Security-Policy:
+      - 'default-src ''self'' https://sec.paymentexpress.com https://uat.paymentexpress.com
+        https://payment.securepay.com.au https://test.payment.securepay.com.au https://www.bpoint.com.au
+        https://bpoint-uat.premier.com.au;frame-src ''self'' https://www.google.com
+        http://www.google.com; script-src ''self'' https://www.google.com http://www.google.com
+        https://www.gstatic.com http://www.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com ''unsafe-inline'' ''unsafe-eval''; connect-src
+        ''self''; img-src ''self'' data: ''unsafe-eval'' https://www.paypalobjects.com
+        http://www.paypalobjects.com https://www.paypal.com http://www.paypal.com
+        https://maps.gstatic.com http://maps.gstatic.com https://maps.googleapis.com
+        http://maps.googleapis.com; style-src ''self'' https://fonts.googleapis.com
+        http://fonts.googleapis.com https://fonts.googleapis.com http://fonts.googleapis.com
+        ''unsafe-inline''; base-uri ''self''; form-action ''self'' https://www.bpoint.com.au
+        https://bpoint-uat.premier.com.au https://bpoint.uat.linkly.com.au;font-src
+        ''self'' https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.gstatic.com
+        http://fonts.gstatic.com; object-src data: ''unsafe-eval'';'
+      Set-Cookie:
+      - JSESSIONID_live=0000CjTqGI_MnLswwplQut76s2_:-1; Path=/; HttpOnly
+      Date:
+      - Mon, 14 Apr 2025 17:32:28 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n\n\n\n    \n        \n\t        \n        \n          \n
+        \ \n\n\n\n      \n      \n\n\n\n      \n\t  \n      \n      \n\n\n\n    \n
+        \   \n        \n        \n    \n\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML
+        4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-AU\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"
+        />\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\tCairns Regional Council\r\n\t\t</title>\r\n\t\t<link
+        rel=\"stylesheet\" href=\"/eservice/library/bootstrap-3.4.1.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/jquery-ui.structure.min.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/library/daEnquiry_daEnquiry.css\" id=\"pagecss\" type=\"text/css\"
+        media=\"screen, projection\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/library/e-style.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n\r\n\t\t<script>var AUTHJS = {};AUTHJS.productName
+        = \"i-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/jscalendar-1.0/calendar.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-3.6.0.min.js\"></script>\r\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-3.4.1.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.common.init.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.functions.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/util.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/json2.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/effects.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/controls.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/dragdrop.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/lightbox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menu.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/menuScroll.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/sitemap.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.imageTickBox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery.metadata.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery.form-3.46.0.js\"></script>\r\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/da.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/javascript/mkTree.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";
+        \   \r\n\t\t\t} else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";
+        \      \r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage + \" a.tab-clicker\").not(\".tabs-content
+        *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function() {\r\n\t\tvar
+        isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',
+        \r\n\t\t\t\t'hide.bs.collapse', \r\n\t\t\t\t'hide.bs.modal', \r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n\t\r\n\t\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span></span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tCairns
+        Regional Council\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tLog On\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\t\t<!-- End Masthead navbar -->\r\n\r\n\r\n\t\t<div
+        id=\"content\">\r\n\r\n\t\t\t<div class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div
+        class=\"row\" id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>  \r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n<h2>\r\n\tNavigation
+        Problem\r\n</h2>\r\n\r\n<p>There has been a problem with Site Navigation.</p>\r\n<!--
+        javax.servlet.jsp.JspException: Define tag cannot set a null value -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiry\">\r\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryDocumentTypeDefaultTypes\">\r\n\r\n\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\t\n\t\n\t\t\n\t\t<h1>\n\t\t\t\n
+        \         \n          \n              Development Application Enquiry\n          \n\t
+        \ \n\t\t\t\n\t\t</h1>\n\t\n\t\n\n\t\n\t\n<div id=\"leftcontent\">\n\n\t\t\t\n\n\n\n\n\n<div
+        class=\"infopanel\">    \n\t<!-- CIVICA-INFO-START -->   \n\t\n        <div
+        id=\"infopanel-header\">\n\t        <h4 class=\"entryHeader\" >\n\t            \n\t\tInstructions\n\t\t\n\t
+        \       </h4>\n        </div>\n\t\n    <div id=\"instructions-content\" class=\"instructions\">\r\n\n
+        \       \n\n\n\n\n\nTo make an enquiry enter some information that identifies
+        the applications or properties of interest.  <br/>The results are displayed
+        by street name order.\n\n    </div>\r\n\n\t<!-- CIVICA-INFO-END -->\n</div>\n\n</div>\n<div
+        id=\"rightcontent\">\n\t\t\n\t\t\t\n\t\t\n\n\n\n\n<div class=\"bodypanel\"
+        id=\"bodypanel1\">   \t\t\n\t<!-- CIVICA-CONTENT-START:bodypanel1 -->\n\t\n
+        \  <h2 >\n\t\t\n\t\t\n\t      \t\tApplication Details\n\t        \n    </h2>\n\n\t\t<?xml
+        version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div>\r\n  <form action=\"daEnquiry.do\"
+        id=\"daEnquiryForm\" name=\"daEnquiryForm\">\r\n    <fieldset>\r\n      <p
+        class=\"rowDataOnly\">\r\n        <span class=\"key\">Reference No.</span>\r\n
+        \       <input type=\"text\" name=\"number\" id=\"DANumber\" size=\"10\" maxlength=\"10\"
+        errors=\"DANumber\" value=\"\" />\r\n        <span class=\"subText\">eg 121/2005</span>\r\n
+        \     </p>\r\n      <p class=\"rowDataOnly\">\r\n        <span class=\"rowInfo\">\r\n
+        \         <strong>OR</strong>\r\n          use any of the following search
+        fields:\r\n        </span>\r\n      </p>\r\n      <p>\r\n        \r\n        &nbsp;\r\n
+        \       \r\n      </p>\r\n      <fieldset>\r\n        <legend>Lodgement Date</legend>\r\n
+        \       <div class=\"row\" id=\"daFromDateRow\">\r\n          <label class=\"key\"
+        for=\"DADateFrom\" id=\"daFromDateLabel\">From</label>\r\n          <span
+        class=\"inputField\" id=\"daFromDateInput\">\r\n            <input type=\"text\"
+        name=\"dateFrom\" id=\"DADateFrom\" size=\"10\" maxlength=\"10\" errors=\"DADateFrom\"
+        value=\"\" />\r\n            <a href=\"calendar.html\" id=\"button-DADateFrom\"
+        class=\"calendar-launch\" title=\"Calendar\">\r\n              <img src=\"/eservice/icons/calendar.png\"
+        alt=\"Calendar\" />\r\n            </a>\r\n            <script type=\"text/javascript\">Calendar.setup({
+        inputField : \"DADateFrom\", \r\n                         ifFormat : \"%d/%m/%Y\",
+        \r\n                         button : \"button-DADateFrom\", \r\n                         step
+        : 1 , \r\n                         weekNumbers : false}\r\n        );</script>\r\n
+        \           <span class=\"subText\">dd/mm/yyyy</span>\r\n          </span>\r\n
+        \       </div>\r\n        <div class=\"row\" id=\"daToDateRow\">\r\n          <label
+        class=\"key\" for=\"DADateTo\" id=\"daToDateLabel\">To</label>\r\n          <span
+        class=\"inputField\" id=\"daToDateInput\">\r\n            <input type=\"text\"
+        name=\"dateTo\" id=\"DADateTo\" size=\"10\" maxlength=\"10\" errors=\"DADateTo\"
+        value=\"\" />\r\n            <a href=\"calendar.html\" id=\"button-DADateTo\"
+        class=\"calendar-launch\" title=\"Calendar\">\r\n              <img src=\"/eservice/icons/calendar.png\"
+        alt=\"Calendar\" />\r\n            </a>\r\n            <script type=\"text/javascript\">Calendar.setup({
+        inputField : \"DADateTo\", \r\n                         ifFormat : \"%d/%m/%Y\",
+        \r\n                         button : \"button-DADateTo\", \r\n                         step
+        : 1 , \r\n                         weekNumbers : false}\r\n        );</script>\r\n
+        \           <span class=\"subText\">dd/mm/yyyy</span>\r\n          </span>\r\n
+        \       </div>\r\n      </fieldset>\r\n      <fieldset>\r\n        <legend>Property
+        Details</legend>\r\n        <table>\r\n          <tr>\r\n            <div
+        class=\"row\" id=\"streetNameRow\">\r\n              <td>\r\n                <span
+        class=\"key\">Street Name</span>\r\n              </td>\r\n              <td>\r\n
+        \               <input type=\"text\" name=\"streetName\" id=\"streetName\"
+        size=\"20\" onblur=\"javascript:getHouseNum(); javascript:getSuburb()\" value=\"\"
+        />\r\n                <div id=\"streetHints\" class=\"autocompleter\">\r\n
+        \                 \r\n                  &nbsp;\r\n                  \r\n                </div>\r\n
+        \             </td>\r\n            </div>\r\n            <div class=\"row\"
+        id=\"suburbDropdownRow\">\r\n              <td>\r\n                <span class=\"key\">Suburb</span>\r\n
+        \             </td>\r\n              <td>\r\n                <div id=\"suburbSelect\">\r\n
+        \                 <select name=\"suburb\" id=\"suburb\">\r\n                    <option
+        value=\"0\" selected=\"selected\">- -None Selected- -</option>\r\n                    <option
+        value=\"10\">AEROGLEN</option>\r\n                    <option value=\"20\">ALOOMBA</option>\r\n
+        \                   <option value=\"30\">BABINDA</option>\r\n                    <option
+        value=\"1010\">BAMBOO</option>\r\n                    <option value=\"780\">BARRON</option>\r\n
+        \                   <option value=\"790\">BARRON GORGE</option>\r\n                    <option
+        value=\"800\">BARTLE FRERE</option>\r\n                    <option value=\"40\">BAYVIEW
+        HEIGHTS</option>\r\n                    <option value=\"50\">BELLENDEN KER</option>\r\n
+        \                   <option value=\"810\">BENTLEY PARK</option>\r\n                    <option
+        value=\"1020\">BLOOMFIELD</option>\r\n                    <option value=\"1030\">BONNIE
+        DOON</option>\r\n                    <option value=\"70\">BRAMSTON BEACH</option>\r\n
+        \                   <option value=\"80\">BRINSMEAD</option>\r\n                    <option
+        value=\"1040\">BUCHAN</option>\r\n                    <option value=\"100\">BUNGALOW</option>\r\n
+        \                   <option value=\"820\">CAIRNS CITY</option>\r\n                    <option
+        value=\"120\">CAIRNS NORTH</option>\r\n                    <option value=\"1050\">CAPE
+        TRIBULATION</option>\r\n                    <option value=\"130\">CARAVONICA</option>\r\n
+        \                   <option value=\"1060\">CASSOWARY</option>\r\n                    <option
+        value=\"1070\">CEDARS</option>\r\n                    <option value=\"140\">CLIFTON
+        BEACH</option>\r\n                    <option value=\"1080\">COOYA BEACH</option>\r\n
+        \                   <option value=\"1090\">COW BAY</option>\r\n                    <option
+        value=\"1100\">CRAIGLIE</option>\r\n                    <option value=\"1110\">DAINTREE</option>\r\n
+        \                   <option value=\"1120\">DEDIN</option>\r\n                    <option
+        value=\"150\">DEERAL</option>\r\n                    <option value=\"1130\">DEGARRA</option>\r\n
+        \                   <option value=\"1140\">DIWAN</option>\r\n                    <option
+        value=\"1150\">DOUBLE ISLAND</option>\r\n                    <option value=\"1160\">DULANBAN</option>\r\n
+        \                   <option value=\"170\">EARLVILLE</option>\r\n                    <option
+        value=\"830\">EAST RUSSELL</option>\r\n                    <option value=\"900\">EAST
+        TRINITY</option>\r\n                    <option value=\"180\">EDGE HILL</option>\r\n
+        \                   <option value=\"190\">EDMONTON</option>\r\n                    <option
+        value=\"200\">ELLIS BEACH</option>\r\n                    <option value=\"690\">EUBENANGEE</option>\r\n
+        \                   <option value=\"1180\">FINLAYVALE</option>\r\n                    <option
+        value=\"210\">FISHERY FALLS</option>\r\n                    <option value=\"220\">FITZROY
+        ISLAND</option>\r\n                    <option value=\"1190\">FOREST CREEK</option>\r\n
+        \                   <option value=\"240\">FRESHWATER</option>\r\n                    <option
+        value=\"840\">GLEN BOUGHTON</option>\r\n                    <option value=\"250\">GOLDSBOROUGH</option>\r\n
+        \                   <option value=\"260\">GORDONVALE</option>\r\n                    <option
+        value=\"930\">GREEN HILL</option>\r\n                    <option value=\"270\">GREEN
+        ISLAND</option>\r\n                    <option value=\"280\">HOLLOWAYS BEACH</option>\r\n
+        \                   <option value=\"290\">KAMERUNGA</option>\r\n                    <option
+        value=\"300\">KANIMBLA</option>\r\n                    <option value=\"310\">KEWARRA
+        BEACH</option>\r\n                    <option value=\"1200\">KILLALOE</option>\r\n
+        \                   <option value=\"1210\">KIMBERLEY</option>\r\n                    <option
+        value=\"860\">LAMB RANGE</option>\r\n                    <option value=\"670\">LITTLE
+        MULGRAVE</option>\r\n                    <option value=\"1220\">LOW ISLAND</option>\r\n
+        \                   <option value=\"1230\">LOWER DAINTREE</option>\r\n                    <option
+        value=\"870\">MACALISTER RANGE</option>\r\n                    <option value=\"320\">MACHANS
+        BEACH</option>\r\n                    <option value=\"330\">MANOORA</option>\r\n
+        \                   <option value=\"340\">MANUNDA</option>\r\n                    <option
+        value=\"1240\">MC DOWALL</option>\r\n                    <option value=\"350\">MERINGA</option>\r\n
+        \                   <option value=\"1250\">MIALLO</option>\r\n                    <option
+        value=\"360\">MIRRIWINNI</option>\r\n                    <option value=\"370\">MOOROOBOOL</option>\r\n
+        \                   <option value=\"1260\">MOSSMAN</option>\r\n                    <option
+        value=\"1270\">MOSSMAN GORGE</option>\r\n                    <option value=\"880\">MOUNT
+        PETER</option>\r\n                    <option value=\"890\">MOUNT SHERIDAN</option>\r\n
+        \                   <option value=\"1280\">MOWBRAY</option>\r\n                    <option
+        value=\"1290\">NEWELL</option>\r\n                    <option value=\"610\">NGATJAN</option>\r\n
+        \                   <option value=\"1300\">OAK BEACH</option>\r\n                    <option
+        value=\"940\">PACKERS CAMP</option>\r\n                    <option value=\"380\">PALM
+        COVE</option>\r\n                    <option value=\"490\">PARRAMATTA PARK</option>\r\n
+        \                   <option value=\"1310\">PORT DOUGLAS</option>\r\n                    <option
+        value=\"500\">PORTSMITH</option>\r\n                    <option value=\"510\">REDLYNCH</option>\r\n
+        \                   <option value=\"1320\">ROCKY POINT</option>\r\n                    <option
+        value=\"1330\">SALISBURY</option>\r\n                    <option value=\"1340\">SHANNONVALE</option>\r\n
+        \                   <option value=\"530\">SMITHFIELD</option>\r\n                    <option
+        value=\"1350\">SPURGEON</option>\r\n                    <option value=\"1360\">STEWART
+        CREEK VALLEY</option>\r\n                    <option value=\"550\">STRATFORD</option>\r\n
+        \                   <option value=\"1370\">SYNDICATE</option>\r\n                    <option
+        value=\"1380\">THORNTON BEACH</option>\r\n                    <option value=\"1390\">THORNTON
+        BEACH</option>\r\n                    <option value=\"560\">TRINITY BEACH</option>\r\n
+        \                   <option value=\"570\">TRINITY PARK</option>\r\n                    <option
+        value=\"999\">UNNAMED</option>\r\n                    <option value=\"1400\">UPPER
+        DAINTREE</option>\r\n                    <option value=\"1410\">WANGETTI</option>\r\n
+        \                   <option value=\"630\">WAUGH POCKET</option>\r\n                    <option
+        value=\"580\">WESTCOURT</option>\r\n                    <option value=\"1420\">WHITBY</option>\r\n
+        \                   <option value=\"590\">WHITE ROCK</option>\r\n                    <option
+        value=\"600\">WHITFIELD</option>\r\n                    <option value=\"1430\">WHYANBEEL</option>\r\n
+        \                   <option value=\"1440\">WONGA</option>\r\n                    <option
+        value=\"720\">WOOPEN CREEK</option>\r\n                    <option value=\"910\">WOOROONOORAN</option>\r\n
+        \                   <option value=\"640\">WOREE</option>\r\n                    <option
+        value=\"920\">WRIGHTS CREEK</option>\r\n                    <option value=\"650\">YORKEYS
+        KNOB</option>\r\n                  </select>\r\n                </div>\r\n
+        \             </td>\r\n            </div>\r\n          </tr>\r\n          <tr>\r\n
+        \           <div class=\"row\" id=\"unitNumRow\">\r\n              <td>\r\n
+        \               <span class=\"key\">Unit</span>\r\n              </td>\r\n
+        \             <td>\r\n                <input type=\"text\" name=\"unitNum\"
+        id=\"unitNum\" size=\"10\" value=\"\" />\r\n              </td>\r\n            </div>\r\n
+        \           <div class=\"row\" id=\"houseNumRow\">\r\n              <td>\r\n
+        \               <span class=\"key\">House No.</span>\r\n              </td>\r\n
+        \             <td>\r\n                <div id=\"houseNumSelect\">\r\n                  <select
+        name=\"houseNum\" id=\"houseNum\">\r\n                    <option value=\"0\">-
+        -None Selected- -</option>\r\n                  </select>\r\n                </div>\r\n
+        \             </td>\r\n            </div>\r\n          </tr>\r\n          <tr>\r\n
+        \           <div class=\"row\" id=\"planNumberRow\">\r\n              <td>\r\n
+        \               <span class=\"key\">Plan</span>\r\n              </td>\r\n
+        \             <td>\r\n                <input type=\"text\" name=\"planNumber\"
+        id=\"planNumber\" size=\"10\" value=\"\" />\r\n              </td>\r\n            </div>\r\n
+        \           <div class=\"row\" id=\"lotRow\">\r\n              <td>\r\n                <span
+        class=\"key\">Lot</span>\r\n              </td>\r\n              <td>\r\n
+        \               <input type=\"text\" name=\"lotNumber\" id=\"lotNumber\" size=\"10\"
+        value=\"\" />\r\n              </td>\r\n            </div>\r\n          </tr>\r\n
+        \       </table>\r\n      </fieldset>\r\n    </fieldset>\r\n    <div class=\"button-panel\">\r\n
+        \     <input type=\"submit\" name=\"submitButton\" class=\"button\" value=\"Search\"
+        />\r\n      <input type=\"button\" name=\"clearButton\" class=\"button\" value=\"Clear\"
+        onclick=\"javascript:clearDaEnquiryFields()\" />\r\n    </div>\r\n  </form>\r\n</div>\r\n\r\n\n\t<!--
+        CIVICA-CONTENT-END:bodypanel1 -->\n</div>\n\n\n\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n</div>\n\n\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n
+        \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>&#169;
+        Civica Pty. Ltd. 2017\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\n"
+  recorded_at: Mon, 14 Apr 2025 17:32:28 GMT
+recorded_with: VCR 6.0.0
