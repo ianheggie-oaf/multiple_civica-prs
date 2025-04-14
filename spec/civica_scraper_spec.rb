@@ -37,6 +37,8 @@ RSpec.describe CivicaScraper do
       end
 
       expect(results).to eq expected
+      geocodable = results.count { |r| AddressHelper.geocodable? r["address"]}
+      expect(geocodable).to be > (0.7 * results.count)
     end
 
     Scraper.selected_authorities.each do |authority|

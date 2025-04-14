@@ -26,3 +26,41 @@ VCR.configure do |c|
   c.hook_into :webmock
   c.configure_rspec_metadata!
 end
+
+AUSTRALIAN_STATES = %w[ACT NSW NT QLD SA TAS VIC WA].freeze
+AUSTRALIAN_POSTCODES = /\b\d{4}\b/.freeze
+
+module AddressHelper
+  # Check if an address is likely to be geocodable by analyzing its format
+  # @param address [String] The address to check
+  # @return [Boolean] True if the address appears to be geocodable.
+  #
+  # Based on: "The physical address that this application relates to.
+  # This will be geocoded so doesn't need to be a specific format but
+  # obviously the more explicit it is the more likely it will be
+  # successfully geo-coded.
+  # If the original address did not include the state (e.g. "QLD") at the end,
+  # then add it. "
+  def self.geocodable?(address)
+    return false if address.nil? || address.empty?
+
+    # Basic structure check - must have a street name, suburb, state and postcode
+    has_state = AUSTRALIAN_STATES.any? { |state| address.end_with?(" #{state}") || address.include?(" #{state} ") }
+    has_postcode = address.match?(AUSTRALIAN_POSTCODES)
+
+    # Check for street identifiers (common street types)
+    street_types = %w[Street St Road Rd Avenue Ave Drive Drv Lane Court Crt Place Parade Way Loop Terrace Circuit Close Crescent]
+    has_street_type = street_types.any? { |type| address.include?(" #{type}") || address.include?(" #{type.upcase}") }
+
+    # Check for unit/lot information
+    has_unit_or_lot = address.match?(/\b(Unit|Lot:?)\s+\d+/i)
+
+    # Check for suburb in uppercase (common format in these examples)
+    has_uppercase_suburb = address.match?(/\b[A-Z]{2,}(\s+[A-Z]+)*,?\s+(#{AUSTRALIAN_STATES.join('|')})\b/)
+
+    # An address is geocodable if it has a street identifier, a state, and a postcode
+    # or if it has unit/lot information, a state, and a postcode
+    (has_street_type || has_unit_or_lot) && has_state && has_postcode && has_uppercase_suburb
+  end
+end
+
