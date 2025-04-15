@@ -1,155 +1,359 @@
 ---
-- council_reference: 100/2023
-  address: Unit 3 1 Braid Street PERTH WA 6000
-  description: Change of Use to Short Term Accommodation
-  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-04'
-  date_scraped: '2023-05-01'
-  authority_label: vincent
-- council_reference: 101/2023
-  address: 56 Venn Street NORTH PERTH WA 6006
-  description: Small Business - Change of Use from Residential to Office
-  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-05'
-  date_scraped: '2023-05-01'
-  authority_label: vincent
-- council_reference: 102/2023
-  address: 514 William Street HIGHGATE WA 6003
-  description: Grouped Dwellings (4) Amendment to Approved)
-  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-06'
-  date_scraped: '2023-05-01'
-  authority_label: vincent
-- council_reference: 103/2023
-  address: Unit 16 1 Chelmsford Road MOUNT LAWLEY WA 6050
-  description: Alterations and Additions to Multiple Dwelling
-  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-06'
-  date_scraped: '2023-05-01'
-  authority_label: vincent
-- council_reference: 104/2023
-  address: 3 Shakespeare Street LEEDERVILLE WA 6007
-  description: Single House
-  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-06'
-  date_scraped: '2023-05-01'
-  authority_label: vincent
-- council_reference: 105/2023
-  address: 191 Oxford Street LEEDERVILLE WA 6007
-  description: Alterations and Additions to Single House (Unauthorised Existing Development)
-  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-12'
-  date_scraped: '2023-05-01'
-  authority_label: vincent
-- council_reference: 107/2023
-  address: 87 Smith Street HIGHGATE WA 6003
-  description: Alterations and Additions to Single House
-  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-13'
-  date_scraped: '2023-05-01'
-  authority_label: vincent
-- council_reference: 108/2023
-  address: 566-570 Beaufort Street MOUNT LAWLEY WA 6050
+- council_reference: 101/2025
+  address: 260 Charles Street NORTH PERTH WA 6006
   description: Written Planning Advice
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-13'
-  date_scraped: '2023-05-01'
+  date_received: '2025-03-17'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 109/2023
-  address: Unit 6 79 Brisbane Street PERTH WA 6000
-  description: Change of Use from Office to Multiple Dwelling
+- council_reference: 102/2025
+  address: 45 Vincent Street MOUNT LAWLEY WA 6050
+  description: Cl.61 A Deemed-to-comply check
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-17'
-  date_scraped: '2023-05-01'
+  date_received: '2025-03-17'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 110/2023
-  address: 5 Franklin Street LEEDERVILLE WA 6007
-  description: Grouped Dwelling & Alterations and Additions to Existing Grouped Dwelling
+- council_reference: 103/2025
+  address: 159 Grosvenor Road NORTH PERTH WA 6006
+  description: Alterations and Additions to Single House
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-17'
-  date_scraped: '2023-05-01'
+  date_received: '2025-03-17'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 111/2023
-  address: 29 Lindsay Street PERTH WA 6000
-  description: Small Business - Alterations and Additions to Restaurant Cafe
+- council_reference: 104/2025
+  address: 148 Palmerston Street PERTH WA 6000
+  description: Change of Use from Lodging House to Dependent Persons Dwellings
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-17'
-  date_scraped: '2023-05-01'
+  date_received: '2025-03-18'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 112/2023
-  address: 459 Fitzgerald Street NORTH PERTH WA 6006
-  description: Alterations and Additions to Hotel (Amendment to Approved)
+- council_reference: 105/2025
+  address: Unit 29 500 Beaufort Street HIGHGATE WA 6003
+  description: Change of Use from Multiple Dwelling to Holiday House
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-18'
-  date_scraped: '2023-05-01'
+  date_received: '2025-03-18'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 113/2023
-  address: 28-32 Lindsay Street PERTH WA 6000
-  description: S.40
+- council_reference: 106/2025
+  address: 18 London Street NORTH PERTH WA 6006
+  description: Grouped Dwelling
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-19'
-  date_scraped: '2023-05-01'
+  date_received: '2025-03-19'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 114/2023
-  address: 46B Joel Terrace EAST PERTH WA 6004
+- council_reference: 108/2025
+  address: 10 Moir Street PERTH WA 6000
+  description: Alterations and Additions to Single House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-20'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 109/2025
+  address: 9 Byron Street LEEDERVILLE WA 6007
   description: Single House
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-19'
-  date_scraped: '2023-05-01'
+  date_received: '2025-03-20'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 116/2023
-  address: Unit 3 317 Oxford Street LEEDERVILLE WA 6007
+- council_reference: 110/2025
+  address: 69 Wasley Street NORTH PERTH WA 6006
+  description: Alterations and Additions to Single House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-20'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 111/2025
+  address: 16 Bondi Street MOUNT HAWTHORN WA 6016
+  description: Alterations and Additions to Single House (Carport)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-20'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 112/2025
+  address: 8 Scott Street LEEDERVILLE WA 6007
+  description: Alterations and Additions and Ancillary Dwelling to Single House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-24'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 113/2025
+  address: 108 Alma Road NORTH PERTH WA 6006
+  description: Alterations and Additions to Single House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-24'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 114/2025
+  address: 50 Raglan Road MOUNT LAWLEY WA 6050
+  description: Alterations and Additions to Single House (Ancillary Dwelling & Garage)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-25'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 115/2025
+  address: 7 Fleet Street LEEDERVILLE WA 6007
+  description: Grouped Dwelling
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-25'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 116/2025
+  address: 131 Anzac Road MOUNT HAWTHORN WA 6016
+  description: Change of Use from Single House to Holiday House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-25'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 117/2025
+  address: Unit 15 42 Shakespeare Street MOUNT HAWTHORN WA 6016
+  description: Change of Use from Multiple Dwelling to Holiday House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-25'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 118/2025
+  address: 236-240 Lake Street PERTH WA 6000
+  description: Alterations and Additions to Shop
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-26'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 119/2025
+  address: 249 Oxford Street LEEDERVILLE WA 6007
+  description: Written Planning Advice
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-26'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 120/2025
+  address: 38 Fairfield Street MOUNT HAWTHORN WA 6016
+  description: Alterations and Additions to Single House (Garage Door)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-28'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 121/2025
+  address: 180 Lincoln Street HIGHGATE WA 6003
+  description: Cl.61 A Deemed-to-comply check
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-28'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 122/2025
+  address: 115A Grosvenor Road MOUNT LAWLEY WA 6050
+  description: Alterations and Additions to Grouped Dwelling (Fence)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-28'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 123/2025
+  address: 11 Forrest Street MOUNT LAWLEY WA 6050
+  description: Single House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-28'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 124/2025
+  address: 6 Stuart Street PERTH WA 6000
+  description: Change of Use from Grouped Dwelling to Holiday House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-03-31'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 125/2025
+  address: 8 Pennant Street NORTH PERTH WA 6006
+  description: Alterations and Additions to Single House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-01'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 126/2025
+  address: 28 Harley Street HIGHGATE WA 6003
+  description: Alterations and Additions to Single House (Fence)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-02'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 127/2025
+  address: Unit 14 1 Braid Street PERTH WA 6000
+  description: Change of Use from Office to Consulting Rooms
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-02'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 128/2025
+  address: Unit 15 391 Fitzgerald Street NORTH PERTH WA 6006
+  description: Change of Use from Shop to Shop & Fast Food Outlet
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-03'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 129/2025
+  address: Unit 7 5 Broome Street HIGHGATE WA 6003
+  description: Copy of Previous Development Approvals
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-04'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 130/2025
+  address: 742 Newcastle Street LEEDERVILLE WA 6007
+  description: Alterations and Additions to Tavern (Awnings & Shade Sail)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-07'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 131/2025
+  address: 195 Walcott Street MOUNT LAWLEY WA 6050
+  description: Alterations and Additions to Grouped Dwelling
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-07'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 132/2025
+  address: 77 Broome Street HIGHGATE WA 6003
+  description: Change of Use from Single House to Holiday House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-08'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 133/2025
+  address: 521-525 Beaufort Street HIGHGATE WA 6003
+  description: Change of Use from Shop to Tavern and Restaurant/Cafe (Amendment to
+    Approved)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-09'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 134/2025
+  address: 71 Wasley Street NORTH PERTH WA 6006
+  description: Alterations and Additions to Grouped Dwelling (Carport)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-09'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 135/2025
+  address: 24 Drummond Place WEST PERTH WA 6005
+  description: Written Planning Advice
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-10'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 136/2025
+  address: 108 Richmond Street LEEDERVILLE WA 6007
+  description: Alterations and Additions to Single House
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-10'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 137/2025
+  address: 177 Scarborough Beach Road MOUNT HAWTHORN WA 6016
+  description: Mixed Use Development (Amendment to Approved) (JDAP FORM 2)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-10'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 138/2025
+  address: 26 Woodville Street NORTH PERTH WA 6006
+  description: Cl.61 A Deemed-to-comply check
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-10'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 139/2025
+  address: 22A Melrose Street LEEDERVILLE WA 6007
   description: Alterations and Additions to Grouped Dwelling (Patio)
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-20'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-11'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 117/2023
-  address: 188 Vincent Street NORTH PERTH WA 6006
-  description: Alterations and Additions to Place of Worship (Amendment to Approved)
+- council_reference: 140/2025
+  address: 609 Beaufort Street MOUNT LAWLEY WA 6050
+  description: S.40 - 4 Mates Burgers
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-21'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-11'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 118/2023
-  address: 41 Britannia Road LEEDERVILLE WA 6007
-  description: Telecommunications Facility
+- council_reference: 141/2025
+  address: 5 Mignonette Street NORTH PERTH WA 6006
+  description: Alterations and Additions to Single House (Amendment to Approved)
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-27'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 119/2023
-  address: 72 Cowle Street WEST PERTH WA 6005
-  description: Grouped Dwelling (2) (Amendment to Approved) (Extension of Time)
+- council_reference: 142/2025
+  address: 2 Persimmon Street NORTH PERTH WA 6006
+  description: Alterations and Additions to Single House (Amendment to Approved)
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-27'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 120/2023
-  address: 39 Albert Street NORTH PERTH WA 6006
+- council_reference: 143/2025
+  address: 6 Carr Street WEST PERTH WA 6005
+  description: Alterations and Additions to Single House (Fence)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 144/2025
+  address: 7A Pansy Street NORTH PERTH WA 6006
+  description: Grouped Dwelling
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 145/2025
+  address: 19A Burt Street MOUNT LAWLEY WA 6050
+  description: Grouped Dwelling
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 146/2025
+  address: Unit 2 3 West Parade PERTH WA 6000
+  description: Change of Use from Multiple Dwellings to Holiday Houses (4)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 147/2025
+  address: 91 Matlock Street MOUNT HAWTHORN WA 6016
   description: Alterations and Additions to Single House
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-28'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 121/2023
-  address: 193-195 Brisbane Street PERTH WA 6000
-  description: Change of Use from Restaurant/Cafe/Showroom to Small Bar
+- council_reference: 148/2025
+  address: 208 Loftus Street NORTH PERTH WA 6006
+  description: Cl.61 A Deemed-to-comply check
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-28'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 123/2023
-  address: 95 Dunedin Street MOUNT HAWTHORN WA 6016
-  description: Alterations and Additions to Single House
+- council_reference: 149/2025
+  address: 149 Grosvenor Road NORTH PERTH WA 6006
+  description: Cl.61 A Deemed-to-comply check
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-04-30'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
   authority_label: vincent
-- council_reference: 124/2023
-  address: 35 Carr Street WEST PERTH WA 6005
-  description: Grouped Dwellings (3)
+- council_reference: 150/2025
+  address: 7B Campsie Street NORTH PERTH WA 6006
+  description: Alterations and Additions to Grouped Dwelling (Patio)
   info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
-  date_received: '2023-05-01'
-  date_scraped: '2023-05-01'
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 151/2025
+  address: 17 Edinboro Street MOUNT HAWTHORN WA 6016
+  description: Alterations and Additions to Single House (Patio & Carport)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: vincent
+- council_reference: 152/2025
+  address: 163 Anzac Road MOUNT HAWTHORN WA 6016
+  description: Alterations and Additions to Single House (Carport)
+  info_url: https://eservices.vincent.wa.gov.au/eservice/daEnquiryInit.do?doc_typ=5&nodeNum=8053
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
   authority_label: vincent
