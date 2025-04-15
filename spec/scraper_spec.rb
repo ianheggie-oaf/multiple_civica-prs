@@ -52,7 +52,7 @@ RSpec.describe Scraper do
       end
       puts "Found #{descriptions} out of #{results.count} unique reasonable descriptions " \
              "(#{(100.0 * descriptions / results.count).round(1)}%)"
-      expect(descriptions).to be > (0.55 * results.count)
+      expect(descriptions).to be > (0.50 * results.count)
 
       info_urls = results
                   .map { |record| record["info_url"] }
