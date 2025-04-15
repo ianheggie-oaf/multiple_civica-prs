@@ -1,12 +1,14 @@
 # frozen_string_literal: true
 
 require "timecop"
+require "fileutils"
 require_relative "../scraper"
 
 RSpec.describe Scraper do
   describe ".run" do
     def test_run(authority)
-      File.delete("./data.sqlite") if File.exist?("./data.sqlite")
+      ScraperWiki.close_sqlite
+      FileUtils.rm_f("data.sqlite")
 
       VCR.use_cassette(authority) do
         date = Date.new(2025, 4, 15)
