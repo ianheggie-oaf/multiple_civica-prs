@@ -1,16 +1,17 @@
 # frozen_string_literal: true
 
 require "timecop"
+require_relative "../scraper"
 
 RSpec.describe Scraper do
-  describe ".scrape" do
-    def test_scrape_and_save(authority)
+  describe ".run" do
+    def test_run(authority)
       File.delete("./data.sqlite") if File.exist?("./data.sqlite")
 
       VCR.use_cassette(authority) do
         date = Date.new(2025, 4, 15)
         Timecop.freeze(date) do
-          Scraper.scrape([authority], 1)
+          Scraper.run([authority])
         end
       end
 
@@ -36,7 +37,7 @@ RSpec.describe Scraper do
       geocodable = results
                      .map { |record| record["address"] }
                      .uniq
-                     .count { |text| SpecHelper.geocodable? text }
+                     .count { |text| ScraperUtils::SpecSupport.geocodable? text }
       puts "Found #{geocodable} out of #{results.count} unique geocodable addresses " \
         "(#{(100.0 * geocodable / results.count).round(1)}%)"
       expect(geocodable).to be > (0.7 * results.count)
@@ -45,7 +46,7 @@ RSpec.describe Scraper do
                        .map { |record| record["description"] }
                        .uniq
                        .count do |text|
-        selected = SpecHelper.reasonable_description? text
+        selected = ScraperUtils::SpecSupport.reasonable_description? text
         puts "  description: #{text} is not reasonable" if ENV["DEBUG"] && !selected
         selected
       end
@@ -80,7 +81,7 @@ RSpec.describe Scraper do
 
     Scraper.selected_authorities.each do |authority|
       it authority do
-        test_scrape_and_save(authority)
+        test_run(authority)
       end
     end
   end

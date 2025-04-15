@@ -5,16 +5,29 @@ data.sqlite
 .rspec_status
 screenshots/*.png
 
+# Spec coverage
+/coverage/
+
 # Don't save limited runs
 /spec/cassettes/limited_to_*
 /spec/expected/limited_to_*
 
-# aiderAI assistant
+# IDEs and AI assistants
 /.aider*
-/.env*
-
-# IDE's
 /.idea
+/.vscode*
+
+# Ignore vim files:
+*~
+*.swp
+*.swo
+
+# Ignore patch files
+*.patch
+*.rej
+
+# Used by direnv / dotenv library to load environment variables.
+.env*
 
 # temp files
 ,*
