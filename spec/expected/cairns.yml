@@ -359,9 +359,39 @@
   authority_label: cairns
 - council_reference: 13388/2025
   address: 1000L Coral Coast Drive PALM COVE QLD 4879
-  description: Change Application (Minor) Reconfiguring a Lot (1 Lot into 88 Residential
+  description: Change (Minor) Application Reconfiguring a Lot (1 Lot into 88 Residential
     Lots & 10 Common Property Lots)
   info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
   date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
+  authority_label: cairns
+- council_reference: 13389/2025
+  address: Captain Cook Highway KEWARRA BEACH QLD 4879
+  description: Change (Minor) Application Operational Works - Road Works (Discovery
+    Drive Upgrade)
+  info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
+  authority_label: cairns
+- council_reference: 13390/2025
+  address: 519 McCormack Street EDGE HILL QLD 4870
+  description: Building Works Assessable Against the Planning Scheme Dwelling House
+    Extension
+  info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
+  date_received: '2025-04-14'
+  date_scraped: '2025-04-15'
+  authority_label: cairns
+- council_reference: 13391/2025
+  address: Unit 132 53-57 Esplanade CAIRNS CITY QLD 4870
+  description: Exemption Request Food and Drink Outlet
+  info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: cairns
+- council_reference: 13392/2025
+  address: 39 Batt Street CLIFTON BEACH QLD 4879
+  description: Change (Minor) Application Material Change of Use (Dual Occupancy)
+  info_url: https://eservices.cairns.qld.gov.au/eservice/daEnquiryInit.do?nodeNum=227
+  date_received: '2025-04-15'
   date_scraped: '2025-04-15'
   authority_label: cairns

@@ -59,9 +59,9 @@ http_interactions:
         ''self'' https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.gstatic.com
         http://fonts.gstatic.com; object-src data: ''unsafe-eval'';'
       Set-Cookie:
-      - JSESSIONID_live=0000GBmyECzsKzUmfcloYLwTTPV:-1; Path=/; HttpOnly
+      - JSESSIONID_live=0000Z9dNPgt3XjI1qkdFjonlLMw:-1; Path=/; HttpOnly
       Date:
-      - Mon, 14 Apr 2025 16:38:50 GMT
+      - Tue, 15 Apr 2025 12:33:23 GMT
       Connection:
       - close
     body:
@@ -350,7 +350,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - JSESSIONID_live=0000GBmyECzsKzUmfcloYLwTTPV:-1
+      - JSESSIONID_live=0000Z9dNPgt3XjI1qkdFjonlLMw:-1
       Host:
       - eservices.cairns.qld.gov.au
       Referer:
@@ -395,7 +395,7 @@ http_interactions:
         ''self'' https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.gstatic.com
         http://fonts.gstatic.com; object-src data: ''unsafe-eval'';'
       Date:
-      - Mon, 14 Apr 2025 16:38:53 GMT
+      - Tue, 15 Apr 2025 12:33:26 GMT
       Connection:
       - close
     body:
@@ -504,7 +504,7 @@ http_interactions:
         \       \n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\t\tClick on the Development Application
         to see further detail. <br/>Please note that the results are displayed in
         Street Name order.\t\n\t\t\t  \n\t\t\t<p>\n\t\t\t\t<label>\n\t\t\t\t\tDocuments
-        Found\n\t\t\t\t\t51\n\t\t\t\t</label>\n\t\t\t</p>      \n\t\t\n\t\t\n\t\t\t<div
+        Found\n\t\t\t\t\t55\n\t\t\t\t</label>\n\t\t\t</p>      \n\t\t\n\t\t\n\t\t\t<div
         id=\"sortForm\">\n\t\t\t\t\n\t\t\t\t\t<form name=\"registerEnquirySortForm\"
         method=\"post\" action=\"/eservice/daEnquirySort.do\" class=\"form-horizontal\">\n\t\t\t\t\t\tSort\n\t\t\t\t\t\t<div
         class=\"form-group\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
@@ -578,17 +578,24 @@ http_interactions:
         Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13352/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">20/03/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=3\">Bruce
-        Highway GORDONVALE  QLD  4865</a></h4><div><p class=\"rowDataOnly\"><span
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=3\">39
+        Batt Street CLIFTON BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Change
-        Application (Minor) Combined Application ROL (1 Lot into 7, New Road &amp;
-        1 Drainage Lot) &amp; OPW (Civil Works &amp; Services)</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">Riverstone Road North
-        Holdings Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference
-        No.</span><span class=\"inputField\">13368/2025</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p></div><p
+        (Minor) Application Material Change of Use (Dual Occupancy)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Dixon Homes Cairns</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13392/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=4\">112 Cairns Street CAIRNS NORTH
+        href=\"/eservice/daEnquiryDetails.do?index=4\">Bruce Highway GORDONVALE  QLD
+        \ 4865</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
+        of Work</span><span class=\"inputField\">Change Application (Minor) Combined
+        Application ROL (1 Lot into 7, New Road &amp; 1 Drainage Lot) &amp; OPW (Civil
+        Works &amp; Services)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Riverstone Road North Holdings Pty Ltd</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Reference No.</span><span class=\"inputField\">13368/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=5\">112 Cairns Street CAIRNS NORTH
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Building Works Assessable Against
         the Planning Scheme Dwelling House Extension</span></p><p class=\"rowDataOnly\"><span
@@ -596,7 +603,7 @@ http_interactions:
         class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13386/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=5\">50-54 Canopy's Edge Boulevard
+        href=\"/eservice/daEnquiryDetails.do?index=6\">50-54 Canopy's Edge Boulevard
         SMITHFIELD  QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works Civil Works</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">KandV
@@ -604,15 +611,23 @@ http_interactions:
         No.</span><span class=\"inputField\">13356/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=6\">1061 Captain Cook Highway SMITHFIELD
-        \ QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
-        of Work</span><span class=\"inputField\">Material Change of Use Low Impact
-        Industry</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">T Schneck</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference
-        No.</span><span class=\"inputField\">13350/2025</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p></div><p
+        href=\"/eservice/daEnquiryDetails.do?index=7\">Captain Cook Highway KEWARRA
+        BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
+        of Work</span><span class=\"inputField\">Change (Minor) Application Operational
+        Works - Road Works (Discovery Drive Upgrade)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">PPNQ Developments
+        Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
+        class=\"inputField\">13389/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
+        Lodged</span><span class=\"inputField\">14/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=8\">1061
+        Captain Cook Highway SMITHFIELD  QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Description of Work</span><span class=\"inputField\">Material
+        Change of Use Low Impact Industry</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">T Schneck</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13350/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=7\">62 Cassowary Street FRESHWATER
+        href=\"/eservice/daEnquiryDetails.do?index=9\">62 Cassowary Street FRESHWATER
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Change Application (Minor) Building
         Works Against the Planning Scheme (Retaining Wall)</span></p><p class=\"rowDataOnly\"><span
@@ -620,14 +635,14 @@ http_interactions:
         class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13349/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=8\">Catalano Access GOLDSBOROUGH
+        href=\"/eservice/daEnquiryDetails.do?index=10\">Catalano Access GOLDSBOROUGH
         \ QLD  4865</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Dwelling House</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">G
         R Plant</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13342/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">17/03/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=9\">Catalano
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=11\">Catalano
         Access GOLDSBOROUGH  QLD  4865</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Operational
         Works Major Earthworks</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -635,23 +650,23 @@ http_interactions:
         No.</span><span class=\"inputField\">13344/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">17/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=10\">15-19 Cochrane Street STRATFORD
+        href=\"/eservice/daEnquiryDetails.do?index=12\">15-19 Cochrane Street STRATFORD
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Dwelling House</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">S
         Gleeson</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13371/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">02/04/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=11\">1000L
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=13\">1000L
         Coral Coast Drive PALM COVE  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Change
-        Application (Minor) Reconfiguring a Lot (1 Lot into 88 Residential Lots &amp;
+        (Minor) Application Reconfiguring a Lot (1 Lot into 88 Residential Lots &amp;
         10 Common Property Lots)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
         class=\"inputField\">Palm Project Oceans Edge Pty Ltd</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Reference No.</span><span class=\"inputField\">13388/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=12\">67 Del Manso Crescent EDMONTON
+        href=\"/eservice/daEnquiryDetails.do?index=14\">67 Del Manso Crescent EDMONTON
         \ QLD  4869</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">EXPRESS Material Change of Use Dual
         Occupancy</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -659,7 +674,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13339/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">17/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=13\">710-714 Des Chalmers Drive
+        href=\"/eservice/daEnquiryDetails.do?index=15\">710-714 Des Chalmers Drive
         WOREE  QLD  4868</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works Civil Works</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Community
@@ -667,7 +682,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13375/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=14\">384 Draper Street PARRAMATTA
+        href=\"/eservice/daEnquiryDetails.do?index=16\">384 Draper Street PARRAMATTA
         PARK  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Multiple Dwelling</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">YWCA
@@ -675,7 +690,15 @@ http_interactions:
         No.</span><span class=\"inputField\">13353/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=15\">Fairweather Access GOLDSBOROUGH
+        href=\"/eservice/daEnquiryDetails.do?index=17\">Unit 132 53-57 Esplanade CAIRNS
+        CITY  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
+        of Work</span><span class=\"inputField\">Exemption Request Food and Drink
+        Outlet</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Camaluna Developments Pty Ltd (Tte)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Reference No.</span><span class=\"inputField\">13391/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=18\">Fairweather Access GOLDSBOROUGH
         \ QLD  4865</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works ? Minor Works Electrical
         and Lighting Design</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -683,7 +706,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13376/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=16\">57 Gallery Drive MOUNT SHERIDAN
+        href=\"/eservice/daEnquiryDetails.do?index=19\">57 Gallery Drive MOUNT SHERIDAN
         \ QLD  4868</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Building Works Assessable Against
         the Planning Scheme Retaining Wall</span></p><p class=\"rowDataOnly\"><span
@@ -691,7 +714,7 @@ http_interactions:
         class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13366/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=17\">Unit 3 157-159 Grafton Street
+        href=\"/eservice/daEnquiryDetails.do?index=20\">Unit 3 157-159 Grafton Street
         CAIRNS CITY  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Multiple Dwelling
         and Short-term Accommodation</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -699,14 +722,14 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13357/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=18\">196 Greenslopes Street EDGE
+        href=\"/eservice/daEnquiryDetails.do?index=21\">196 Greenslopes Street EDGE
         HILL  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works Additional Crossover</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">L
         Hall</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13367/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">31/03/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=19\">209
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=22\">209
         Greenslopes Street EDGE HILL  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Operational
         Works Additional Crossover</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -714,7 +737,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13377/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=20\">26-28 Hanson Street GOLDSBOROUGH
+        href=\"/eservice/daEnquiryDetails.do?index=23\">26-28 Hanson Street GOLDSBOROUGH
         \ QLD  4865</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Reconfiguring a Lot Boundary Realignment</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">D
@@ -722,7 +745,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13343/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">17/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=21\">161-165 Holloways Beach Access
+        href=\"/eservice/daEnquiryDetails.do?index=24\">161-165 Holloways Beach Access
         Road HOLLOWAYS BEACH  QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Change
         Application (Minor) Material Change of Use Self Storage Facility</span></p><p
@@ -730,7 +753,7 @@ http_interactions:
         Davis</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13384/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">03/04/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=22\">12
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=25\">12
         Holmes Street STRATFORD  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Operational
         Works ? On-Street Works Access Crossover and Driveway</span></p><p class=\"rowDataOnly\"><span
@@ -738,7 +761,7 @@ http_interactions:
         class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13387/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=23\">1-15 Jackson Drive WOREE  QLD
+        href=\"/eservice/daEnquiryDetails.do?index=26\">1-15 Jackson Drive WOREE  QLD
         \ 4868</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use High Impact
         Industry and Environment Facility</span></p><p class=\"rowDataOnly\"><span
@@ -747,7 +770,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13364/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=24\">116 James Cook Drive KEWARRA
+        href=\"/eservice/daEnquiryDetails.do?index=27\">116 James Cook Drive KEWARRA
         BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Dwelling House</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">B
@@ -755,7 +778,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13370/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=25\">29 John Malcolm Street REDLYNCH
+        href=\"/eservice/daEnquiryDetails.do?index=28\">29 John Malcolm Street REDLYNCH
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works Additional Crossover</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">S
@@ -763,7 +786,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13365/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">18/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=26\">21 Jones Street WESTCOURT
+        href=\"/eservice/daEnquiryDetails.do?index=29\">21 Jones Street WESTCOURT
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Building Works Assessable Against
         the Planning Scheme Dwelling House-Extension</span></p><p class=\"rowDataOnly\"><span
@@ -771,7 +794,7 @@ http_interactions:
         Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13338/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">17/03/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=27\">235
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=30\">235
         Kamerunga Road FRESHWATER  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Building
         Works Assessable Against the Planning Scheme Other - Shade Sail</span></p><p
@@ -780,7 +803,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13360/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">27/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=28\">44 Kewarra Street KEWARRA
+        href=\"/eservice/daEnquiryDetails.do?index=31\">44 Kewarra Street KEWARRA
         BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Short-Term
         Accommodation</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -788,7 +811,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13373/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=29\">44L Macaranga Road BENTLEY
+        href=\"/eservice/daEnquiryDetails.do?index=32\">44L Macaranga Road BENTLEY
         PARK  QLD  4869</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works ? Minor Works Electrical
         and Lighting Design</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -796,7 +819,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13381/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=30\">53 Macaranga Road BENTLEY
+        href=\"/eservice/daEnquiryDetails.do?index=33\">53 Macaranga Road BENTLEY
         PARK  QLD  4869</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">EXPRESS Material Change of Use Dual
         Occupancy</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -804,7 +827,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13348/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=31\">Machans Beach Road MACHANS
+        href=\"/eservice/daEnquiryDetails.do?index=34\">Machans Beach Road MACHANS
         BEACH  QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works Subdivisional</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Tree
@@ -812,7 +835,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13379/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=32\">4B Maisel Close SMITHFIELD
+        href=\"/eservice/daEnquiryDetails.do?index=35\">4B Maisel Close SMITHFIELD
         \ QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Office</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Balay
@@ -820,7 +843,15 @@ http_interactions:
         No.</span><span class=\"inputField\">13385/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=33\">109-117 McGregor Road SMITHFIELD
+        href=\"/eservice/daEnquiryDetails.do?index=36\">519 McCormack Street EDGE
+        HILL  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
+        of Work</span><span class=\"inputField\">Building Works Assessable Against
+        the Planning Scheme Dwelling House Extension</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">T Asigau-Fridiksson</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13390/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/daEnquiryDetails.do?index=37\">109-117 McGregor Road SMITHFIELD
         \ QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Change Application (Minor) Operational
         Works Civil Works &amp; Landscaping</span></p><p class=\"rowDataOnly\"><span
@@ -828,7 +859,7 @@ http_interactions:
         Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13337/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">17/03/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=34\">901L
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=38\">901L
         Moroney Avenue EDMONTON  QLD  4869</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Change
         Application (Minor) Reconfiguring a Lot (2 Lots into 93 Lots)</span></p><p
@@ -836,7 +867,7 @@ http_interactions:
         Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13347/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">19/03/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=35\">59
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=39\">59
         Mulgrave Road PARRAMATTA PARK  QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Change
         Application (Minor) Material Change of Use Warehouse (Self-Storage)</span></p><p
@@ -845,7 +876,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13351/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=36\">4 Oliva Street PALM COVE  QLD
+        href=\"/eservice/daEnquiryDetails.do?index=40\">4 Oliva Street PALM COVE  QLD
         \ 4879</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Multiple dwelling
         and Short-term Accommodation</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -853,7 +884,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13361/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">27/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=37\">11 Palmerston Street AEROGLEN
+        href=\"/eservice/daEnquiryDetails.do?index=41\">11 Palmerston Street AEROGLEN
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Building Works Assessable Against
         the Planning Scheme Carport</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -861,7 +892,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13372/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=38\">23 Peacock Street TRINITY
+        href=\"/eservice/daEnquiryDetails.do?index=42\">23 Peacock Street TRINITY
         BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Change Application (Other) Superseded
         Planning Scheme Reconfiguring a Lot (3 into 14 lots)</span></p><p class=\"rowDataOnly\"><span
@@ -869,7 +900,7 @@ http_interactions:
         class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13362/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=39\">136 Pease Street MANOORA  QLD
+        href=\"/eservice/daEnquiryDetails.do?index=43\">136 Pease Street MANOORA  QLD
         \ 4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Combined Application Material Change
         of Use Multiple Dwelling &amp; Reconfiguring a Lot Creation of Access Easement</span></p><p
@@ -878,7 +909,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13378/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=40\">63 Periwinkle Avenue TRINITY
+        href=\"/eservice/daEnquiryDetails.do?index=44\">63 Periwinkle Avenue TRINITY
         BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Dual Occupancy</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">A
@@ -886,14 +917,14 @@ http_interactions:
         No.</span><span class=\"inputField\">13380/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=41\">2261R Pine Creek-Yarrabah
+        href=\"/eservice/daEnquiryDetails.do?index=45\">2261R Pine Creek-Yarrabah
         Road EAST TRINITY  QLD  4871</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Material Change of Use Dwelling House</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">B
         Cobb</span></p><p class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span
         class=\"inputField\">13358/2025</span></p><p class=\"rowDataOnly\"><span class=\"key\">Date
         Lodged</span><span class=\"inputField\">25/03/2025</span></p></div><p class=\"rowDataOnly\">
-        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=42\">40-66
+        </p><h4 class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=46\">40-66
         Reefsedge Way KEWARRA BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span
         class=\"key\">Description of Work</span><span class=\"inputField\">Combined
         Application Reconfiguring a Lot (1 Lot into 11 Lots and Common Property) and
@@ -902,7 +933,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13346/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">18/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=43\">4 Sicilian Avenue GORDONVALE
+        href=\"/eservice/daEnquiryDetails.do?index=47\">4 Sicilian Avenue GORDONVALE
         \ QLD  4865</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Change Application (Minor) Material
         Change of Use (Multiple Dwelling)</span></p><p class=\"rowDataOnly\"><span
@@ -910,7 +941,7 @@ http_interactions:
         class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13340/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=44\">289-291 Spence Street BUNGALOW
+        href=\"/eservice/daEnquiryDetails.do?index=48\">289-291 Spence Street BUNGALOW
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works ? On-Street Works
         Access Crossover and Driveway</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -918,7 +949,7 @@ http_interactions:
         class=\"rowDataOnly\"><span class=\"key\">Reference No.</span><span class=\"inputField\">13369/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=45\">17 Trembath Drive GORDONVALE
+        href=\"/eservice/daEnquiryDetails.do?index=49\">17 Trembath Drive GORDONVALE
         \ QLD  4865</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Reconfiguring a Lot Boundary Realignment</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">R
@@ -926,7 +957,7 @@ http_interactions:
         No.</span><span class=\"inputField\">13355/2025</span></p><p class=\"rowDataOnly\"><span
         class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=46\">470-472 Varley Street YORKEYS
+        href=\"/eservice/daEnquiryDetails.do?index=50\">470-472 Varley Street YORKEYS
         KNOB  QLD  4878</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works ? Minor Works Electrical</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">B&amp;D
@@ -934,7 +965,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13382/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=47\">129 Vasey Esplanade TRINITY
+        href=\"/eservice/daEnquiryDetails.do?index=51\">129 Vasey Esplanade TRINITY
         BEACH  QLD  4879</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works Prescribed Tidal
         Works</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -942,7 +973,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13363/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=48\">10 Vulcan Street AEROGLEN
+        href=\"/eservice/daEnquiryDetails.do?index=52\">10 Vulcan Street AEROGLEN
         \ QLD  4870</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Building Works Assessable Against
         the Planning Scheme Patio</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -950,7 +981,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13354/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=49\">32 Wallwork Street EDMONTON
+        href=\"/eservice/daEnquiryDetails.do?index=53\">32 Wallwork Street EDMONTON
         \ QLD  4869</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">EXPRESS Material Change of Use Dual
         Occupancy</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
@@ -958,7 +989,7 @@ http_interactions:
         class=\"key\">Reference No.</span><span class=\"inputField\">13345/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p></div><p
         class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
-        href=\"/eservice/daEnquiryDetails.do?index=50\">138-140 Wiseman Road West
+        href=\"/eservice/daEnquiryDetails.do?index=54\">138-140 Wiseman Road West
         EDMONTON  QLD  4869</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Description
         of Work</span><span class=\"inputField\">Operational Works ? On-Street Works
         Access Crossover and Driveway</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
