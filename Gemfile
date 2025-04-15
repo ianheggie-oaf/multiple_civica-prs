@@ -7,7 +7,7 @@ ruby "2.5.1"
 gem "mechanize"
 gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git",
                    branch: "morph_defaults"
-gem "scraper_utils", "~> 0.7.0"
+gem "scraper_utils", "~> 0.7.2"
 
 # For development and running tests
 gem "mini_magick"

@@ -84,7 +84,7 @@ GEM
     ruby-progressbar (1.10.1)
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
-    scraper_utils (0.7.0)
+    scraper_utils (0.7.2)
       mechanize
       nokogiri
       sqlite3
@@ -129,7 +129,7 @@ DEPENDENCIES
   rake (~> 12.3)
   rspec (~> 3.0)
   rubocop
-  scraper_utils (~> 0.7.0)
+  scraper_utils (~> 0.7.2)
   scraperwiki!
   simplecov (~> 0.18.0)
   simplecov-console
