@@ -76,4 +76,11 @@ if __FILE__ == $PROGRAM_NAME
 
   ENV["MORPH_EXPECT_BAD"] ||= "" # ''"some,councils"
   Scraper.run(Scraper.selected_authorities)
+  
+  # Dump database for morph-cli
+  if File.exist?("tmp/dump-data-sqlite")
+    puts '-- dump of data.sqlite --'
+    system "sqlite3 data.sqlite .dump"
+    puts '-- end of dump --'
+  end
 end
