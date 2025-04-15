@@ -23,6 +23,10 @@ class Scraper
         ScraperUtils::DataQualityMonitor.log_unprocessable_record(e, record)
         exceptions[authority_label] = e
       end
+    rescue StandardError => e
+      warn "#{authority_label}: ERROR: #{e}"
+      warn e.backtrace
+      exceptions[authority_label] = e
     end
     exceptions
   end
