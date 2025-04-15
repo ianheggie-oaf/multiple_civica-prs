@@ -57,7 +57,7 @@ module CivicaScraper
                     when :last30days
                       Date.today - 30
                     else
-                      raise "Unexpected period: #{period}"
+                      raise "Unexpected period: #{period.inspect}"
                     end
         date_to = Date.today
         page = Page::Search.period(page, date_from, date_to)

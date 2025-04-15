@@ -8,7 +8,7 @@ module CivicaScraper
         results = page.at("div.bodypanel ~ div")
 
         results.search("h4, h2").each do |address|
-          fields = extract_fields(address.next_sibling)
+          fields = extract_fields(address.next_sibling, page.uri)
           fields[:description] ||= "No description provided"
 
           yield(
@@ -21,18 +21,18 @@ module CivicaScraper
         end
       end
 
-      def self.extract_fields(div)
+      def self.extract_fields(div, url)
         # TODO: Make sure that we don't extract the
         # same normalised key more than once
         result = div.search("p").map do |p|
           key = p.at("span.key").inner_text
           value = p.at("span.inputField").inner_text
-          [normalise_key(key, value), value]
+          [normalise_key(key, value, url), value]
         end
         result.to_h
       end
 
-      def self.normalise_key(key, value)
+      def self.normalise_key(key, value, url)
         case key
         when "Type of Work", "Description of Work", "Development Description", "Development"
           :description
@@ -55,7 +55,7 @@ module CivicaScraper
         when "Type"
           :type
         else
-          raise ScraperUtils::UnprocessableRecord, "Unknown key: #{key} with value: #{value}"
+          raise ScraperUtils::UnprocessableRecord, "Unknown key: #{key} with value: #{value} on #{url}"
         end
       end
     end
