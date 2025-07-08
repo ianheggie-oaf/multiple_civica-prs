@@ -3,7 +3,7 @@
 module CivicaScraper
   AUTHORITIES = {
     bunbury: {
-      url: "https://ecouncil.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264",
+      url: "https://eservices.bunbury.wa.gov.au/eservice/daEnquiryInit.do?nodeNum=11264",
       period: :last30days,
       australian_proxy: true
     },
