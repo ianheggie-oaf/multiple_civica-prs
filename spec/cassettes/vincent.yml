@@ -59,11 +59,11 @@ http_interactions:
         ''self'' https://fonts.googleapis.com http://fonts.googleapis.com https://fonts.gstatic.com
         http://fonts.gstatic.com; object-src data: ''unsafe-eval'';'
       Set-Cookie:
-      - JSESSIONID_live=0000W14kwRnW5NhmbQDDp_lpQsa:-1; Path=/; HttpOnly
+      - JSESSIONID_live=00000zH1jtf2Wki_pWnzhbMvpvX:-1; Path=/; HttpOnly
       Strict-Transport-Security:
       - max-age=7776000; includeSubDomains; preload
       Date:
-      - Thu, 07 Sep 2023 01:27:18 GMT
+      - Tue, 15 Apr 2025 12:34:11 GMT
       Connection:
       - close
     body:
@@ -96,7 +96,7 @@ http_interactions:
         = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-3.4.1.js\"></script>\r\n<script
-        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui.min.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\r\n<script
@@ -236,25 +236,25 @@ http_interactions:
         onclick=\"javascript:setDateRange('', '', 'DADateFrom', 'DADateTo')\" />\r\n
         \         Specified Range\r\n        </label>\r\n        <label class=\"radio-inline
         control-label control-radio\">\r\n          <input type=\"radio\" name=\"lodgeRangeType\"
-        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('03/09/2023','07/09/2023',
+        id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('13/04/2025','15/04/2025',
         'DADateFrom', 'DADateTo')\" />\r\n          This Week\r\n        </label>\r\n
         \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
-        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('27/08/2023','02/09/2023',
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('06/04/2025','12/04/2025',
         'DADateFrom', 'DADateTo')\" />\r\n          Last Week\r\n        </label>\r\n
         \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
-        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/09/2023','30/09/2023',
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/04/2025','30/04/2025',
         'DADateFrom', 'DADateTo')\" />\r\n          This Month\r\n        </label>\r\n
         \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
-        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/08/2023','31/08/2023',
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/03/2025','31/03/2025',
         'DADateFrom', 'DADateTo')\" />\r\n          Last Month\r\n        </label>\r\n
         \     </div>\r\n    </div>\r\n    <div class=\"form-group\">\r\n      <div
         id=\"DADate\">\r\n        <label class=\"col-sm-2 control-label\" for=\"DADateFrom\"
         id=\"daFromDateLabel\">From</label>\r\n        <div class=\"form-inline col-sm-10\">\r\n
-        \         <input type=\"text\" class=\"datepick text-small form-control hasDatepicker\"
+        \         <input type=\"text\" class=\"datepick text-small form-control\"
         name=\"dateFrom\" id=\"DADateFrom\" style=\"padding-right: 0px\" size=\"10\"
         maxlength=\"10\" errors=\"DADateFrom\" value=\"\" />\r\n          <label for=\"DADateTo\"
         id=\"daToDateLabel\">To</label>\r\n          <input type=\"text\" class=\"datepick
-        text-small form-control hasDatepicker\" name=\"dateTo\" id=\"DADateTo\" style=\"padding-right:
+        text-small form-control\" name=\"dateTo\" id=\"DADateTo\" style=\"padding-right:
         0px\" size=\"10\" maxlength=\"10\" errors=\"DADateTo\" value=\"\" />\r\n        </div>\r\n
         \     </div>\r\n    </div>\r\n    <h2>Determination Date</h2>\r\n    <div
         class=\"form-group\" style=\"margin-bottom:2em; border:none; padding:0\">\r\n
@@ -264,30 +264,31 @@ http_interactions:
         onclick=\"javascript:setDateRange('','', 'detDateFromString', 'detDateToString')\"
         />\r\n          Specified Range\r\n        </label>\r\n        <label class=\"radio-inline
         control-label control-radio\">\r\n          <input type=\"radio\" name=\"detRangeType\"
-        id=\"detRangeType\" onclick=\"javascript:setDateRange('03/09/2023','07/09/2023',
+        id=\"detRangeType\" onclick=\"javascript:setDateRange('13/04/2025','15/04/2025',
         'detDateFromString', 'detDateToString')\" />\r\n          This Week\r\n        </label>\r\n
         \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
-        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('27/08/2023','02/09/2023',
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('06/04/2025','12/04/2025',
         'detDateFromString', 'detDateToString')\" />\r\n          Last Week\r\n        </label>\r\n
         \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
-        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/09/2023','30/09/2023',
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/04/2025','30/04/2025',
         'detDateFromString', 'detDateToString')\" />\r\n          This Month\r\n        </label>\r\n
         \       <label class=\"radio-inline control-label control-radio\">\r\n          <input
-        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/08/2023','31/08/2023',
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/03/2025','31/03/2025',
         'detDateFromString', 'detDateToString')\" />\r\n          Last Month\r\n        </label>\r\n
         \     </div>\r\n    </div>\r\n    <div class=\"form-group\">\r\n      <div
         id=\"DetDate\">\r\n        <label class=\"col-sm-2 control-label\" for=\"detDateFrom\"
-        id=\"detFromDateLabel\">From</label>\r\n        <div class=\"form-inline col-sm-10\">\r\n
-        \         <input type=\"text\" class=\"datepick text-small form-control hasDatepicker\"
-        name=\"detDateFromString\" id=\"detDateFrom\" size=\"10\" maxlength=\"10\"
-        errors=\"DADateFrom\" value=\"\" />\r\n          <label for=\"detDateTo\"
-        id=\"detToDateLabel\">To</label>\r\n          <input type=\"text\" class=\"datepick
-        text-small form-control hasDatepicker\" name=\"detDateToString\" id=\"detDateTo\"
-        size=\"10\" maxlength=\"10\" errors=\"DADateTo\" value=\"\" />\r\n        </div>\r\n
-        \     </div>\r\n    </div>\r\n    <h2>Property Details</h2>\r\n    <div class=\"form-group\"
-        id=\"streetNameRow\">\r\n      <label class=\"control-label col-sm-2\" for=\"streetName\">Street
-        Name</label>\r\n      <div class=\"col-sm-10\">\r\n        <input type=\"text\"
-        class=\"text-large\" name=\"streetName\" id=\"streetName\" size=\"20\" onblur=\"javascript:getHouseNum();
+        id=\"detFromDateLabel\">From</label>\r\n        <div class=\"form-inline col-sm-10\"
+        id=\"detDateFromInput\">\r\n          <input type=\"text\" class=\"datepick
+        text-small form-control\" name=\"detDateFrom\" id=\"detDateFromString\" style=\"padding-right:
+        0px\" size=\"10\" maxlength=\"10\" errors=\"detDateFrom\" value=\"\" />\r\n
+        \         <label for=\"detDateTo\" id=\"detToDateLabel\">To</label>\r\n          <input
+        type=\"text\" class=\"datepick text-small form-control\" name=\"detDateTo\"
+        id=\"detDateToString\" style=\"padding-right: 0px\" size=\"10\" maxlength=\"10\"
+        errors=\"detDateTo\" value=\"\" />\r\n        </div>\r\n      </div>\r\n    </div>\r\n
+        \   <h2>Property Details</h2>\r\n    <div class=\"form-group\" id=\"streetNameRow\">\r\n
+        \     <label class=\"control-label col-sm-2\" for=\"streetName\">Street Name</label>\r\n
+        \     <div class=\"col-sm-10\">\r\n        <input type=\"text\" class=\"text-large\"
+        name=\"streetName\" id=\"streetName\" size=\"20\" onblur=\"javascript:getHouseNum();
         javascript:getSuburb()\" value=\"\" />\r\n        <div id=\"streetHints\"
         class=\"autocompleter\">\r\n          \r\n          &nbsp;\r\n          \r\n
         \       </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"form-group\"
@@ -356,10 +357,10 @@ http_interactions:
         id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
         End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
         iServices -->\r\n\r\n\t</body>\r\n</html>\n"
-  recorded_at: Sun, 30 Apr 2023 14:00:00 GMT
+  recorded_at: Mon, 14 Apr 2025 14:00:00 GMT
 - request:
     method: get
-    uri: https://eservices.vincent.wa.gov.au/eservice/daEnquiry.do?dateFrom=01/04/2023&dateTo=01/05/2023&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
+    uri: https://eservices.vincent.wa.gov.au/eservice/daEnquiry.do?dateFrom=16/03/2025&dateTo=15/04/2025&detDateFrom=&detDateTo=&houseNum=0%0A%09%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&suburb=0&unitNum=
     body:
       encoding: US-ASCII
       string: ''
@@ -375,7 +376,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - JSESSIONID_live=0000W14kwRnW5NhmbQDDp_lpQsa:-1
+      - JSESSIONID_live=00000zH1jtf2Wki_pWnzhbMvpvX:-1
       Host:
       - eservices.vincent.wa.gov.au
       Referer:
@@ -422,7 +423,7 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=7776000; includeSubDomains; preload
       Date:
-      - Thu, 07 Sep 2023 01:27:25 GMT
+      - Tue, 15 Apr 2025 12:34:17 GMT
       Connection:
       - close
     body:
@@ -454,7 +455,7 @@ http_interactions:
         = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/javascript/tether-1.3.3.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/modernizr-283.min.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/jquery/bootstrap-3.4.1.js\"></script>\r\n<script
-        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/javascript/jquery/jquery-ui.min.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/e-services-page.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/prototype.js\"></script>\r\n<script
         type=\"text/javascript\" src=\"/eservice/javascript/civica.jquery.plugins.js\"></script>\r\n<script
@@ -572,7 +573,7 @@ http_interactions:
         \       \n\n\n\n\n\n\n\n\n\n\n\n\t\n\t\n\t\tClick on the Development Application
         to see further detail. To display these results in a different order, select
         from the options below and click the 'Sort' button.\t\n\t\t\t  \n\t\t\t<p>\n\t\t\t\t<label>\n\t\t\t\t\tDocuments
-        Found\n\t\t\t\t\t22\n\t\t\t\t</label>\n\t\t\t</p>      \n\t\t\n\t\t\n\t\t\t<div
+        Found\n\t\t\t\t\t51\n\t\t\t\t</label>\n\t\t\t</p>      \n\t\t\n\t\t\n\t\t\t<div
         id=\"sortForm\">\n\t\t\t\t\n\t\t\t\t\t<form name=\"registerEnquirySortForm\"
         method=\"post\" action=\"/eservice/daEnquirySort.do\" class=\"form-horizontal\">\n\t\t\t\t\t\tSort\n\t\t\t\t\t\t<div
         class=\"form-group\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<span
@@ -622,225 +623,431 @@ http_interactions:
         \   </div>\r\n\n\t<!-- CIVICA-INFO-END -->\n</div>\n\n\t\n\n\t\n\t\t\n\t\n<div
         \ class=\"bodypanel\" id=\"bodypanel1\">\n\t<!-- CIVICA-CONTENT-START:bodypanel1
         -->\n\t\t</div>\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div><h2><a
-        class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=0\">39 Albert
-        Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span class=\"key\">Type
-        of Work</span><span class=\"inputField\">Alterations and Additions to Single
-        House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">T L Corley</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">120/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">28/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">22/08/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=1\">566-570
-        Beaufort Street MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Written Planning
-        Advice</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">I Jeffery</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">108/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">13/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=2\">Unit
-        3 1 Braid Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
-        to Short Term Accommodation</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">T J Fairhurst</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Application No.</span><span class=\"inputField\">100/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=3\">Unit
-        6 79 Brisbane Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
-        from Office to Multiple Dwelling</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">M Zhai</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">109/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$36,000.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">06/06/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=4\">193-195
-        Brisbane Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
-        from Restaurant/Cafe/Showroom to Small Bar</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">The Odway</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">121/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$60,000.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=5\">41
-        Britannia Road LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Telecommunications
-        Facility</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">Planning Solutions (Aust) Pty Ltd</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Application No.</span><span class=\"inputField\">118/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Recommended Approval to External Agency</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Date</span><span class=\"inputField\">23/06/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=6\">35
-        Carr Street WEST PERTH  WA  6005</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwellings
-        (3)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">Developed Property Pty Ltd</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Application No.</span><span class=\"inputField\">124/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">01/05/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$300,000.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=7\">Unit
-        16 1 Chelmsford Road MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
-        Additions to Multiple Dwelling</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">P O'Reilly</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">103/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">06/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,200.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=8\">72
-        Cowle Street WEST PERTH  WA  6005</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling
-        (2) (Amendment to Approved) (Extension of Time)</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">D Developed Property</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">119/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">27/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">28/08/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=9\">95
-        Dunedin Street MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=0\">108
+        Alma Road NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
         class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
         Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">Z ADAM BARRY</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Application No.</span><span class=\"inputField\">123/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">30/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$100,000.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">04/07/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=10\">459
-        Fitzgerald Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"inputField\">V Bui</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">113/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$7,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=1\">131
+        Anzac Road MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Single House to Holiday House</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">K Forssman</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">116/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=2\">163
+        Anzac Road MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
         class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
-        Additions to Hotel (Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">Taylor Robinson Chaney
-        Broderick</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">112/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">18/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">23/08/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=11\">5
-        Franklin Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling
-        &amp; Alterations and Additions to Existing Grouped Dwelling</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Seamus
-        Ryan Architects</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">110/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$500,000.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">16/08/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=12\">46B
-        Joel Terrace EAST PERTH  WA  6004</a></h2><div><p class=\"rowDataOnly\"><span
+        Additions to Single House (Carport)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Perth Patio Magic</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">152/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$11,680.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=3\">Unit
+        29 500 Beaufort Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Multiple Dwelling to Holiday House</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Urban Retreat</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">105/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">18/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=4\">521-525
+        Beaufort Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Shop to Tavern and Restaurant/Cafe (Amendment to Approved)</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">2020
+        Onward Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">133/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=5\">609
+        Beaufort Street MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">S.40 - 4 Mates
+        Burgers</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">MAS Group AU Pty Ltd</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">140/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">11/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=6\">16
+        Bondi Street MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House (Carport)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">M W Hickey</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">111/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$30,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=7\">Unit
+        14 1 Braid Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Office to Consulting Rooms</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Hubble Design</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">127/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$150,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=8\">Unit
+        7 5 Broome Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Copy of Previous
+        Development Approvals</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">K P Winder</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">129/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">04/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=9\">77
+        Broome Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Single House to Holiday House</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">K BAIRD</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">132/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">08/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$295.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=10\">19A
+        Burt Street MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">145/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$758,888.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=11\">9
+        Byron Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
         class=\"key\">Type of Work</span><span class=\"inputField\">Single House</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Imperial
-        Drafting</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">114/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">19/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$475,000.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=13\">28-32
-        Lindsay Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">S.40</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">G
-        Matera</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">113/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">19/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Withdrawn by Applicant - Before Decision</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Date</span><span class=\"inputField\">19/06/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=14\">29
-        Lindsay Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Small Business
-        - Alterations and Additions to Restaurant Cafe</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">Archi Dynamic Design</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">111/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$35,000.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=15\">191
-        Oxford Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
-        Additions to Single House (Unauthorised Existing Development)</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">A.T.
-        Brine &amp; Sons Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">105/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">12/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$11,000.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=16\">Unit
-        3 317 Oxford Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Klopper
+        &amp; Davis Architects</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">109/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$1,600,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=12\">7B
+        Campsie Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
         class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
         Additions to Grouped Dwelling (Patio)</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">J NORTH COAST DRAFTING
-        SERVICES</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">116/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">20/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$8,045.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">10/05/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=17\">3
-        Shakespeare Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Single House</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">M
-        MDC Architects</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
-        No.</span><span class=\"inputField\">104/2023</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Date Lodged</span><span class=\"inputField\">06/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$800,000.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">31/08/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=18\">87
-        Smith Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Perth Patio Magic</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">150/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$17,890.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=13\">6
+        Carr Street WEST PERTH  WA  6005</a></h2><div><p class=\"rowDataOnly\"><span
         class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
-        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">Aura Design Studio</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Application No.</span><span class=\"inputField\">107/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">13/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$350,000.00</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Withdrawn by Applicant - Before Decision</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Determination Date</span><span class=\"inputField\">04/07/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=19\">56
-        Venn Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Small Business
-        - Change of Use from Residential to Office</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">Sabrestar Pty Ltd</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">101/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">05/04/2023</span></p><p
+        Additions to Single House (Fence)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">R J Pearson</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">143/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=14\">260
+        Charles Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Written Planning
+        Advice</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">L Dunstan</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">101/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">17/03/2025</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
         class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
-        class=\"inputField\">Approval by Delegated Authority</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Determination Date</span><span class=\"inputField\">07/07/2023</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=20\">188
-        Vincent Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">27/03/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=15\">24
+        Drummond Place WEST PERTH  WA  6005</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Written Planning
+        Advice</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">A B Kumar</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">135/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=16\">17
+        Edinboro Street MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
         class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
-        Additions to Place of Worship (Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Applicant</span><span class=\"inputField\">Slavin Architects</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">117/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">21/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=21\">514
-        William Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
-        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwellings
-        (4) Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
-        class=\"inputField\">Urbanista Town Planning</span></p><p class=\"rowDataOnly\"><span
-        class=\"key\">Application No.</span><span class=\"inputField\">102/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">06/04/2023</span></p><p
-        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,000,000.00</span></p></div><p
-        class=\"rowDataOnly\"> </p><div class=\"button-panel\"><a class=\"btn btn-primary\"
-        href=\"/eservice/daEnquiryInit.do?nodeNum=8053&amp;goingBack=true\">New Search</a></div></div>\r\n<div>\r\n\n\t<!--
-        CIVICA-CONTENT-END:bodypanel1 -->\n</div>\n\n\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n</div>\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n
+        Additions to Single House (Patio &amp; Carport)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Perth Patio Magic</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">151/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$19,560.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=17\">38
+        Fairfield Street MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House (Garage Door)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">G Thomas-Fiore</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">120/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$13,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=18\">Unit
+        15 391 Fitzgerald Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Shop to Shop &amp; Fast Food Outlet</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Elite Compliance
+        Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">128/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">03/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$260,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=19\">7
+        Fleet Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Trio
+        Home Builders Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">115/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$687,442.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=20\">11
+        Forrest Street MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Single House</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Greg
+        Davies Architectss</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">123/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$990,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=21\">115A
+        Grosvenor Road MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Grouped Dwelling (Fence)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">M C Morskate</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">122/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$6,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=22\">149
+        Grosvenor Road NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Cl.61 A Deemed-to-comply
+        check</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Van Der Haus</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">149/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=23\">159
+        Grosvenor Road NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">M Eco Abode</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">103/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$100,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=24\">28
+        Harley Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House (Fence)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">A Johns</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">126/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">02/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$5,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=25\">236-240
+        Lake Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Alterations and Additions to Shop</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">R
+        E Taylor</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">118/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$20,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=26\">180
+        Lincoln Street HIGHGATE  WA  6003</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Cl.61 A Deemed-to-comply
+        check</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">M S Blakeley</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">121/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">28/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">14/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=27\">208
+        Loftus Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Cl.61 A Deemed-to-comply
+        check</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Nexus Home Improvements</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">148/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=28\">18
+        London Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Urbanista
+        Town Planning</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">106/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">19/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$400,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=29\">91
+        Matlock Street MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Franc Design Studio</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">147/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$750,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=30\">22A
+        Melrose Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Grouped Dwelling (Patio)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Complete Approvals</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">139/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">11/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$15,300.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=31\">5
+        Mignonette Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House (Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">J Carthy</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">141/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=32\">10
+        Moir Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Alterations and Additions to Single
+        House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">J McDougall</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">108/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$200,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=33\">742
+        Newcastle Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Tavern (Awnings &amp; Shade Sail)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Leederville Hotel
+        Investment Syndicate</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">130/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$65,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=34\">249
+        Oxford Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Written Planning
+        Advice</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">S Lee</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">119/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">26/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=35\">148
+        Palmerston Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Lodging House to Dependent Persons Dwellings</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">A Anthony Michael
+        Designs</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">104/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">18/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$150,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=36\">7A
+        Pansy Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Grouped Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">E
+        Nosrati</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">144/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$410,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=37\">8
+        Pennant Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">T H Le</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">125/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">01/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$300,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=38\">2
+        Persimmon Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House (Amendment to Approved)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">C A Hall</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">142/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=39\">50
+        Raglan Road MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House (Ancillary Dwelling &amp; Garage)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">S FOSLYN CONSULTING</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">114/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$180,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=40\">108
+        Richmond Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">N Silvestri</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">136/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$90,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=41\">177
+        Scarborough Beach Road MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Mixed Use Development
+        (Amendment to Approved) (JDAP FORM 2)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">PTS Town Planning
+        Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">137/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=42\">8
+        Scott Street LEEDERVILLE  WA  6007</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions and Ancillary Dwelling to Single House</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Yang Architect</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">112/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">24/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$831,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=43\">Unit
+        15 42 Shakespeare Street MOUNT HAWTHORN  WA  6016</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Multiple Dwelling to Holiday House</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">D Crosara</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">117/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">25/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=44\">6
+        Stuart Street PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Grouped Dwelling to Holiday House</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">G H Graham</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">124/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">31/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=45\">45
+        Vincent Street MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Cl.61 A Deemed-to-comply
+        check</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">T L Jenkins</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">102/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">17/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">21/03/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=46\">195
+        Walcott Street MOUNT LAWLEY  WA  6050</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Grouped Dwelling</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">S S Naidu</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">131/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">07/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$170,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=47\">69
+        Wasley Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Single House</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">110/2025</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">20/03/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$600,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=48\">71
+        Wasley Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Alterations and
+        Additions to Grouped Dwelling (Carport)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">n bertuol</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">134/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$30,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=49\">Unit
+        2 3 West Parade PERTH  WA  6000</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Change of Use
+        from Multiple Dwellings to Holiday Houses (4)</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Urbanista Town Planning</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">146/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h2><a class=\"plain_header\" href=\"/eservice/daEnquiryDetails.do?index=50\">26
+        Woodville Street NORTH PERTH  WA  6006</a></h2><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Cl.61 A Deemed-to-comply
+        check</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">ST-OP Architects</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">138/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/04/2025</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Completed</span></p><p class=\"rowDataOnly\"><span class=\"key\">Determination
+        Date</span><span class=\"inputField\">14/04/2025</span></p></div><p class=\"rowDataOnly\">
+        </p><div class=\"button-panel\"><a class=\"btn btn-primary\" href=\"/eservice/daEnquiryInit.do?nodeNum=8053&amp;goingBack=true\">New
+        Search</a></div></div>\r\n<div>\r\n\n\t<!-- CIVICA-CONTENT-END:bodypanel1
+        -->\n</div>\n\n\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n\n\t\n</div>\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n
         \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
         <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
         class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
@@ -849,5 +1056,5 @@ http_interactions:
         id=\"web-context-path\">/eservice</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
         End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
         iServices -->\r\n\r\n\t</body>\r\n</html>\n\n"
-  recorded_at: Sun, 30 Apr 2023 14:00:00 GMT
+  recorded_at: Mon, 14 Apr 2025 14:00:00 GMT
 recorded_with: VCR 6.0.0

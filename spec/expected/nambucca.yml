@@ -5,18 +5,21 @@
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-08'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 57/2018
   address: 10 Tern Close SCOTTS HEAD NSW 2447
   description: To subdivide Lot 20 into two (2) Lots
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-07'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 82/2019
   address: 46 Wall Street MACKSVILLE NSW 2447
   description: Shed x 2
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-07'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 83/2019
   address: 334 Dyers Loop Road ARGENTS HILL NSW 2449
   description: Dwelling House (Principal dwelling - existing dwelling to become secondary
@@ -24,39 +27,46 @@
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-07'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 84/2019
   address: Unit 3 8 Quarry Street NAMBUCCA HEADS NSW 2448
   description: Strata Subdivision
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-08'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 85/2019
   address: 12 Parkins Close WARRELL CREEK NSW 2447
   description: Continued Use of Dwelling
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-08'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 86/2019
   address: 246 Boggy Creek Road VALLA NSW 2448
   description: Continued use of Secondary Dwelling
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-10'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 87/2019
   address: 11 Short Street NAMBUCCA HEADS NSW 2448
   description: Additions - Residential
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-10'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 88/2019
   address: 4 River Street BOWRAVILLE NSW 2449
   description: Dwelling House
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-10'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
 - council_reference: 89/2019
   address: 120 Deer Hill Road BUCKRA BENDINNI NSW 2449
   description: Secondary Dwelling & Swimming Pool
   info_url: https://eservices.nambucca.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=2811
   date_received: '2019-05-10'
   date_scraped: '2019-05-15'
+  authority_label: nambucca
