@@ -1,16 +1,49 @@
+# Scraper specific
+
 # Ignore output of scraper
 data.sqlite
 
+# Don't save limited scraper runs
+/spec/cassettes/limited_to_*
+/spec/expected/limited_to_*
+
+# ---------------------------
+# Gem ignores 
+*.gem
+/pkg/
+/InstalledFiles
+
+# ---------------------------
+# General ignore 
+
 # rspec failure tracking
 .rspec_status
-screenshots/*.png
+.release
+.bundle
+.profile.d
+bin
+vendor
+tmp
+.basher/bash
+Procfile
 
 # Spec coverage
 /coverage/
 
-# Don't save limited runs
-/spec/cassettes/limited_to_*
-/spec/expected/limited_to_*
+*.rbc
+/.config
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+
+# Ignore log files
+/log/
+
+# Temp files
+,*
+*.bak
+/tmp/
 
 # IDEs and AI assistants
 /.aider*
@@ -29,10 +62,42 @@ screenshots/*.png
 # Used by direnv / dotenv library to load environment variables.
 .env*
 
-# temp files
-,*
-/tmp/
-
 # Ignore Byebug command history file.
 .byebug_history
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/
+
+## Specific to RubyMotion (use of CocoaPods):
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# vendor/Pods/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# Used by RuboCop. Remote config files pulled in from inherit_from directive.
+.rubocop-https?--*
+
+# rspec reports
+/.rspec_status
 
