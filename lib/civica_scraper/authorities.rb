@@ -7,12 +7,6 @@ module CivicaScraper
       period: :last30days,
       australian_proxy: true
     },
-    burwood: {
-      url: "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
-      period: :last7days,
-      # Looks like they're geoblocking non australian web requests. Sigh.
-      australian_proxy: true
-    },
     camden: {
       url: "https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010",
       period: :last30days
