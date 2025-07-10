@@ -38,6 +38,7 @@ module CivicaScraper
       agent.agent.set_proxy(ENV["MORPH_AUSTRALIAN_PROXY"])
     end
 
+    ScraperUtils::DebugUtils.debug_request("GET", url)
     page = agent.get(url)
 
     # If we're already on a list of advertised applications don't search
@@ -82,6 +83,7 @@ module CivicaScraper
 
       if notice_period
         # Now scrape the detail page so that we can get the notice information
+        ScraperUtils::DebugUtils.debug_request("GET", record[:url])
         page = agent.get(record[:url])
         record_detail = Page::Detail.scrape(page)
 
