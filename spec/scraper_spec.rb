@@ -48,7 +48,7 @@ RSpec.describe Scraper do
         ScraperUtils::SpecSupport.validate_descriptions_are_reasonable!(results, percentage: 55, variation: 3)
 
         # Validate info_urls based on authority configuration
-        global_info_url = Scraper::AUTHORITIES[authority][:info_url]
+        global_info_url = Scraper::AUTHORITIES[authority][:url]
         # OR 
         # global_info_url = results.first['info_url'] 
         bot_check_expected = AUTHORITIES_WITH_BOT_PROTECTION.include?(authority)
