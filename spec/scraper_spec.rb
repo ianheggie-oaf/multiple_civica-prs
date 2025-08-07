@@ -47,6 +47,10 @@ RSpec.describe Scraper do
         # Validate descriptions are reasonable (55% minimum with 3 records variation)
         ScraperUtils::SpecSupport.validate_descriptions_are_reasonable!(results, percentage: 55, variation: 3)
 
+        # Some info_urls are not testable using mechanise but work fine in web browser
+        # for example: OpenSSL::SSL::SSLError: SSL_read: unexpected eof while reading
+        return if %i[bunbury cairns].include? authority
+
         # Validate info_urls based on authority configuration
         global_info_url = Scraper::AUTHORITIES[authority][:url]
         # OR 
