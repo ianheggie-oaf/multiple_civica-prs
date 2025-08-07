@@ -49,7 +49,7 @@ RSpec.describe Scraper do
 
         # Some info_urls are not testable using mechanise but work fine in web browser
         # for example: OpenSSL::SSL::SSLError: SSL_read: unexpected eof while reading
-        return if %i[bunbury cairns].include? authority
+        return if %i[bunbury cairns vincent woollahra].include? authority
 
         # Validate info_urls based on authority configuration
         global_info_url = Scraper::AUTHORITIES[authority][:url]
