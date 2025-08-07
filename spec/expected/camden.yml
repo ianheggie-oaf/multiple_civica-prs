@@ -1,4 +1,12 @@
 ---
+- council_reference: 2017/525/5
+  address: 187 Turner Road CURRANS HILL NSW 2567
+  description: Section 4.55 modification to an approved residential subdivision involving
+    a revised subdivision and road layout within the boundaries of Stage 2.
+  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: camden
 - council_reference: 2019/402/7
   address: 2 Mack Place ORAN PARK NSW 2570
   description: Section 4.55(1A) modification for the inclusion of a second waste collection
@@ -17,11 +25,8 @@
   authority_label: camden
 - council_reference: 2021/1941/2
   address: 186 Cawdor Road CAWDOR NSW 2570
-  description: 'Section 4.55 Modification for a Phased construction over two stages:  -
-    Stage 1 - site preparation works.  - Stage 2 - construction of buildings, fields,
-    road infrastructure and service connection and; Modifications to the roof line
-    of the field equipment storage building ; Modification to the internal layout,
-    fa軋de, and roof line of the football training building'
+  description: Section 4.55(1A) modification to introduce staged construction and
+    modify roof lines, internal layout and fa軋de of buildings.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-14'
   date_scraped: '2025-04-15'
@@ -34,14 +39,18 @@
   date_received: '2025-04-03'
   date_scraped: '2025-04-15'
   authority_label: camden
+- council_reference: 2023/17/3
+  address: 189A Springfield Road CATHERINE FIELD NSW 2557
+  description: 'Section 4.55(1A) modification: Amendment to the approved remediation
+    action plan'
+  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: camden
 - council_reference: 2023/486/3
   address: 975 The Northern Road BRINGELLY NSW 2556
-  description: Section 4.55(1A) Modification to incorporate a revised landscaping
-    strategy informed by a Design with Country initiative undertaken by the Applicant
-    with specialist consultants and Registered Aboriginal Parties. As a result of
-    the proposed landscaping strategy, minor revisions to the approved civil works
-    design are also proposed, but only as they directly relate to the proposed landscaping
-    strategy
+  description: Section 4.55(1A) Modification to an approved residential subdivision
+    for landscaping design, staging and condition amendments.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-25'
   date_scraped: '2025-04-15'
@@ -85,15 +94,12 @@
   authority_label: camden
 - council_reference: 2024/469/2
   address: 23 Central Hills Drive GREGORY HILLS NSW 2557
-  description: 'Pub, Restaurant or cafe, Change of use of land or a building or the
-    cl Section 4.55(1A) modification application of DA/2024/469/1 to relocate Condition
-    2.1(8) from the Construction Certificate stage to require a General Bar Licence
-    prior to the issue of an Occupation Certificate. MOD_ENV_IMPACT: Section 4.55(1A)
-    modification application of DA/2024/ 469/1 to relocate Condition 2.1(8) from the
-    Construction Certificate stage to require a General Bar Licence prior to the issue
-    of an Occupation Certificate'
+  description: Section 4.55 modification to an approved fitout and use of Tenancy
+    35 as a pub and restaurant to delete Condition 2.1(8) regarding the need to obtain
+    a General Bar Licence prior to the issue of a Construction Certificate and relocate
+    to prior to the issue of an Occupation Certificate.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
-  date_received: '2025-04-08'
+  date_received: '2025-04-14'
   date_scraped: '2025-04-15'
   authority_label: camden
 - council_reference: 2024/540/2
@@ -123,7 +129,7 @@
   date_scraped: '2025-04-15'
   authority_label: camden
 - council_reference: 2024/96/2
-  address: 880 Camden Valley Way GLEDSWOOD HILLS NSW 2557
+  address: 890 Camden Valley Way GLEDSWOOD HILLS NSW 2557
   description: Section 4.55 modification to an approved registered club and golf facility
     comprising minor alterations and additions to the internal layout, building services,
     roof design, building facades, car parking and an extension of the concourse,
@@ -134,7 +140,7 @@
   authority_label: camden
 - council_reference: 2025/119/1
   address: 30 Cawdor Road CAMDEN NSW 2570
-  description: Single day community event - country music festival 'boots n beats'
+  description: Country music event - 'Boots n Beats'
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-27'
   date_scraped: '2025-04-15'
@@ -156,8 +162,8 @@
   authority_label: camden
 - council_reference: 2025/124/1
   address: 17 Sunnyside Drive ELLIS LANE NSW 2570
-  description: Single storey alterations & additions involving a cabana, shed, In-Ground
-    Swimming Pool, Retaining Walls & Tree Removal
+  description: Alterations & additions to primary dwelling, cabana, in-ground swimming
+    pool and tree removal.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-19'
   date_scraped: '2025-04-15'
@@ -171,15 +177,15 @@
   authority_label: camden
 - council_reference: 2025/127/1
   address: 33 Meridian Street LEPPINGTON NSW 2179
-  description: Construction of a two storey dwelling
+  description: Construction of a two storey dwelling and associated site works.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-17'
   date_scraped: '2025-04-15'
   authority_label: camden
 - council_reference: 2025/128/1
   address: 21 Templeton Road ELDERSLIE NSW 2570
-  description: Demolition of an existing dwelling and construction of a two storey
-    dwelling
+  description: Removal of 3 trees, demolition of an existing dwelling and the construction
+    of a two storey dwelling
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-17'
   date_scraped: '2025-04-15'
@@ -194,13 +200,6 @@
 - council_reference: 2025/130/1
   address: 19 Quandong Street LEPPINGTON NSW 2179
   description: Construction of a two storey dwelling
-  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
-  date_received: '2025-03-18'
-  date_scraped: '2025-04-15'
-  authority_label: camden
-- council_reference: 2025/131/1
-  address: 84 Hillston Circuit GREGORY HILLS NSW 2557
-  description: Torrens title subdivision with attached dual occupancy
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-18'
   date_scraped: '2025-04-15'
@@ -243,7 +242,7 @@
   authority_label: camden
 - council_reference: 2025/137/1
   address: 60 Carmody Street LEPPINGTON NSW 2179
-  description: Two Storey Dwelling
+  description: Construction of a two storey dwelling and associated site works.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-19'
   date_scraped: '2025-04-15'
@@ -262,16 +261,9 @@
   date_received: '2025-03-21'
   date_scraped: '2025-04-15'
   authority_label: camden
-- council_reference: 2025/140/1
-  address: 88 Hillston Circuit GREGORY HILLS NSW 2557
-  description: Torrens Title Subdivision and Construction of an attached dual occupancy
-  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
-  date_received: '2025-03-21'
-  date_scraped: '2025-04-15'
-  authority_label: camden
 - council_reference: 2025/141/1
   address: 66 Brabham Drive ORAN PARK NSW 2570
-  description: Construction of a two storey dwelling with attached secondary dwelling
+  description: Construction of a two storey dwelling with an attached secondary dwelling
     & swimming pool
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-21'
@@ -319,7 +311,7 @@
   authority_label: camden
 - council_reference: 2025/147/1
   address: 175 Ingleburn Road LEPPINGTON NSW 2179
-  description: Construction of a two storey dwelling - Proposed Lot 218
+  description: Construction of a two storey dwelling
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-25'
   date_scraped: '2025-04-15'
@@ -369,8 +361,8 @@
   authority_label: camden
 - council_reference: 2025/154/1
   address: 131 Charles McIntosh Parkway COBBITTY NSW 2570
-  description: Torrens Title subdivision to create two (2) final lots and two (2)
-    residue lots.
+  description: Torrens title subdivision of Lots 142 and 143 in DP 1303450 into four
+    lots.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-27'
   date_scraped: '2025-04-15'
@@ -421,7 +413,7 @@
   authority_label: camden
 - council_reference: 2025/161/1
   address: 305 Cobbitty Road COBBITTY NSW 2570
-  description: Alfresco patio
+  description: Construction of an alfresco roof
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-28'
   date_scraped: '2025-04-15'
@@ -442,7 +434,7 @@
   authority_label: camden
 - council_reference: 2025/164/1
   address: SE 302 3 Fordham Way ORAN PARK NSW 2570
-  description: Change of use to operational hours from 7:00am to 6:00am
+  description: Amendment to approved operating hours for Pilates studio to 6am - 8pm
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-28'
   date_scraped: '2025-04-15'
@@ -481,7 +473,7 @@
   authority_label: camden
 - council_reference: 2025/169/1
   address: 14 Allambie Circuit ORAN PARK NSW 2570
-  description: Two lot torrens subdivision of existing duplex
+  description: Torrens title subdivision into 2 residential lots
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-03-31'
   date_scraped: '2025-04-15'
@@ -495,8 +487,8 @@
   authority_label: camden
 - council_reference: 2025/171/1
   address: 21 Allambie Circuit ORAN PARK NSW 2570
-  description: Construction of a two storey dwelling with temporary use as a display
-    home
+  description: Construction of a two storey dwelling for temporary use as a display
+    home and associated signage
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-01'
   date_scraped: '2025-04-15'
@@ -510,18 +502,25 @@
   authority_label: camden
 - council_reference: 2025/173/1
   address: 78 Ballandean Boulevard GLEDSWOOD HILLS NSW 2557
-  description: Construction of a two storey dwelling
+  description: Construction of a two storey dwelling and associated site works
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-03'
   date_scraped: '2025-04-15'
   authority_label: camden
 - council_reference: 2025/174/1
   address: 5 Coghill Street NARELLAN NSW 2567
-  description: Demolition of the existing buildings and ancillary development on site
-    and construction of a one hundred and twenty (120) place childcare centre with
-    rooftop play area and thirty car parking spaces
+  description: Consolidation of three lots into one and construction of a single level
+    childcare centre accommodating a maximum of 120 children and 30 at grade car parking
+    spaces with associated site works including landscaping and stormwater works.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-03'
+  date_scraped: '2025-04-15'
+  authority_label: camden
+- council_reference: 2025/175/1
+  address: 189 Catherine Fields Road CATHERINE FIELD NSW 2557
+  description: Construction of a single Storey dwelling
+  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
+  date_received: '2025-04-15'
   date_scraped: '2025-04-15'
   authority_label: camden
 - council_reference: 2025/176/1
@@ -533,7 +532,7 @@
   authority_label: camden
 - council_reference: 2025/177/1
   address: 82 Webber Loop ORAN PARK NSW 2570
-  description: Conversion of Master bedroom at front of house into a Beauty Room
+  description: Conversion of master bedroom to a beauty salon with signage
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-02'
   date_scraped: '2025-04-15'
@@ -561,14 +560,14 @@
   authority_label: camden
 - council_reference: 2025/181/1
   address: 175 Ingleburn Road LEPPINGTON NSW 2179
-  description: Construction of a two storey dwelling - Proposed Lot 203
+  description: Construction of a two storey dwelling
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-03'
   date_scraped: '2025-04-15'
   authority_label: camden
 - council_reference: 2025/182/1
   address: 175 Ingleburn Road LEPPINGTON NSW 2179
-  description: Construction of a two storey dweeling - Proposed Lot 221
+  description: Construction of a two storey dwelling - Proposed Lot 221
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-03'
   date_scraped: '2025-04-15'
@@ -671,9 +670,9 @@
   authority_label: camden
 - council_reference: 2025/196/1
   address: 18 Heath Road LEPPINGTON NSW 2179
-  description: Centre-based child care, Demolition, Erection of a new structure site
-    preparation works, removal of trees and constuction of a 120 place centre based
-    child care facility over basement and assossited works
+  description: Demolition of existing structures, tree removal, site preparation works
+    and the constuction of a 120 place centre based child care facility, with basement
+    car parking, landscaping, drainage and associated works
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-11'
   date_scraped: '2025-04-15'
@@ -687,12 +686,11 @@
   authority_label: camden
 - council_reference: 2025/198/1
   address: 680A The Northern Road ORAN PARK NSW 2570
-  description: Construction of Oran Park Drive (Extension C) adjacent Tranche 42 of
-    Pondicherry.  Works will include the associated subdivision and dedication of
-    road reserve, inclusive of four Residue Lots (Lots 1-4). The construction will
-    include the provision of two 7.0m dual lane carriageways, a 4.2m median, a 9.6m
-    verge to the west with a 3.0m cycleway and 1.5m footpath and a 6.3m verge to east
-    with a 2.5m sharepath
+  description: Construction and dedication of Oran Park Drive (extension C), subdivision
+    to dedicate the proposed road and creation of four residual lots (Lots 1-4) with
+    asssociated site works including the provision of sediment and erosion control
+    measures, minor earthworks, delivery of essential services, street lighting and
+    landscaping.
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-09'
   date_scraped: '2025-04-15'
@@ -725,9 +723,34 @@
   date_received: '2025-04-11'
   date_scraped: '2025-04-15'
   authority_label: camden
+- council_reference: 2025/205/1
+  address: 18 Carmody Street LEPPINGTON NSW 2179
+  description: Construction of a two storey dwelling
+  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: camden
+- council_reference: 2025/206/1
+  address: 1 Lorimer Crescent ELDERSLIE NSW 2570
+  description: Boundary adjustment between No.3 Percival Road and proposed Lot 110
+    (1 Lorimer Crescent), and No.4 Nethery Avenue and proposed Lot 110 (1 Lorimer
+    Crescent).
+  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: camden
+- council_reference: 2025/207/1
+  address: 11 Pottery Street COBBITTY NSW 2570
+  description: Installation of a swim spa with associated decking and a pergola with
+    outdoor cooking structures
+  info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
+  date_received: '2025-04-15'
+  date_scraped: '2025-04-15'
+  authority_label: camden
 - council_reference: 2025/21/2
   address: 38 Batavia Avenue LEPPINGTON NSW 2179
-  description: Modification to the two storey dwelling
+  description: 4.55(1A) - Minor modification of the dwelling, outbuilding and swimming
+    pool
   info_url: https://eservice.camden.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=3374010
   date_received: '2025-04-03'
   date_scraped: '2025-04-15'
