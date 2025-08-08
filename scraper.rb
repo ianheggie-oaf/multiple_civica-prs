@@ -50,8 +50,9 @@ class Scraper
     unless exceptions.empty?
       puts "\n***************************************************"
       puts "Now retrying authorities which earlier had failures"
-      puts exceptions.keys.join(", ").to_s
+      puts exceptions.keys.join(", ")
       puts "***************************************************"
+      ENV['DEBUG'] ||= '1'
 
       start_time = Time.now
       exceptions = scrape(exceptions.keys, 2)
@@ -72,9 +73,15 @@ end
 if __FILE__ == $PROGRAM_NAME
   # Default to list of authorities we can't or won't fix in code, explain why
   # some: url-for-issue Summary Reason
-  # councils : url-for-issue Summary Reason
+  # councils: url-for-issue Summary Reason
 
-  ENV["MORPH_EXPECT_BAD"] ||= "" # ''"some,councils"
+  if ENV['MORPH_EXPECT_BAD'].nil?
+    default_expect_bad = {
+    }
+    puts 'Default EXPECT_BAD:', default_expect_bad.to_yaml if default_expect_bad.any?
+
+    ENV["MORPH_EXPECT_BAD"] = default_expect_bad.keys.join(',')
+  end
   Scraper.run(Scraper.selected_authorities)
   
   # Dump database for morph-cli

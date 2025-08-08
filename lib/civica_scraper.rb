@@ -20,7 +20,7 @@ module CivicaScraper
   def self.scrape(authority)
     raise "Unknown authority: #{authority}" unless AUTHORITIES.key?(authority)
 
-    scrape_period(AUTHORITIES[authority]) do |record|
+    scrape_period(**AUTHORITIES[authority]) do |record|
       yield(record)
     end
   end
@@ -38,7 +38,11 @@ module CivicaScraper
       agent.agent.set_proxy(ENV["MORPH_AUSTRALIAN_PROXY"])
     end
 
+    ScraperUtils::DebugUtils.debug_request("GET", url)
     page = agent.get(url)
+    if ScraperUtils::SpecSupport.bot_protection_detected?(page)
+      puts "WARNING: BOT PROTECTION DETECTED on #{url}"
+    end
 
     # If we're already on a list of advertised applications don't search
     unless url =~ /currentlyAdvertised\.do/
@@ -82,7 +86,11 @@ module CivicaScraper
 
       if notice_period
         # Now scrape the detail page so that we can get the notice information
+        ScraperUtils::DebugUtils.debug_request("GET", record[:url])
         page = agent.get(record[:url])
+        if ScraperUtils::SpecSupport.bot_protection_detected?(page)
+          puts "WARNING: BOT PROTECTION DETECTED on #{record[:url]}"
+        end
         record_detail = Page::Detail.scrape(page)
 
         merged = merged.merge(
